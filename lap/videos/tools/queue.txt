@@ -1,0 +1,5 @@
+metal_waste
+clothes
+battery_waste
+e_waste
+END

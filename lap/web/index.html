@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Sorti — waste sorting assistant</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body data-status="loading">
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="brand-name">Sorti</span>
+
+    </div>
+
+    <p id="status" data-status="loading" role="status" aria-live="polite">Starting up…</p>
+
+    <div class="topbar-end">
+      <button type="button" id="restart-btn">Start over</button>
+      <div id="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" lang="en" aria-pressed="true">English</button>
+        <button type="button" data-lang="hi" lang="hi" aria-pressed="false">हिन्दी</button>
+        <button type="button" data-lang="ta" lang="ta" aria-pressed="false">தமிழ்</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+
+    <!-- Left: live camera -->
+    <section class="camera" aria-label="Camera">
+      <div class="camera-heading"><div><h1 id="stage-title">Show it. <span>Sort it.</span></h1></div></div>
+      <div class="stage-cell">
+        <div class="stage"><div class="stage-top"><span class="camera-live" data-copy="camera">LIVE CAMERA</span><span data-copy="private">ON DEVICE · PRIVATE</span></div>
+          <img id="video" alt="Live view of the item you are holding">
+          <div id="scan-guide" data-state="idle" aria-hidden="true">
+            <span class="guide-cross" aria-hidden="true">+</span><span class="guide-hint">Hold an item inside the square</span>
+          </div>
+          <div class="live-chip" aria-live="off">
+            <span id="live-label">Looking…</span>
+            <span id="live-conf" style="--p:0" aria-hidden="true"></span>
+          </div>
+
+          <!-- Educational clip: covers the camera while state.video is set (app.js unhides it).
+               Muted + looped; the voice-over plays on the server speaker. -->
+          <div id="edu-video" hidden>
+            <video id="edu-player" muted playsinline preload="auto"></video>
+            <button type="button" id="edu-skip" class="btn">Skip video</button>
+            <p id="edu-credit"></p>
+            <p id="edu-title"></p>
+            <p id="edu-caption" aria-live="polite"></p>
+            <span id="edu-progress" style="--p:0" aria-hidden="true"></span>
+          </div>
+        </div>
+      </div>
+
+      <ol class="steps" aria-label="How it works">
+        <li class="step" data-step="1"><b>1</b><span>Hold an item in the square</span></li>
+        <li class="step" data-step="2"><b>2</b><span>Listen to where it goes</span></li>
+        <li class="step" data-step="3"><b>3</b><span>Press the button to ask</span></li>
+      </ol>
+
+      <div class="camera-foot">
+        <div class="top3-wrap">
+          <h2 class="eyebrow">Camera sees</h2>
+          <ol id="live-top3">
+            <li class="t3"><span class="t3-name">–</span><span class="t3-bar" style="--p:0"></span><span class="t3-p">–</span></li>
+            <li class="t3"><span class="t3-name">–</span><span class="t3-bar" style="--p:0"></span><span class="t3-p">–</span></li>
+            <li class="t3"><span class="t3-name">–</span><span class="t3-bar" style="--p:0"></span><span class="t3-p">–</span></li>
+          </ol>
+        </div>
+        <div class="controls">
+          <label class="switch">
+            <input type="checkbox" id="auto-toggle" checked>
+            <span class="switch-track" aria-hidden="true"></span>
+            <span class="switch-text">Auto-explain</span>
+          </label>
+          <button type="button" id="explain-btn" class="btn">Explain this item</button>
+          <button type="button" id="stop-btn" class="btn btn-quiet">Stop speaking</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Right: answer + conversation -->
+    <section class="panel" aria-label="Assistant">
+      <article id="item-card" data-bin="none" aria-live="polite">
+        <div class="item-empty">
+          
+          <p id="item-empty">Hold an item inside the square.<br><span>Sorti will tell you which bin it goes in.</span></p>
+        </div>
+        <div class="item-body"><span class="result-kicker" data-copy="identified">ITEM RECOGNISED</span>
+          <span class="item-can" aria-hidden="true"><svg viewBox="0 0 72 88"><path class="bin-vessel" d="M12 29h48l-5 49H17z"/><path class="bin-slot" d="M9 24h54v8H9z"/><path class="bin-face" d="M27 47h18M27 57h18"/><rect class="bin-drop" x="29" y="3" width="14" height="14" rx="3"/></svg></span>
+          <div class="item-text">
+            <h2 id="item-title"></h2>
+            <p id="item-bin"></p>
+          </div>
+          <p id="item-fact"></p>
+        </div>
+      </article>
+
+      <ul id="bins" aria-label="Bins">
+        <li class="bin" data-bin="green"><span class="bin-lid" aria-hidden="true"></span><span class="bin-name">Green</span><span class="bin-sub">Wet waste</span></li>
+        <li class="bin" data-bin="blue"><span class="bin-lid" aria-hidden="true"></span><span class="bin-name">Blue</span><span class="bin-sub">Dry, recyclable</span></li>
+        <li class="bin" data-bin="red"><span class="bin-lid" aria-hidden="true"></span><span class="bin-name">Red</span><span class="bin-sub">Hazardous</span></li>
+        <li class="bin" data-bin="grey"><span class="bin-lid" aria-hidden="true"></span><span class="bin-name">E-waste</span><span class="bin-sub">Collector</span></li>
+      </ul>
+
+      <div class="chat-wrap"><div class="chat-heading"><span class="voice-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></div>
+        <div id="chat-empty">
+          <p>Press the button and ask, for example:</p>
+          <p class="chat-empty-eg"><span lang="en">“Can this be recycled?”</span><span lang="hi">“ये डेंजर वेस्ट है?”</span><span lang="ta">“இத எந்த பின்ல போடணும்?”</span></p>
+        </div>
+        <ul id="chat" aria-live="polite"></ul>
+      </div>
+
+      <button type="button" id="ask-btn" data-state="disabled" aria-keyshortcuts="Space">
+        <span class="ask-icon" aria-hidden="true"><i></i></span>
+        <span class="ask-text">
+          <span id="ask-label">Press to ask</span>
+          <span class="ask-sub"><span id="rec-time"></span></span>
+        </span>
+        <span id="mic-meter" style="--level:0" aria-hidden="true"></span>
+      </button>
+
+      <form id="type-form" autocomplete="off">
+        <label for="type-input" class="type-label">Or type a question</label>
+        <button class="type-send" type="submit" aria-label="Send question">↵</button><input id="type-input" type="text" enterkeyhint="send" placeholder="Or type a question and press Enter">
+      </form>
+    </section>
+  </main>
+
+  <footer class="diag" aria-label="System status">
+    <span class="device-story">100% offline <span aria-hidden="true">·</span> Raspberry Pi 5 · Arm Cortex-A76</span>
+    <div id="models" aria-label="Model status">
+      <span data-model="vision" data-state="off">Vision</span><span data-model="stt" data-state="off">Speech</span>
+      <span data-model="tts" data-state="off">Voice</span><span data-model="llama" data-state="off">Llama 3.2 1B</span>
+      <span data-model="translate" data-state="off">Translate</span>
+    </div>
+    <p id="stats" aria-label="Performance">Vision — ms · — fps</p>
+    <p id="ram" aria-label="Memory in use"></p>
+  </footer>
+
+  <!-- Welcome: the visitor picks a language by voice (tap fallback below). app.js unhides it while chosen === false. -->
+  <section id="welcome" data-phase="asking" aria-labelledby="welcome-q-en" hidden>
+    <div class="welcome-brand"><span class="brand-name">Sorti<span class="brand-period">.</span></span></div>
+    <div class="welcome-inner"><div class="welcome-dialog">
+      <div class="welcome-qs">
+        <p class="welcome-q" lang="en" id="welcome-q-en">Which language are you comfortable with?</p>
+        <p class="welcome-q" lang="hi">कौन सी लैंग्वेज में बात करें?</p>
+        <p class="welcome-q" lang="ta">எந்த லாங்குவேஜ்ல பேசலாம்?</p>
+      </div>
+      <div class="welcome-choices" role="group" aria-label="Choose a language">
+        <button type="button" data-lang="en" lang="en"><span class="wc-name">English</span><span class="wc-sub">Hi! Show me an item.</span><span class="wc-action">Tap to choose English</span></button>
+        <button type="button" data-lang="hi" lang="hi"><span class="wc-name">हिन्दी</span><span class="wc-sub">हाय! कोई आइटम दिखाओ।</span><span class="wc-action">हिन्दी के लिए टैप करो</span></button>
+        <button type="button" data-lang="ta" lang="ta"><span class="wc-name">தமிழ்</span><span class="wc-sub">ஹாய்! ஒரு ஐட்டம் காட்டுங்க.</span><span class="wc-action">தமிழுக்கு டேப் பண்ணுங்க</span></button>
+      </div>
+      <div class="welcome-voice">
+        <div id="welcome-mic" style="--level:0" aria-hidden="true"><span class="wm-icon"><i></i></span></div>
+        <p id="welcome-status" role="status" aria-live="polite">Listen… · सुनो… · கேளுங்க…</p>
+        <p id="welcome-heard" aria-live="polite"></p>
+        <button type="button" id="welcome-talk">Hold to speak · दबाकर बोलो · அழுத்திட்டு பேசுங்க</button>
+      </div>
+    </div></div>
+  </section>
+
+  <div id="toast" role="alert"></div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+paper_waste
+organic_waste
+light_bulbs
+END

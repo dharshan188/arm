@@ -1,0 +1,29 @@
+# --- big models: fetched by download_models.sh / llama/setup_llama.sh ---
+voice/stt_*/
+voice/tts_*/
+voice/vad/
+voice/_dl/
+translate/nllb_600m_ct2_int8/
+llama/*.pte
+llama/checkpoint/
+llama/outputs/
+# --- generated / heavy media ---
+lap/stt_eval/**/*.wav
+lap/stt_eval/**/*.flac
+lap/stt_eval/**/*.mp3
+lap/videos/review/
+lap/videos/**/raw/
+lap/videos/photos/*/cand/
+lap/videos/*/*.mp4
+lap/videos/*/*.wav
+lap/videos/*/*.jpg
+!lap/videos/*/general_photo.mp4
+!lap/videos/*/general_photo_*.wav
+!lap/videos/*/general_photo.jpg
+*.bak_stickman
+# --- python / logs / misc ---
+__pycache__/
+*.pyc
+*.log
+.venv/
+*.pid

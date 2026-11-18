@@ -1,0 +1,1125 @@
+#!/usr/bin/env python3
+"""Laptop-as-Raspberry-Pi demo: webcam -> waste classifier -> spoken explanation -> press-to-ask Q&A.
+
+The laptop camera, microphone and speaker stand in for the Pi's. The browser is only the screen:
+camera, mic and speaker are all driven by this process (OpenCV, arecord, aplay), as on the Pi.
+
+    cd ~/arm2026/lap && env -u PYTHONPATH PATH=$HOME/ps2_et/bin:$PATH ~/ps2_et/bin/python server.py
+    then open http://127.0.0.1:8000
+"""
+import argparse, collections, gc, json, os, re, signal, subprocess, sys, tempfile, threading, time, wave
+
+import cv2
+import numpy as np
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+HERE = os.path.join(ROOT, "lap")
+sys.path[:0] = [os.path.join(ROOT, "voice"), os.path.join(ROOT, "llama"), HERE]
+
+import content as C  # noqa: E402
+from domain_snap import snap  # noqa: E402
+
+VISION = os.path.join(ROOT, "vision")
+VOICE = os.path.join(ROOT, "voice")
+LLAMA = os.path.join(ROOT, "llama")
+TMP = tempfile.mkdtemp(prefix="lap_")
+SR = 16000
+
+
+def log(*a):
+    print(time.strftime("%H:%M:%S"), *a, flush=True)
+
+
+# ------------------------------------------------------------------ shared state
+class State:
+    def __init__(self):
+        self.lock = threading.RLock()
+        self.lang = "en"
+        self.status = "loading"          # loading | watching | speaking | listening | thinking
+        self.auto = True
+        self.pred = None                 # live classifier output
+        self.item = None                 # last announced item {cls, stream, ...}
+        self.messages = []
+        self.next_id = 1
+        self.models = {"vision": "loading", "stt": "off", "tts": "off", "llama": "off", "translate": "off"}
+        self.mic_level = 0.0
+        self.speaking_id = None
+        self.error = None
+        self.video = None                # clip on screen: {id, cls, url, poster, credit, title, text, t}
+        self.chosen = False              # False = welcome screen: asking which language the visitor wants
+        self.welcome_phase = None        # asking | listening | detecting | waiting
+        self.heard = None                # what the welcome mic heard
+        self.next_prompt = 0.0
+        self.tries = 0
+        self.last_active = time.time()
+
+    def add(self, role, kind, text, **extra):
+        with self.lock:
+            m = dict(id=self.next_id, role=role, kind=kind, text=text, lang=self.lang, t=time.time(), **extra)
+            self.next_id += 1
+            self.messages.append(m)
+            self.messages = self.messages[-60:]
+            return m
+
+    def patch(self, mid, **kw):
+        with self.lock:
+            for m in self.messages:
+                if m["id"] == mid:
+                    m.update(kw)
+
+    def set(self, **kw):
+        with self.lock:
+            for k, v in kw.items():
+                setattr(self, k, v)
+
+
+S = State()
+
+
+# ------------------------------------------------------------------ vision
+class Vision(threading.Thread):
+    def __init__(self, cam, pte, threshold):
+        super().__init__(daemon=True)
+        self.cam, self.threshold = cam, threshold
+        self.meta = json.load(open(os.path.join(VISION, "labels.json")))
+        self.spec = self.meta["input"]
+        self.pte = pte
+        self.jpeg = None
+        self.jpeg_cond = threading.Condition()
+        self.hist = collections.deque(maxlen=18)
+        self.last_seen = 0.0
+        self.mean = np.array(self.spec["mean"], np.float32)
+        self.std = np.array(self.spec["std"], np.float32)
+
+    def preprocess(self, bgr):
+        h, w = bgr.shape[:2]
+        r = self.spec["resize_short"]
+        nw, nh = (r, int(r * h / w)) if w <= h else (int(r * w / h), r)
+        img = cv2.resize(cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB), (nw, nh), interpolation=cv2.INTER_LINEAR)
+        c = self.spec["center_crop"]
+        l, t = (nw - c) // 2, (nh - c) // 2
+        a = (img[t:t + c, l:l + c].astype(np.float32) / 255.0 - self.mean) / self.std
+        return np.ascontiguousarray(a.transpose(2, 0, 1)[None])
+
+    def run(self):
+        import torch
+        from executorch.extension.pybindings.portable_lib import _load_for_executorch
+        model = _load_for_executorch(self.pte)
+        model.forward((torch.zeros(self.spec["shape"]),))
+        cap = cv2.VideoCapture(self.cam, cv2.CAP_V4L2)
+        cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+        cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+        if not cap.isOpened():
+            S.set(error=f"camera {self.cam} could not be opened")
+            S.models["vision"] = "error"
+            return
+        S.models["vision"] = "ready"
+        log("vision ready:", os.path.basename(self.pte))
+        classes, smap = self.meta["classes"], self.meta["stream_map"]
+        fps_t, fps = time.time(), 0.0
+        while True:
+            ok, frame = cap.read()
+            if not ok:
+                time.sleep(0.05)
+                continue
+            frame = cv2.flip(frame, 1)                       # mirror, like a selfie view
+            h, w = frame.shape[:2]
+            s = int(min(h, w) * 0.8)                         # classify the centre square (UI draws the guide)
+            roi = frame[(h - s) // 2:(h + s) // 2, (w - s) // 2:(w + s) // 2]
+            t0 = time.perf_counter()
+            logits = model.forward((torch.from_numpy(self.preprocess(roi)),))[0].numpy()[0]
+            ms = (time.perf_counter() - t0) * 1000
+            z = np.exp(logits - logits.max()); p = z / z.sum()
+            order = np.argsort(p)[::-1]
+            top = classes[order[0]]
+            now = time.time(); fps = 0.9 * fps + 0.1 / max(now - fps_t, 1e-3); fps_t = now
+            self.hist.append((top, float(p[order[0]])))
+            same = [c for c, _ in self.hist if c == top]
+            stable = len(self.hist) == self.hist.maxlen and len(same) >= 0.8 * len(self.hist) \
+                and np.mean([q for c, q in self.hist if c == top]) >= self.threshold
+            lang = S.lang
+            S.pred = dict(cls=top, stream=smap[top], color=C.BINS[smap[top]]["color"],
+                          title=C.TITLES[top][lang], bin=C.BIN_SHORT[smap[top]][lang],
+                          conf=round(float(p[order[0]]), 3), stable=bool(stable),
+                          top3=[dict(cls=classes[i], title=C.TITLES[classes[i]][lang], p=round(float(p[i]), 3)) for i in order[:3]],
+                          ms=round(ms, 1), fps=round(fps, 1))
+            if stable:
+                self.last_seen = now
+                if S.chosen and S.auto and S.status == "watching" and (S.item is None or S.item["cls"] != top):
+                    threading.Thread(target=announce, args=(top, smap[top]), daemon=True).start()
+            elif S.item is not None and now - self.last_seen > 4 and S.status == "watching":
+                S.item = None                                # item gone: the same item can be announced again
+            ok, buf = cv2.imencode(".jpg", frame, [cv2.IMWRITE_JPEG_QUALITY, 80])
+            with self.jpeg_cond:
+                self.jpeg = buf.tobytes()
+                self.jpeg_cond.notify_all()
+
+
+# ------------------------------------------------------------------ speech
+TA_SLOW = 1.0          # Tamil speaking pace: >1 = slower (1.1 = 10% slower, user asked "slightly slow")
+TA_VOICE = "female"     # Tamil TTS: female | male (Piper, AI4Bharat Rasa, CC-BY-4.0) | mms (old, choppy)
+
+
+from tts_utils import tighten  # noqa: E402
+import stt_fix  # noqa: E402
+
+
+class Speech:
+    """Loads only the active language's STT + TTS (memory budget on the Pi)."""
+
+    def __init__(self):
+        self.lang = None
+        self.stt = self.tts = None
+        self.lock = threading.Lock()
+        self.player = None
+        self._halt = False
+
+    def load(self, lang):
+        with self.lock:
+            if self.lang == lang:
+                return
+            S.models.update(stt="loading", tts="loading")
+            self.stt = self.tts = None
+            self.lang = None
+            trim()
+            import sherpa_onnx
+            t0 = time.time()
+            if lang == "detect":
+                # welcome screen: multilingual Whisper with auto language-ID; no TTS (greetings are cached wavs)
+                d = os.path.join(VOICE, "stt_whisper_base_en") + "/"
+                self.stt = sherpa_onnx.OfflineRecognizer.from_whisper(
+                    encoder=d + "base-encoder.int8.onnx", decoder=d + "base-decoder.int8.onnx",
+                    tokens=d + "base-tokens.txt", language="", task="transcribe", num_threads=4)
+                self.lang = lang
+                S.models.update(stt="ready", tts="off")
+                log(f"language-detect STT loaded in {time.time() - t0:.1f}s")
+                return
+            if lang == "en":
+                # Moonshine base (int8): 2.3x faster than Whisper base.en and half the word errors on the kiosk
+                # eval set (lap/stt_eval, 2026-11-17). Whisper base stays for the welcome language-ID.
+                d = os.path.join(VOICE, "stt_moonshine_base_en") + "/"
+                self.stt = sherpa_onnx.OfflineRecognizer.from_moonshine(
+                    preprocessor=d + "preprocess.onnx", encoder=d + "encode.int8.onnx",
+                    uncached_decoder=d + "uncached_decode.int8.onnx", cached_decoder=d + "cached_decode.int8.onnx",
+                    tokens=d + "tokens.txt", num_threads=4)
+            else:
+                # AI4Bharat IndicConformer 120M CTC, int8 sherpa export (MIT/Apache-2.0). Kiosk eval set, clean:
+                # WER hi 35->14%, ta 60->26% (CER 30->4%, 38->6%) vs Shruti, and 3-5x faster (lap/stt_eval/INDIC_REPORT.md)
+                d = os.path.join(VOICE, f"stt_indicconformer_{lang}")
+                self.stt = sherpa_onnx.OfflineRecognizer.from_nemo_ctc(
+                    model=os.path.join(d, "model.int8.onnx"), tokens=os.path.join(d, "tokens.txt"),
+                    num_threads=4, sample_rate=16000, feature_dim=80, decoding_method="greedy_search")
+            if lang == "ta" and TA_VOICE == "mms":   # old Meta MMS voice: reads word by word, kept as a fallback
+                import onnxruntime as ort
+                from transformers import AutoTokenizer
+                d = os.path.join(VOICE, "tts_mms_ta_onnx")
+                self.tts = ("mms", AutoTokenizer.from_pretrained(d), ort.InferenceSession(os.path.join(d, "model.onnx")))
+            else:
+                from piper import PiperVoice
+                f = {"en": "tts_piper_en/en_US-lessac-medium.onnx", "hi": "tts_piper_hi/hi_IN-pratham-medium.onnx",
+                     "ta": f"tts_piper_ta_{TA_VOICE}/ta_IN-rasa_{TA_VOICE}-medium.onnx"}[lang]
+                self.tts = ("piper", PiperVoice.load(os.path.join(VOICE, f)))
+            self.lang = lang
+            S.models.update(stt="ready", tts="ready")
+            log(f"speech models for {lang} loaded in {time.time() - t0:.1f}s")
+
+    def english_voice(self):
+        if not hasattr(self, "_en_voice"):
+            from piper import PiperVoice
+            self._en_voice = PiperVoice.load(os.path.join(VOICE, "tts_piper_en/en_US-lessac-medium.onnx"))
+        return self._en_voice
+
+    def synth(self, text, english=False):
+        path = os.path.join(TMP, f"say_{time.time_ns()}.wav")
+        if english or self.tts[0] == "piper":
+            v = self.english_voice() if english and self.lang != "en" else self.tts[1]
+            with wave.open(path, "wb") as w:
+                cfg = None
+                if self.lang == "ta" and not english:
+                    from piper import SynthesisConfig
+                    cfg = SynthesisConfig(length_scale=TA_SLOW)
+                v.synthesize_wav(text, w, syn_config=cfg)
+            with wave.open(path, "rb") as w:
+                sr = w.getframerate()
+                y = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32) / 32768
+        else:
+            _, tok, sess = self.tts
+            ids = tok(text, return_tensors="np")["input_ids"].astype("int64")
+            y, sr = sess.run(None, {"input_ids": ids})[0][0], SR
+        if self.lang == "ta" and not english:
+            y = tighten(y, sr, word_gap_ms=110, sentence_gap_ms=320)   # a touch more breathing room for Tamil
+        else:
+            y = tighten(y, sr)
+        y = (np.clip(y / max(1e-6, np.abs(y).max()) * 0.9, -1, 1) * 32767).astype(np.int16)
+        with wave.open(path, "wb") as w:
+            w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes(y.tobytes())
+        return path
+
+    SENT = re.compile(r"(?<=[.!?\u0964])\s+")
+
+    def say(self, text, mid=None, english=False):
+        """Synthesize and play through the laptop speaker; blocks until done or interrupted.
+        Streams sentence by sentence: sentence 1 starts playing while the rest is still being synthesized,
+        so the first sound comes ~2-4x sooner on long replies."""
+        parts, buf = [], ""
+        for p in self.SENT.split(text.strip()):           # merge very short bits so prosody stays natural
+            buf = (buf + " " + p).strip()
+            if len(buf) >= 40:
+                parts.append(buf); buf = ""
+        if buf:
+            if parts and len(buf) < 25:
+                parts[-1] += " " + buf
+            else:
+                parts.append(buf)
+        self._halt = False
+        q = collections.deque()
+        done = threading.Event()
+
+        def produce():
+            try:
+                for p in parts[1:]:
+                    if self._halt:
+                        break
+                    q.append(self.synth(p, english))
+            finally:
+                done.set()
+
+        first = self.synth(parts[0], english) if parts else None
+        if len(parts) > 1:
+            threading.Thread(target=produce, daemon=True).start()
+        else:
+            done.set()
+        S.set(status="speaking", speaking_id=mid)
+        path = first
+        while path:
+            if not self._halt:
+                self.player = subprocess.Popen(["aplay", "-q", path])
+                self.player.wait()
+                self.player = None
+            os.remove(path)
+            path = None
+            while not path and not (done.is_set() and not q):
+                if q:
+                    path = q.popleft()
+                else:
+                    time.sleep(0.02)
+        S.set(speaking_id=None)
+
+    def stop(self):
+        self._halt = True
+        p = self.player
+        if p and p.poll() is None:
+            p.terminate()
+
+    def play(self, path):
+        """Play a cached wav (welcome prompts); blocks until done or interrupted."""
+        self.player = subprocess.Popen(["aplay", "-q", path])
+        self.player.wait()
+        self.player = None
+
+    def detect(self, audio):
+        """(transcript, whisper language code) - only valid while lang == 'detect'."""
+        s = self.stt.create_stream()
+        s.accept_waveform(SR, audio)
+        self.stt.decode_stream(s)
+        return s.result.text.strip(), getattr(s.result, "lang", "") or ""
+
+    def transcribe(self, audio):
+        # stt_fix.preprocess() lowers WER but lowered intent+item routing at 5 dB SNR (lap/stt_eval/REPORT.md) -> off
+        s = self.stt.create_stream()
+        s.accept_waveform(SR, audio)
+        self.stt.decode_stream(s)
+        return stt_fix.correct(s.result.text.strip(), self.lang)   # west->waste, bean->bin, ... (context-gated)
+
+
+SP = Speech()
+
+
+# ------------------------------------------------------------------ RAM-managed heavy models
+# Budget (laptop 7.7 GB, Pi 5 8 GB): vision ~0.2 GB + one language's STT/TTS 0.4-1.0 GB are always loaded.
+# Llama (~2.2 GB) and the NLLB translator (~1.0 GB) load only when a free-form question needs them,
+# and unload after IDLE_UNLOAD_S of no use. Before loading, MemAvailable is checked; if short, the
+# other idle heavy model is unloaded first, and if still short the question is refused politely.
+import ctypes
+
+IDLE_UNLOAD_S = 180
+MARGIN_MB = 150
+MIC_VOL = "60%"
+
+
+def mem_avail_mb():
+    """MemAvailable plus half the free swap: the kernel can page idle browser/desktop memory out,
+    so a load that fits this way is slow for a moment, not a freeze. (Pi: give it a 2 GB swapfile too.)"""
+    m = {}
+    with open("/proc/meminfo") as f:
+        for line in f:
+            k, v = line.split(":", 1)
+            m[k] = int(v.split()[0]) // 1024
+    return m.get("MemAvailable", 0) + m.get("SwapFree", 0) // 2
+
+
+def rss_mb():
+    with open("/proc/self/status") as f:
+        for line in f:
+            if line.startswith("VmRSS:"):
+                return int(line.split()[1]) // 1024
+    return 0
+
+
+def trim():
+    gc.collect()
+    try:
+        ctypes.CDLL("libc.so.6").malloc_trim(0)
+    except OSError:
+        pass
+
+
+class LowMemory(Exception):
+    pass
+
+
+class Heavy:
+    """A model that is loaded on demand and unloaded when idle."""
+    name, need_mb = "?", 0
+
+    def __init__(self):
+        self.obj = None
+        self.last = 0.0
+        self.lock = threading.RLock()
+
+    def _load(self):
+        raise NotImplementedError
+
+    def get(self):
+        with self.lock:
+            self.last = time.time()
+            if self.obj is not None:
+                return self.obj
+            if mem_avail_mb() < self.need_mb + MARGIN_MB:
+                for other in HEAVY:
+                    if other is not self:
+                        other.unload()
+            if mem_avail_mb() < self.need_mb + MARGIN_MB:
+                S.models[self.name] = "off"
+                raise LowMemory(self.name)
+            S.models[self.name] = "loading"
+            t0 = time.time()
+            try:
+                self.obj = self._load()
+            except Exception:
+                S.models[self.name] = "error"
+                raise
+            S.models[self.name] = "ready"
+            log(f"{self.name} loaded in {time.time() - t0:.1f}s, rss {rss_mb()} MB, avail {mem_avail_mb()} MB")
+            self.last = time.time()
+            return self.obj
+
+    def unload(self):
+        with self.lock:
+            if self.obj is None:
+                return
+            self.obj = None
+            trim()
+            S.models[self.name] = "off"
+            log(f"{self.name} unloaded, rss {rss_mb()} MB")
+
+    def reap(self):
+        # keep it warm (no reload delay on the next question) unless RAM is tight or nobody used it for 15 min
+        idle = time.time() - self.last
+        if self.obj is None or idle < IDLE_UNLOAD_S or (idle < 900 and mem_avail_mb() > 1500):
+            return
+        if self.lock.acquire(blocking=False):
+            try:
+                if time.time() - self.last > IDLE_UNLOAD_S:
+                    self.unload()
+            finally:
+                self.lock.release()
+
+
+FRIEND = ("You are Sorti, a friendly waste-sorting buddy in India. Talk like a chill friend: casual, warm, simple "
+          "everyday words, no lectures. Answer in 1-2 short sentences. Bins: GREEN = wet/food waste, BLUE = dry/"
+          "recyclable, RED = hazardous; e-waste goes to an e-waste collection centre. "
+          "The question comes from speech recognition and may contain mis-heard words: read it as being about waste "
+          "and bins (e.g. 'west'/'waist' = waste, 'bean'/'been' = bin, 'wait' = wet) and answer what they meant, "
+          "without mentioning the mistake.")
+
+
+class Llama(Heavy):
+    """Only for intent 'other'; it never decides a bin. English in, English out."""
+    name, need_mb = "llama", 1900   # measured 2026-11-17: RssAnon 1.8 GB warm (+0.34 GB file-backed, reclaimable)
+
+    def _load(self):
+        from executorch.extension.llm.custom_ops import custom_ops  # noqa: F401
+        import executorch.kernels.quantized  # noqa: F401
+        from executorch.extension.llm.runner import TextLLMRunner
+        return TextLLMRunner(os.path.join(LLAMA, "llama3_2_1b_qlora_int4_xnnpack.pte"),
+                             os.path.join(LLAMA, "checkpoint", "tokenizer.model"))
+
+    def ask(self, prompt, max_new_tokens=64):
+        """Short answers: they are spoken aloud, and fewer tokens = less latency on the Pi."""
+        from chat import ask
+        with self.lock:
+            out = ask(self.get(), prompt, max_new_tokens=max_new_tokens, system=FRIEND)
+        cut = max(out.rfind(". "), out.rfind("! "), out.rfind("? "))
+        if not out.rstrip().endswith((".", "!", "?")) and cut > 20:
+            out = out[:cut + 1]              # drop a sentence cut off by the token cap
+        return out.strip()
+
+
+class Translator(Heavy):
+    """NLLB-200 distilled 600M, INT8 CTranslate2 (CC-BY-NC-4.0). Hindi/Tamil <-> English."""
+    name, need_mb = "translate", 1000
+    CODES = {"en": "eng_Latn", "hi": "hin_Deva", "ta": "tam_Taml"}
+    DIR = os.path.join(ROOT, "translate", "nllb_600m_ct2_int8")
+
+    def _load(self):
+        import ctranslate2, sentencepiece as spm
+        return (ctranslate2.Translator(self.DIR, device="cpu", compute_type="int8", inter_threads=1, intra_threads=4),
+                spm.SentencePieceProcessor(model_file=os.path.join(self.DIR, "sentencepiece.bpe.model")))
+
+    def __call__(self, text, src, dst):
+        with self.lock:
+            tr, sp = self.get()
+            toks = [self.CODES[src]] + sp.encode(text, out_type=str) + ["</s>"]
+            r = tr.translate_batch([toks], target_prefix=[[self.CODES[dst]]], beam_size=2, max_decoding_length=200)
+            return sp.decode(r[0].hypotheses[0][1:]).strip()
+
+
+LL = Llama()
+TR = Translator()
+HEAVY = [LL, TR]
+
+
+def reaper():
+    while True:
+        time.sleep(10)
+        if not busy.locked():
+            for h in HEAVY:
+                h.reap()
+            prewarm()
+
+
+def prewarm():
+    """Load Llama (and NLLB for hi/ta) in the background once a language is chosen and RAM is plentiful,
+    so the first free-form question does not pay the ~3 s model load."""
+    if not getattr(S, "chosen", False) or S.lang not in ("en", "hi", "ta"):
+        return
+    want = [LL] + ([TR] if S.lang != "en" else [])
+    for h in want:
+        if h.obj is None and mem_avail_mb() > h.need_mb + 1200 and not busy.locked():
+            try:
+                h.get(); h.last = time.time()
+            except Exception as e:
+                log("prewarm skipped:", repr(e))
+
+
+# ------------------------------------------------------------------ assistant flow
+busy = threading.Lock()
+
+
+# ------------------------------------------------------------------ educational videos (lap/videos, built by videos/build.py)
+VIDEOS = os.path.join(HERE, "videos")
+_VIDX = {"mtime": 0, "data": {}}
+_RECENT = collections.defaultdict(lambda: collections.deque(maxlen=3))
+
+
+def video_index():
+    f = os.path.join(VIDEOS, "index.json")
+    try:
+        m = os.path.getmtime(f)
+    except OSError:
+        return {}
+    if m != _VIDX["mtime"]:                          # hot-reload as the library grows
+        _VIDX.update(mtime=m, data=json.load(open(f)))
+    return _VIDX["data"]
+
+
+def pick_video(cls):
+    clips = video_index().get(cls) or []
+    if not clips:
+        return None
+    # camera knows only the type, not the exact item -> its one general video (plastic's is "explainer")
+    for gid in ("general_photo", "general", "explainer"):     # real-photo documentary first (2026-11-17)
+        gen = [c for c in clips if c["id"] == gid]
+        if gen:
+            return gen[0]
+    fresh = [c for c in clips if c["id"] not in _RECENT[cls]] or clips
+    c = fresh[int(time.time() * 1000) % len(fresh)]
+    _RECENT[cls].append(c["id"])
+    return c
+
+
+_LID = {"m": None, "lock": threading.Lock()}
+
+
+def lid():
+    """Whisper-base language-ID restricted to en/hi/ta (lid.py); ~200 MB, loaded once."""
+    with _LID["lock"]:
+        if _LID["m"] is None:
+            from lid import LID
+            t0 = time.time()
+            _LID["m"] = LID(os.path.join(VOICE, "stt_whisper_base_en"))
+            log(f"language-ID loaded in {time.time() - t0:.1f}s")
+        return _LID["m"]
+
+
+def spoken_lang(audio, current):
+    """Language actually spoken in a question, or None if it's the current one / not sure.
+    Switching away needs p >= 0.8; switching TO English needs 0.9 (Tanglish/Hinglish is full of English words)."""
+    if audio is None or len(audio) < SR * 0.8:
+        return None
+    try:
+        g, p = lid().decide(audio)
+    except Exception as e:
+        log("language-ID failed:", repr(e)); return None
+    log(f"language-ID {g} " + " ".join(f"{k}={v:.2f}" for k, v in p.items()) + f" (session {current})")
+    if g != current and p[g] >= (0.9 if g == "en" else 0.8):
+        return g
+    return None
+
+
+VIDEO_READY = threading.Event()
+VIDEO_SKIP = threading.Event()
+
+
+def play_video(clip, cls, lang):
+    """Show the clip (muted, looped by the browser) while the server plays its voice-over on the speaker."""
+    m = S.add("assistant", "video", clip["vo"][lang], item=cls, video_id=clip["id"])
+    VIDEO_READY.clear(); VIDEO_SKIP.clear()
+    vd = dict(id=clip["id"], cls=cls, url="/media/" + clip["video"], poster="/media/" + clip["poster"],
+              credit=clip["credit"], title=(clip.get("title") or {}).get(lang, ""), text=clip["vo"][lang], t=None)
+    S.set(status="video", speaking_id=m["id"], video=vd)
+    # A/V sync: the voice-over starts only once the browser has the video buffered (POST /api/video/ready),
+    # then video.t = the wall-clock start of the voice-over; the browser keeps currentTime = now - t.
+    VIDEO_READY.wait(4.0)
+    if S.status != "video" or VIDEO_SKIP.is_set():   # skipped / interrupted while loading
+        S.set(video=None, speaking_id=None)
+        return
+    S.set(video=dict(vd, t=time.time() + 0.05))  # aplay needs ~50 ms to produce sound
+    SP.play(os.path.join(VIDEOS, clip["vo_files"][lang]))
+    S.set(video=None, speaking_id=None)
+
+
+def announce(cls, stream, force=False):
+    if not S.chosen or not busy.acquire(blocking=False):
+        return
+    try:
+        S.last_active = time.time()
+        lang = S.lang
+        S.item = dict(cls=cls, stream=stream, color=C.BINS[stream]["color"], title=C.TITLES[cls][lang],
+                      bin=C.BIN_SHORT[stream][lang], fact=C.FACTS[cls][lang], t=time.time())
+        clip = pick_video(cls)
+        if clip:   # short spoken intro (item + bin), then the video teaches the rest
+            text = C.PHRASES["intro"][lang].format(name=C.NAMES[cls][lang], do=C.BINS[stream][lang])
+            ask = C.PHRASES["ask"][lang]
+        else:
+            text, ask = C.explain(cls, stream, lang)
+        m = S.add("assistant", "explain", text, item=cls, stream=stream)
+        SP.say(text, m["id"])
+        if clip and S.status == "speaking":
+            play_video(clip, cls, lang)
+        if S.status in ("speaking", "video"):       # not interrupted by the ask button
+            m2 = S.add("assistant", "prompt", ask)
+            SP.say(ask, m2["id"])
+    finally:
+        S.video = None
+        if S.status in ("speaking", "video"):
+            S.set(status="watching")
+        busy.release()
+
+
+def pick_mic(want=None):
+    """PulseAudio source for arecord. Laptop: prefer the built-in digital mic (DMIC), since the default
+    is often the empty headset jack. Pi: a USB mic is usually the default, so None = default."""
+    try:
+        out = subprocess.run(["pactl", "list", "sources", "short"], capture_output=True, text=True, timeout=3).stdout
+    except (OSError, subprocess.TimeoutExpired):
+        return None
+    names = [l.split("\t")[1] for l in out.splitlines() if "\t" in l and ".monitor" not in l]
+    pick = next((n for n in names if want and want in n), None) or \
+        next((n for n in names if "dmic" in n.lower() or n.endswith("_6__source")), None)
+    if pick:
+        subprocess.run(["pactl", "set-source-mute", pick, "0"], capture_output=True)
+        # +7 dB over the DMIC's 0 dB (46%). At 100% (+20 dB) the room/fan noise floor was rms 0.18, as loud as
+        # speech, which wrecked STT and language-ID; at 60% it is ~0.03.
+        subprocess.run(["pactl", "set-source-volume", pick, MIC_VOL], capture_output=True)
+        log("mic:", pick)
+    return pick
+
+
+class Recorder:
+    def __init__(self):
+        self.source = None
+        self.proc = None
+        self.path = os.path.join(TMP, "question.raw")
+        self.t0 = 0
+
+    def start(self):
+        SP.stop()
+        if self.proc:
+            return
+        if os.path.exists(self.path):
+            os.remove(self.path)
+        env = dict(os.environ, **({"PULSE_SOURCE": self.source} if self.source else {}))
+        self.proc = subprocess.Popen(["arecord", "-q", "-f", "S16_LE", "-r", str(SR), "-c", "1", "-t", "raw", self.path], env=env)
+        self.t0 = time.time()
+        S.set(status="listening")
+        threading.Thread(target=self._meter, daemon=True).start()
+
+    def _meter(self):
+        while self.proc:
+            try:
+                with open(self.path, "rb") as f:
+                    f.seek(max(0, os.path.getsize(self.path) - 3200))
+                    x = np.frombuffer(f.read(), np.int16).astype(np.float32) / 32768
+                S.mic_level = float(min(1.0, np.sqrt(np.mean(x ** 2) + 1e-9) * 8)) if len(x) else 0.0
+            except OSError:
+                pass
+            time.sleep(0.06)
+        S.mic_level = 0.0
+
+    def stop(self):
+        p, self.proc = self.proc, None
+        if not p:
+            return None
+        time.sleep(0.25)                 # catch the tail of the last word
+        p.send_signal(signal.SIGINT); p.wait()
+        try:
+            return np.fromfile(self.path, np.int16).astype(np.float32) / 32768
+        except OSError:
+            return None
+
+
+REC = Recorder()
+
+
+def answer_question(audio, typed=None):
+    if not S.chosen:                     # button pressed on the welcome screen: this is the language reply
+        return welcome_reply(audio)
+    with busy:
+        S.last_active = time.time()
+        lang = S.lang
+        S.set(status="thinking")
+        try:
+            if typed is None and (audio is None or len(audio) < SR * 0.4 or np.abs(audio).max() < 0.01):
+                m = S.add("assistant", "answer", C.PHRASES["not_heard"][lang], source="rules")
+                SP.say(C.PHRASES["not_heard"][lang], m["id"])
+                return
+            t0 = time.time()
+            lid_out = {}
+            lid_t = None
+            if typed is None:      # language-ID runs alongside STT (separate cores)
+                lid_t = threading.Thread(target=lambda: lid_out.update(lang=spoken_lang(audio, lang)), daemon=True)
+                lid_t.start()
+            text = typed.strip() if typed is not None else SP.transcribe(audio)
+            if lid_t is not None:
+                lid_t.join(5)
+                new = lid_out.get("lang")
+                if new:            # visitor is speaking another language: switch to it and re-transcribe
+                    log(f"switching language {lang} -> {new} (heard {text!r})")
+                    S.set(status="loading")
+                    SP.load(new)
+                    S.lang = lang = new
+                    if S.item:
+                        c, st_ = S.item["cls"], S.item["stream"]
+                        S.item = dict(S.item, title=C.TITLES[c][new], bin=C.BIN_SHORT[st_][new], fact=C.FACTS[c][new])
+                    S.set(status="thinking")
+                    text = SP.transcribe(audio)
+            stt_s = time.time() - t0
+            if not text:
+                m = S.add("assistant", "answer", C.PHRASES["not_heard"][lang], source="rules")
+                SP.say(C.PHRASES["not_heard"][lang], m["id"])
+                return
+            q = S.add("user", "question", text, stt_s=None if typed is not None else round(stt_s, 2),
+                      audio_s=None if typed is not None else round(len(audio) / SR, 1), typed=typed is not None)
+            r = snap(text, lang)
+            if r["intent"] == "repeat" and S.item:
+                r["intent"], r["item"] = "which_bin", S.item["cls"]
+            cls = r["item"] or (S.item or {}).get("cls")
+            smap = VIS.meta["stream_map"]
+            S.patch(q["id"], intent=r["intent"], item=r["item"])
+            if r["intent"] != "other":
+                if cls is None:
+                    reply = C.PHRASES["no_item"][lang]
+                else:
+                    reply = C.rule_answer(r["intent"], cls, smap[cls], lang)
+                m = S.add("assistant", "answer", reply, source="rules", intent=r["intent"], item=cls)
+                SP.say(reply, m["id"])
+                return
+            # free-form question -> translate to English (NLLB) -> Llama -> translate back
+            t0 = time.time()
+            try:
+                q_en = TR(text, lang, "en") if lang != "en" else text
+                if lang != "en":
+                    S.patch(q["id"], translation=q_en)
+                ctx = ""
+                if S.item:
+                    ctx = (f"(The camera currently sees {C.NAMES[S.item['cls']]['en']}. "
+                           f"{C.BINS[S.item['stream']]['en']}) ")
+                a_en = LL.ask(ctx + q_en)
+                reply = C.casual(TR(a_en, "en", lang), lang) if lang != "en" else a_en
+            except LowMemory:
+                # never talk about memory: give the most useful rule-based answer instead
+                reply = (C.rule_answer("which_bin", cls, smap[cls], lang) + " " + C.FACTS[cls][lang]) if cls \
+                    else C.PHRASES["bins_tip"][lang]
+                m = S.add("assistant", "answer", reply, source="rules")
+                SP.say(reply, m["id"])
+                return
+            m = S.add("assistant", "answer", reply, source="llama", translation=a_en if lang != "en" else None,
+                      llm_s=round(time.time() - t0, 2))
+            SP.say(reply, m["id"])
+        except Exception as e:
+            log("answer failed:", repr(e))
+            S.add("assistant", "error", f"Something went wrong: {e}")
+        finally:
+            S.set(status="watching")
+
+
+# ------------------------------------------------------------------ welcome: "which language?" answered by voice
+AUDIO = os.path.join(HERE, "audio")
+IDLE_WELCOME_S = 150                     # kiosk: back to the welcome screen after this long with nobody using it
+LISTEN = {"proc": None}
+
+
+def welcome_wav(lang):
+    return os.path.join(AUDIO, f"welcome_{lang}.wav")
+
+
+def make_welcome_audio():
+    """Synthesize the greetings once, in a child process, so no TTS needs to stay in RAM for them."""
+    if all(os.path.exists(welcome_wav(l)) for l in C.LANGS):
+        return
+    log("making welcome audio (first run only)...")
+    subprocess.run([sys.executable, os.path.abspath(__file__), "--make-welcome", "--ta-voice", TA_VOICE, "--ta-slow", str(TA_SLOW)], check=False)
+
+
+_VAD = {}
+
+
+def vad_listen(max_s=7.0):
+    """Record from the mic until the visitor has said one utterance (Silero VAD). None if nobody spoke."""
+    import sherpa_onnx
+    if "cfg" not in _VAD:
+        c = sherpa_onnx.VadModelConfig()
+        c.silero_vad.model = os.path.join(VOICE, "vad", "silero_vad.onnx")
+        c.silero_vad.min_silence_duration = 0.7     # end of the reply = 0.7 s of silence
+        c.silero_vad.min_speech_duration = 0.25
+        c.sample_rate = SR
+        _VAD["cfg"] = c
+    vad = sherpa_onnx.VoiceActivityDetector(_VAD["cfg"], buffer_size_in_seconds=max_s + 2)
+    env = dict(os.environ, **({"PULSE_SOURCE": REC.source} if REC.source else {}))
+    p = subprocess.Popen(["arecord", "-q", "-f", "S16_LE", "-r", str(SR), "-c", "1", "-t", "raw"],
+                         stdout=subprocess.PIPE, env=env)
+    LISTEN["proc"] = p
+    segs, t0, peak = [], time.time(), 0.0
+    try:
+        while time.time() - t0 < max_s and not S.chosen:
+            b = p.stdout.read(1024)                       # 512 samples = 32 ms, Silero's window
+            if len(b) < 1024:
+                break
+            x = np.frombuffer(b, np.int16).astype(np.float32) / 32768
+            e = float(np.sqrt(np.mean(x ** 2) + 1e-12)); peak = max(peak, e)
+            S.mic_level = min(1.0, e * 8)
+            vad.accept_waveform(x)
+            while not vad.empty():
+                segs.append(np.array(vad.front.samples, np.float32)); vad.pop()
+            if segs and not vad.is_speech_detected():
+                break                                     # one complete utterance captured
+        if not segs:
+            vad.flush()
+            while not vad.empty():
+                segs.append(np.array(vad.front.samples, np.float32)); vad.pop()
+    finally:
+        p.terminate(); p.wait()
+        LISTEN["proc"] = None
+        S.mic_level = 0.0
+    speech = sum(len(x) for x in segs) / SR
+    log(f"vad: {len(segs)} segment(s), {speech:.2f}s speech, peak {peak:.3f}")
+    if speech < 0.3:
+        return None
+    pad = np.zeros(SR // 5, np.float32)
+    return np.concatenate([pad] + segs + [pad])
+
+
+def stop_listening():
+    p = LISTEN["proc"]
+    if p and p.poll() is None:
+        p.terminate()
+
+
+def welcome_reply(audio):
+    """Decide the language from a spoken reply; returns True if chosen."""
+    if audio is None or len(audio) < SR * 0.3 or SP.lang != "detect":
+        return False
+    S.set(welcome_phase="detecting", status="thinking")
+    import soundfile as sf
+    sf.write(os.path.join(TMP, "welcome_last.wav"), audio, SR)      # for debugging what the mic heard
+    text, wl = SP.detect(audio)
+    try:
+        wl, p = lid().decide(audio)        # en/hi/ta only, English must clearly win (lid.py)
+        log("welcome language-ID " + " ".join(f"{k}={v:.2f}" for k, v in p.items()))
+    except Exception as e:
+        log("language-ID failed, using Whisper's guess:", repr(e))
+    text = re.sub(r"[\[\(][^\]\)]*[\]\)]", "", text).strip()   # drop Whisper non-speech tags: [Music], (laughs)
+    lang = C.pick_lang(text, wl) if len(text) >= 2 else None
+    S.heard = text
+    log(f"welcome heard {text!r} whisper={wl!r} -> {lang}")
+    if lang:
+        threading.Thread(target=choose, args=(lang,), daemon=True).start()
+        return True
+    S.set(welcome_phase="waiting", status="watching", next_prompt=time.time() + 1.5)
+    return False
+
+
+def choose(lang):
+    """Visitor picked a language (by voice or by tapping): load it and greet them in it."""
+    with S.lock:
+        if S.chosen and S.lang == lang and SP.lang == lang:
+            return
+        S.chosen = True
+        S.welcome_phase = None
+        S.lang, S.item = lang, None
+        S.status = "loading"
+    stop_listening(); SP.stop()
+    with busy:
+        SP.load(lang)
+        S.last_active = time.time()
+        m = S.add("assistant", "prompt", C.READY[lang])
+        SP.say(C.READY[lang], m["id"])
+        S.set(status="watching")
+
+
+def go_welcome():
+    """Back to the welcome screen (start-up, 'start over', or nobody used it for a while)."""
+    stop_listening(); SP.stop(); REC.stop()
+    with busy:
+        with S.lock:
+            S.chosen = False
+            S.messages.clear(); S.item = None; S.heard = None
+            S.status, S.welcome_phase, S.tries = "loading", "waiting", 0
+        for h in HEAVY:
+            h.unload()
+        SP.load("detect")
+        S.set(status="watching", next_prompt=time.time() + 0.5)
+
+
+def welcome_loop():
+    while True:
+        time.sleep(0.2)
+        if S.chosen:
+            if (S.status == "watching" and not busy.locked() and REC.proc is None
+                    and time.time() - S.last_active > IDLE_WELCOME_S):
+                log("idle: back to the welcome screen")
+                go_welcome()
+            continue
+        if SP.lang != "detect" or REC.proc is not None or busy.locked() or time.time() < S.next_prompt:
+            continue
+        S.set(welcome_phase="asking", status="speaking")
+        for l in ("en", "hi", "ta"):
+            if S.chosen or REC.proc is not None:
+                break
+            SP.play(welcome_wav(l))
+        if S.chosen or REC.proc is not None:
+            continue
+        S.set(welcome_phase="listening", status="listening")
+        audio = vad_listen()
+        if S.chosen or REC.proc is not None:
+            continue
+        if audio is None or not welcome_reply(audio):
+            S.tries += 1
+            S.set(welcome_phase="waiting", status="watching",
+                  next_prompt=time.time() + (6 if S.tries < 3 else 25))
+
+
+# ------------------------------------------------------------------ web
+from fastapi import FastAPI, Request  # noqa: E402
+from fastapi.responses import FileResponse, JSONResponse, StreamingResponse  # noqa: E402
+from fastapi.staticfiles import StaticFiles  # noqa: E402
+
+app = FastAPI()
+WEB = os.path.join(HERE, "web")
+VIS = None
+
+
+@app.get("/")
+def index():
+    return FileResponse(os.path.join(WEB, "index.html"), headers={"Cache-Control": "no-store"})
+
+
+@app.get("/video")
+def video():
+    def gen():
+        last = None
+        while True:
+            with VIS.jpeg_cond:
+                VIS.jpeg_cond.wait(timeout=1)
+                j = VIS.jpeg
+            if j is None or j is last:
+                continue
+            last = j
+            yield b"--f\r\nContent-Type: image/jpeg\r\n\r\n" + j + b"\r\n"
+    return StreamingResponse(gen(), media_type="multipart/x-mixed-replace; boundary=f")
+
+
+@app.get("/api/state")
+def state(since: int = 0):
+    with S.lock:
+        return dict(lang=S.lang, langs=C.LANGS, status=S.status, chosen=S.chosen,
+                    welcome_phase=S.welcome_phase, heard=S.heard, video=S.video, auto=S.auto, pred=S.pred, item=S.item,
+                    models=S.models, mic_level=round(S.mic_level, 3), speaking_id=S.speaking_id,
+                    error=S.error, ram_mb=rss_mb(), ram_avail_mb=mem_avail_mb(), messages=[m for m in S.messages if m["id"] > since],
+                    last_id=S.next_id - 1, rec_s=round(time.time() - REC.t0, 1) if REC.proc else 0)
+
+
+@app.post("/api/lang")
+async def set_lang(req: Request):
+    """Tap fallback on the welcome screen, and the header language switch."""
+    lang = (await req.json()).get("lang")
+    if lang not in C.LANGS:
+        return JSONResponse({"error": "bad lang"}, 400)
+    if S.chosen and busy.locked():
+        return JSONResponse({"error": "busy"}, 409)
+    if S.chosen:
+        S.chosen = False                 # let choose() reload + greet in the new language
+    threading.Thread(target=choose, args=(lang,), daemon=True).start()
+    return {"ok": True}
+
+
+@app.post("/api/welcome")
+def welcome():
+    """Start over: ask the next visitor which language they want."""
+    threading.Thread(target=go_welcome, daemon=True).start()
+    return {"ok": True}
+
+
+@app.post("/api/ask/start")
+def ask_start():
+    stop_listening()
+    if S.models["stt"] != "ready":
+        return JSONResponse({"error": "speech models still loading"}, 409)
+    if S.status == "thinking":
+        return JSONResponse({"error": "busy"}, 409)
+    REC.start()
+    return {"ok": True}
+
+
+@app.post("/api/ask/stop")
+def ask_stop():
+    audio = REC.stop()
+    if audio is None:
+        return JSONResponse({"error": "not recording"}, 409)
+    threading.Thread(target=lambda: (_wait_free(), answer_question(audio)), daemon=True).start()
+    return {"ok": True, "seconds": round(len(audio) / SR, 1)}
+
+
+@app.post("/api/ask/text")
+async def ask_text(req: Request):
+    """Typed question (fallback when the room is too noisy, and for testing without a mic)."""
+    text = ((await req.json()).get("text") or "").strip()
+    if not text:
+        return JSONResponse({"error": "empty"}, 400)
+    threading.Thread(target=lambda: (_wait_free(), answer_question(None, typed=text)), daemon=True).start()
+    return {"ok": True}
+
+
+def _wait_free():
+    SP.stop()
+    while busy.locked() and S.status in ("speaking", "video"):
+        time.sleep(0.05)
+
+
+@app.post("/api/explain")
+def explain_now():
+    p = S.pred
+    if not p:
+        return JSONResponse({"error": "no prediction"}, 409)
+    SP.stop()
+    threading.Thread(target=lambda: (_wait_free(), announce(p["cls"], p["stream"])), daemon=True).start()
+    return {"ok": True}
+
+
+@app.post("/api/auto")
+async def set_auto(req: Request):
+    S.set(auto=bool((await req.json()).get("on")))
+    return {"ok": True, "auto": S.auto}
+
+
+@app.post("/api/video/ready")
+def video_ready():
+    """The browser has buffered the current clip and is paused at 0 - start the voice-over."""
+    VIDEO_READY.set()
+    return {"ok": True}
+
+
+@app.post("/api/video/skip")
+def video_skip():
+    """Skip the current video (stops its voice-over; the flow continues to 'any questions?')."""
+    VIDEO_SKIP.set()
+    VIDEO_READY.set()
+    SP.stop()
+    return {"ok": True}
+
+
+@app.post("/api/stop")
+def stop_speaking():
+    SP.stop()
+    return {"ok": True}
+
+
+@app.post("/api/clear")
+def clear():
+    with S.lock:
+        S.messages.clear(); S.item = None
+    return {"ok": True}
+
+
+app.mount("/static", StaticFiles(directory=WEB), name="static")
+os.makedirs(VIDEOS, exist_ok=True)
+app.mount("/media", StaticFiles(directory=VIDEOS), name="media")      # video clips + posters (Range requests OK)
+
+
+def main():
+    global VIS
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--camera", type=int, default=0)
+    ap.add_argument("--pte", default=os.path.join(VISION, "mobilenet_v3_large_int8_xnnpack.pte"))
+    ap.add_argument("--threshold", type=float, default=0.75)
+    ap.add_argument("--lang", default=None, choices=list(C.LANGS),
+                    help="skip the welcome screen and start in this language")
+    ap.add_argument("--ta-slow", type=float, default=1.0, help="Tamil pace, >1 is slower")
+    ap.add_argument("--ta-voice", default="female", choices=["female", "male", "mms"], help="Tamil voice")
+    ap.add_argument("--make-welcome", action="store_true", help=argparse.SUPPRESS)
+    ap.add_argument("--port", type=int, default=8000)
+    ap.add_argument("--mic", default=None, help="substring of the PulseAudio source name (default: built-in DMIC if present)")
+    a = ap.parse_args()
+    global TA_VOICE, TA_SLOW
+    TA_VOICE, TA_SLOW = a.ta_voice, a.ta_slow
+    if a.make_welcome:                   # child process: synthesize the greeting wavs, then exit
+        import shutil
+        os.makedirs(AUDIO, exist_ok=True)
+        for l in C.LANGS:
+            SP.load(l)
+            shutil.move(SP.synth(C.WELCOME[l]), welcome_wav(l))
+        return
+    S.lang = a.lang or "en"
+    REC.source = pick_mic(a.mic)
+    VIS = Vision(a.camera, a.pte, a.threshold)
+    VIS.start()
+
+    def boot():
+        if a.lang:                       # language given on the command line: skip the welcome screen
+            SP.load(a.lang)
+            S.set(chosen=True, status="watching")
+        else:
+            make_welcome_audio()
+            go_welcome()
+        threading.Thread(target=welcome_loop, daemon=True).start()
+    threading.Thread(target=boot, daemon=True).start()
+    threading.Thread(target=reaper, daemon=True).start()
+    threading.Thread(target=lid, daemon=True).start()          # language-ID ready before the first reply
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=a.port, log_level="warning")
+
+
+if __name__ == "__main__":
+    main()
