@@ -24,6 +24,11 @@ VOICE = os.path.join(ROOT, "voice")
 LLAMA = os.path.join(ROOT, "llama")
 TMP = tempfile.mkdtemp(prefix="lap_")
 SR = 16000
+# Raw ALSA devices (Pi without a desktop sound server), e.g. SORTI_MIC_DEV=plughw:CARD=Device,DEV=0.
+# Unset = system default (PulseAudio/PipeWire on a desktop, as on the laptop).
+_MIC_DEV, _SPK_DEV = os.environ.get("SORTI_MIC_DEV"), os.environ.get("SORTI_SPK_DEV")
+APLAY = ["aplay", "-q"] + (["-D", _SPK_DEV] if _SPK_DEV else [])
+ARECORD = ["arecord", "-q"] + (["-D", _MIC_DEV] if _MIC_DEV else [])
 
 
 def log(*a):
@@ -293,7 +298,7 @@ class Speech:
         path = first
         while path:
             if not self._halt:
-                self.player = subprocess.Popen(["aplay", "-q", path])
+                self.player = subprocess.Popen(APLAY + [path])
                 self.player.wait()
                 self.player = None
             os.remove(path)
@@ -313,7 +318,7 @@ class Speech:
 
     def play(self, path):
         """Play a cached wav (welcome prompts); blocks until done or interrupted."""
-        self.player = subprocess.Popen(["aplay", "-q", path])
+        self.player = subprocess.Popen(APLAY + [path])
         self.player.wait()
         self.player = None
 
@@ -661,7 +666,7 @@ class Recorder:
         if os.path.exists(self.path):
             os.remove(self.path)
         env = dict(os.environ, **({"PULSE_SOURCE": self.source} if self.source else {}))
-        self.proc = subprocess.Popen(["arecord", "-q", "-f", "S16_LE", "-r", str(SR), "-c", "1", "-t", "raw", self.path], env=env)
+        self.proc = subprocess.Popen(ARECORD + ["-f", "S16_LE", "-r", str(SR), "-c", "1", "-t", "raw", self.path], env=env)
         self.t0 = time.time()
         S.set(status="listening")
         threading.Thread(target=self._meter, daemon=True).start()
@@ -808,7 +813,7 @@ def vad_listen(max_s=7.0):
         _VAD["cfg"] = c
     vad = sherpa_onnx.VoiceActivityDetector(_VAD["cfg"], buffer_size_in_seconds=max_s + 2)
     env = dict(os.environ, **({"PULSE_SOURCE": REC.source} if REC.source else {}))
-    p = subprocess.Popen(["arecord", "-q", "-f", "S16_LE", "-r", str(SR), "-c", "1", "-t", "raw"],
+    p = subprocess.Popen(ARECORD + ["-f", "S16_LE", "-r", str(SR), "-c", "1", "-t", "raw"],
                          stdout=subprocess.PIPE, env=env)
     LISTEN["proc"] = p
     segs, t0, peak = [], time.time(), 0.0
@@ -1090,6 +1095,7 @@ def main():
     ap.add_argument("--ta-voice", default="female", choices=["female", "male", "mms"], help="Tamil voice")
     ap.add_argument("--make-welcome", action="store_true", help=argparse.SUPPRESS)
     ap.add_argument("--port", type=int, default=8000)
+    ap.add_argument("--host", default="127.0.0.1", help="0.0.0.0 = reachable from other computers (Pi)")
     ap.add_argument("--mic", default=None, help="substring of the PulseAudio source name (default: built-in DMIC if present)")
     a = ap.parse_args()
     global TA_VOICE, TA_SLOW
@@ -1118,7 +1124,7 @@ def main():
     threading.Thread(target=reaper, daemon=True).start()
     threading.Thread(target=lid, daemon=True).start()          # language-ID ready before the first reply
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=a.port, log_level="warning")
+    uvicorn.run(app, host=a.host, port=a.port, log_level="warning")
 
 
 if __name__ == "__main__":
