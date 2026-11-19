@@ -30,11 +30,12 @@ def square_crop(rgb, box, pad=.10):
 
 class MultiVision:
     def __init__(self, detector_pte=DEFAULT_PTE, folder=HERE / 'v2_best', *, detector=None,
-                 classifier=None, confirm_frames=6, confirm_conf=.65, exclude=None):  # 6@0.65: ~2x coverage, 0 wrong/hallucinated on test video
+                 classifier=None, confirm_frames=6, confirm_conf=.65, exclude=None, centre_fallback=False):  # 6@0.65: ~2x coverage, 0 wrong/hallucinated on test video
         self.detector = detector if detector is not None else Detector(detector_pte, exclude=exclude)
         self.classifier = classifier if classifier is not None else SortiVision(str(Path(folder).expanduser()))
         self.meta = self.classifier.meta
         self.confirm_frames, self.confirm_conf = confirm_frames, confirm_conf
+        self.centre_fallback = centre_fallback   # False: scan the whole frame, boxes only where waste is detected
         self.tracks = {}; self.next_id = 1
 
     def process(self, rgb):
@@ -47,7 +48,7 @@ class MultiVision:
                 candidates.append((box, cls, conf))
         # Background detections (e.g. room furniture) must not suppress the
         # single-object fallback when the actual waste has no COCO category.
-        fallback = not candidates
+        fallback = not candidates and self.centre_fallback
         if fallback:
             h, w = rgb.shape[:2]; side = int(min(h, w) * .6)
             left, top = (w - side) // 2, (h - side) // 2

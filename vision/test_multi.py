@@ -25,7 +25,7 @@ class FakeClassifier:
 class MultiTests(unittest.TestCase):
     def setUp(self):
         self.d = FakeDetector(); self.c = FakeClassifier()
-        self.m = MultiVision(detector=self.d, classifier=self.c, confirm_frames=8, confirm_conf=.70)
+        self.m = MultiVision(detector=self.d, classifier=self.c, confirm_frames=8, confirm_conf=.70, centre_fallback=True)
         self.rgb = np.zeros((100, 200, 3), np.uint8)
 
     def test_confirmation_counts_and_reset(self):
