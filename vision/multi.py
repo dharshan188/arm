@@ -100,20 +100,38 @@ def signature(objects):
 
 
 def draw_objects(frame, objects, ms=0., fps=0.):
-    colors = {'blue': (255, 130, 30), 'green': (50, 200, 50), 'red': (30, 40, 240),
-              'grey': (170, 170, 170)}
+    """Clean overlay: one box per detected item. Confirmed = solid bin-coloured box + corner accents + filled tag;
+    still checking = thin faint box + small tag. Header shows the item count."""
+    colors = {'blue': (235, 140, 40), 'green': (60, 190, 70), 'red': (50, 50, 230), 'grey': (150, 150, 150),
+              'purple': (190, 80, 170), 'black': (90, 90, 90)}
+    font = cv2.FONT_HERSHEY_SIMPLEX
+    h, w = frame.shape[:2]
+    def tag(text, x, y, bg, scale=.55, th=1):
+        (tw, tht), base = cv2.getTextSize(text, font, scale, th)
+        x = min(max(0, x), max(0, w - tw - 10)); y0 = y - tht - 10
+        if y0 < 0:                       # no room above the box -> put the tag inside it
+            y0 = y; y = y + tht + 10
+        cv2.rectangle(frame, (x, y0), (x + tw + 10, y), bg, -1)
+        cv2.putText(frame, text, (x + 5, y - 6), font, scale, (255, 255, 255), th, cv2.LINE_AA)
+    shown = 0
     for o in objects:
         x0, y0, x1, y1 = map(int, o['box'])
-        color = colors.get(o['color'], (180, 180, 180))
-        name = o['cls'].replace('_waste', '').replace('_', ' ')
-        dest = C.BIN_SHORT.get(o['stream'], {}).get('en', 'Check local guidance')
-        label = f"#{o['id']} {name} {o['conf']:.0%} -> {dest}"
-        if not o['confirmed']:
-            label += f" checking {o['streak']}/{o['need']}"
-        cv2.rectangle(frame, (x0, y0), (x1, y1), color, 2)
-        y = max(20, y0 - 8)
-        cv2.putText(frame, label, (max(0, x0), y), cv2.FONT_HERSHEY_SIMPLEX, .5, (0, 0, 0), 3, cv2.LINE_AA)
-        cv2.putText(frame, label, (max(0, x0), y), cv2.FONT_HERSHEY_SIMPLEX, .5, color, 1, cv2.LINE_AA)
-    cv2.putText(frame, f'{fps:.1f} FPS | {ms:.1f} ms', (12, frame.shape[0] - 14),
-                cv2.FONT_HERSHEY_SIMPLEX, .6, (100, 255, 100), 1, cv2.LINE_AA)
+        color = colors.get(o.get('color'), (170, 170, 170))
+        name = o['cls'].replace('_waste', '').replace('_', ' ').capitalize()
+        dest = C.BIN_SHORT.get(o['stream'], {}).get('en', 'check')
+        if o['confirmed']:
+            shown += 1
+            cv2.rectangle(frame, (x0, y0), (x1, y1), color, 2, cv2.LINE_AA)
+            L = max(12, min(x1 - x0, y1 - y0) // 5)        # corner accents
+            for (cx, cy, dx, dy) in ((x0, y0, 1, 1), (x1, y0, -1, 1), (x0, y1, 1, -1), (x1, y1, -1, -1)):
+                cv2.line(frame, (cx, cy), (cx + dx * L, cy), color, 5, cv2.LINE_AA)
+                cv2.line(frame, (cx, cy), (cx, cy + dy * L), color, 5, cv2.LINE_AA)
+            tag(f"{name} - {dest}  {o['conf']:.0%}", x0, y0, color, .6, 2)
+        else:
+            ov = frame.copy(); cv2.rectangle(ov, (x0, y0), (x1, y1), color, 1, cv2.LINE_AA)
+            frame[:] = cv2.addWeighted(ov, .6, frame, .4, 0)
+            tag(f"checking {o['streak']}/{o['need']}", x0, y0, (80, 80, 80), .45, 1)
+    head = f"{shown} item{'s' if shown != 1 else ''}" if shown else "show waste to the camera"
+    tag(head, 10, 34, (40, 40, 40), .65, 2)
+    cv2.putText(frame, f'{fps:.1f} FPS', (w - 95, h - 12), font, .5, (120, 230, 120), 1, cv2.LINE_AA)
     return frame
