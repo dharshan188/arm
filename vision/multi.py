@@ -29,7 +29,7 @@ def square_crop(rgb, box, pad=.10):
 
 
 class MultiVision:
-    def __init__(self, detector_pte=DEFAULT_PTE, folder=HERE / 'v2_best', *, detector=None,
+    def __init__(self, detector_pte=DEFAULT_PTE, folder=HERE / 'v2_taught', *, detector=None,
                  classifier=None, confirm_frames=6, confirm_conf=None, exclude=None, centre_fallback=False,
                  hold_frames=2, smooth=.5, extra_detectors='coco', confirm_floor=.15,
                  class_bias=None):  # 6@0.65: ~2x coverage, 0 wrong/hallucinated on test video
@@ -39,7 +39,7 @@ class MultiVision:
         self.confirm_frames, self.confirm_conf = confirm_frames, confirm_conf
         # per-class confirmation bar: high where the model is over-confident (e-waste), lower where it is naturally unsure
         self.class_conf = {'e_waste': .75, 'battery_waste': .75, 'light_bulbs': .75, 'general_waste': .70, 'metal_waste': .65,
-                           'clothes': .65, 'paper_waste': .55, 'plastic_waste': .60, 'glass_waste': .60, 'organic_waste': .60}
+                           'clothes': .65, 'paper_waste': .55, 'plastic_waste': .45, 'glass_waste': .60, 'organic_waste': .60}
         if isinstance(confirm_conf, dict):
             self.class_conf.update(confirm_conf); self.confirm_conf = .70
         elif confirm_conf is None:          # default: per-class table above
@@ -73,7 +73,7 @@ class MultiVision:
             p = self.classifier.probs(square_crop(rgb, box, pad=.10)) * self.bias; p = p / p.sum()
             idx = int(p.argmax()); cls, conf = self.classifier.classes[idx], float(p[idx])
             if cls != 'background':
-                candidates.append((box, cls, conf))
+                candidates.append((box, cls, conf, p))
         # Background detections (e.g. room furniture) must not suppress the
         # single-object fallback when the actual waste has no COCO category.
         fallback = not candidates and self.centre_fallback
@@ -83,7 +83,7 @@ class MultiVision:
             box = (left, top, left + side, top + side, 0.)
             p = self.classifier.probs(square_crop(rgb, box, pad=0))
             idx = int(p.argmax())
-            candidates = [(box, self.classifier.classes[idx], float(p[idx]))]
+            candidates = [(box, self.classifier.classes[idx], float(p[idx]), p)]
         # duplicate removal: one box per physical item (overlapping or mostly-contained boxes -> keep the surer one)
         candidates.sort(key=lambda c: c[2] * max(float(c[0][4]), .05), reverse=True)
         kept = []
@@ -119,7 +119,7 @@ class MultiVision:
                 del self.tracks[tid]
             else:
                 t['confirmed'] = False
-        for j, (box, cls, conf) in enumerate(candidates):
+        for j, (box, cls, conf, probs) in enumerate(candidates):
             tid = matched.get(j)
             if tid is None:
                 tid = self.next_id; self.next_id += 1

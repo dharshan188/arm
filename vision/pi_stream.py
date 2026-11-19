@@ -93,7 +93,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--detector-pte', default=str(DEFAULT_PTE))
     ap.add_argument('--detector-exclude', default=None, help="COCO IDs to skip; '' for waste-specific model")
-    ap.add_argument('--model-dir', default=str(Path(__file__).resolve().parent / 'v2_best'))
+    ap.add_argument('--model-dir', default=str(Path(__file__).resolve().parent / 'v2_taught'))
     ap.add_argument('--camera', type=int, default=0)
     ap.add_argument('--video')
     ap.add_argument('--width', type=int, default=1280)

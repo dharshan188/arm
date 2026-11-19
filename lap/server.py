@@ -89,7 +89,7 @@ class Vision(threading.Thread):
         super().__init__(daemon=True)
         self.cam, self.video = cam, video
         self.threshold = threshold
-        model_dir = model_dir or os.path.join(VISION, "v2_best")
+        model_dir = model_dir or os.path.join(VISION, "v2_taught")
         detector_pte = detector_pte or os.path.join(VISION, "det", "waste_320.pte")
         self.detector_pte, self.model_dir, self.exclude = detector_pte, model_dir, exclude
         self.jpeg = None
@@ -1134,7 +1134,7 @@ def main():
     ap.add_argument("--threshold", type=float, default=0.70, help="per-frame confirmation confidence (minimum 0.70), for 8 consecutive frames")
     ap.add_argument("--detector-pte", default=os.path.join(VISION, "det", "waste_320.pte"))
     ap.add_argument("--detector-exclude", default=None, help="comma-separated IDs; empty for waste detector")
-    ap.add_argument("--model-dir", default=os.path.join(VISION, "v2_best"))
+    ap.add_argument("--model-dir", default=os.path.join(VISION, "v2_taught"))
     ap.add_argument("--video", help="use a video instead of the camera")
     ap.add_argument("--lang", default=None, choices=list(C.LANGS),
                     help="skip the welcome screen and start in this language")
