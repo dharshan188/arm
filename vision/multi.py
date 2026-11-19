@@ -30,20 +30,38 @@ def square_crop(rgb, box, pad=.10):
 
 class MultiVision:
     def __init__(self, detector_pte=DEFAULT_PTE, folder=HERE / 'v2_best', *, detector=None,
-                 classifier=None, confirm_frames=6, confirm_conf=.75, exclude=None, centre_fallback=False,
-                 hold_frames=2, smooth=.5, extra_detectors='coco', confirm_floor=.15):  # 6@0.65: ~2x coverage, 0 wrong/hallucinated on test video
+                 classifier=None, confirm_frames=6, confirm_conf=None, exclude=None, centre_fallback=False,
+                 hold_frames=2, smooth=.5, extra_detectors='coco', confirm_floor=.15,
+                 class_bias=None):  # 6@0.65: ~2x coverage, 0 wrong/hallucinated on test video
         self.detector = detector if detector is not None else Detector(detector_pte, exclude=exclude)
         self.classifier = classifier if classifier is not None else SortiVision(str(Path(folder).expanduser()))
         self.meta = self.classifier.meta
         self.confirm_frames, self.confirm_conf = confirm_frames, confirm_conf
+        # per-class confirmation bar: high where the model is over-confident (e-waste), lower where it is naturally unsure
+        self.class_conf = {'e_waste': .75, 'battery_waste': .75, 'light_bulbs': .75, 'general_waste': .70, 'metal_waste': .65,
+                           'clothes': .65, 'paper_waste': .55, 'plastic_waste': .60, 'glass_waste': .60, 'organic_waste': .60}
+        if isinstance(confirm_conf, dict):
+            self.class_conf.update(confirm_conf); self.confirm_conf = .70
+        elif confirm_conf is None:          # default: per-class table above
+            self.confirm_conf = .70
+        else:                               # an explicit single value (tests / CLI) overrides every class
+            self.class_conf = {}
         self.centre_fallback = centre_fallback   # False: scan the whole frame, boxes only where waste is detected
         self.hold_frames = hold_frames   # a confirmed item stays shown through this many missed/unsure frames
         self.smooth = smooth             # box EMA weight of the previous position (0 = no smoothing)
         self.floor = confirm_floor        # no frame in a confirming streak may drop below confirm_conf - floor
-        if extra_detectors == 'coco':      # hybrid default: COCO YOLO11n (mouse, laptop, phone, bottle, cup...) alongside the waste YOLO
-            coco = HERE / 'det/yolo11n_320.pte'
-            extra_detectors = [Detector(coco, threshold=.15, exclude=[0])] if coco.exists() and detector is None else []
-        self.extra = list(extra_detectors or [])   # hybrid: e.g. COCO yolo11n (mouse, laptop, phone, bottle...) + waste YOLO
+        if extra_detectors == 'coco':      # hybrid default: waste YOLO + COCO YOLO11n (mouse, laptop, bottle...) + YOLO-World (paper, sponge...)
+            extra_detectors = []
+            if detector is None:
+                for f, ex in (('det/yolo11n_320.pte', [0]), ('det/world_320.pte', [])):
+                    if (HERE / f).exists():
+                        extra_detectors.append(Detector(HERE / f, threshold=.15, exclude=ex))
+        self.extra = list(extra_detectors or [])
+        # prior correction for the classifier's e-waste bias (electronics-heavy desks); 1.0 = none
+        self.bias = np.ones(len(self.classifier.classes), np.float32)
+        for c, v in (class_bias or {}).items():
+            if c in self.classifier.classes:
+                self.bias[self.classifier.classes.index(c)] = v   # hybrid: e.g. COCO yolo11n (mouse, laptop, phone, bottle...) + waste YOLO
         self.tracks = {}; self.next_id = 1
 
     def process(self, rgb):
@@ -52,7 +70,7 @@ class MultiVision:
             boxes += list(d.detect(rgb))
         candidates = []
         for box in boxes:
-            p = self.classifier.probs(square_crop(rgb, box, pad=.10))
+            p = self.classifier.probs(square_crop(rgb, box, pad=.10)) * self.bias; p = p / p.sum()
             idx = int(p.argmax()); cls, conf = self.classifier.classes[idx], float(p[idx])
             if cls != 'background':
                 candidates.append((box, cls, conf))
@@ -111,20 +129,38 @@ class MultiVision:
             same = t['cls'] == cls and t['streak'] > 0
             streak = t['streak'] + 1 if same else 1
             t['csum'] = (t.get('csum', 0.) if same else 0.) + conf
-            if conf < self.confirm_conf - self.floor or cls == 'background':
+            need = self.class_conf.get(cls, self.confirm_conf)
+            if conf < need - self.floor or cls == 'background':
                 streak = 0; t['csum'] = 0.
             a = self.smooth if t.get('confirmed_cls') or t['streak'] else 0.
             nb = [a * o + (1 - a) * n for o, n in zip(t['box'], map(float, box[:4]))]
             t.update(cls=cls, box=nb, streak=streak, missed=0, score=float(box[4]))
-            if streak >= self.confirm_frames and t['csum'] / streak >= self.confirm_conf:   # (re)confirm needs a full steady streak
+            if streak >= self.confirm_frames and t['csum'] / streak >= need:   # (re)confirm needs a full steady streak
                 t['confirmed_cls'] = cls
             if t.get('confirmed_cls') == cls:
                 t['conf'] = .7 * t['conf'] + .3 * conf if t['conf'] else conf
             t['confirmed'] = bool(t.get('confirmed_cls')) and (self.hold_frames > 0 or streak >= self.confirm_frames)
+            t['seen'] = t.get('seen', 0) + 1; t['dsum'] = t.get('dsum', 0.) + float(box[4])
+            t['unsure'] = (not t['confirmed'] and cls != 'background' and t['seen'] >= self.confirm_frames
+                           and t['dsum'] / t['seen'] >= .45)
             if not t['confirmed'] and cls == 'background':
                 continue
             objects.append(self._out(tid, t, fallback, cls, conf))
-        return objects
+        # track-level merge: one box per physical item (a held track and a new track on the same object)
+        objects.sort(key=lambda o: (not o['confirmed'], o['id']))
+        keep = []
+        for o in objects:
+            b = o['box']; dup = None
+            for k in keep:
+                q = k['box']; ix = max(0., min(b[2], q[2]) - max(b[0], q[0])) * max(0., min(b[3], q[3]) - max(b[1], q[1]))
+                a1 = (b[2] - b[0]) * (b[3] - b[1]); a2 = (q[2] - q[0]) * (q[3] - q[1])
+                if ix / max(a1 + a2 - ix, 1.) > .5 or ix / max(min(a1, a2), 1.) > .8:
+                    dup = k; break
+            if dup is None:
+                keep.append(o)
+            elif o['id'] in self.tracks and o['id'] != dup['id']:
+                del self.tracks[o['id']]
+        return keep
 
     def _out(self, tid, t, fallback, cls=None, conf=None):
         shown = t['confirmed_cls'] if t.get('confirmed') and t.get('confirmed_cls') else (cls or t['cls'])
@@ -132,7 +168,8 @@ class MultiVision:
         return dict(id=tid, box=t['box'], cls=shown, conf=round(float(t['conf'] if t.get('confirmed') else (conf or 0)), 4),
                     score=round(float(t.get('score', 0)), 4), stream=stream,
                     color=C.BINS.get(stream, {}).get('color', 'grey'),
-                    confirmed=bool(t.get('confirmed')), streak=t['streak'], need=self.confirm_frames, fallback=fallback)
+                    confirmed=bool(t.get('confirmed')), unsure=bool(t.get('unsure')) and not t.get('confirmed'),
+                    streak=t['streak'], need=self.confirm_frames, fallback=fallback)
 
 
 def signature(objects):
@@ -156,6 +193,10 @@ def draw_objects(frame, objects, ms=0., fps=0.):
         cv2.putText(frame, text, (x + 5, y - 6), font, scale, (255, 255, 255), th, cv2.LINE_AA)
     shown = 0; tags = []
     for o in objects:                                   # pass 1: boxes
+        if o.get('unsure'):                             # detected steadily, class unknown -> neutral box, no bin advice
+            x0, y0, x1, y1 = map(int, o['box']); shown += 1
+            cv2.rectangle(frame, (x0, y0), (x1, y1), (200, 200, 200), 2, cv2.LINE_AA)
+            tags.append(("Item - not sure", x0, y0, (110, 110, 110))); continue
         if not o['confirmed']:
             continue
         x0, y0, x1, y1 = map(int, o['box'])

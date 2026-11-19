@@ -100,7 +100,7 @@ def main():
     ap.add_argument('--height', type=int, default=720)
     ap.add_argument('--confirm-frames', type=int, default=6)
     ap.add_argument('--centre-fallback', action='store_true', help='classify the centre square when no box is detected')
-    ap.add_argument('--confirm-conf', type=float, default=0.75)
+    ap.add_argument('--confirm-conf', type=float, default=None, help='one bar for all classes (default: per-class table)')
     ap.add_argument('--no-hybrid', action='store_true', help='waste detector only (no COCO YOLO11n)')
     ap.add_argument('--host', default='0.0.0.0')
     ap.add_argument('--port', type=int, default=8080)
