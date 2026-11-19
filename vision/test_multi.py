@@ -25,7 +25,7 @@ class FakeClassifier:
 class MultiTests(unittest.TestCase):
     def setUp(self):
         self.d = FakeDetector(); self.c = FakeClassifier()
-        self.m = MultiVision(detector=self.d, classifier=self.c, confirm_frames=8, confirm_conf=.70, centre_fallback=True)
+        self.m = MultiVision(detector=self.d, classifier=self.c, confirm_frames=8, confirm_conf=.70, centre_fallback=True, hold_frames=0, smooth=0)
         self.rgb = np.zeros((100, 200, 3), np.uint8)
 
     def test_confirmation_counts_and_reset(self):
@@ -37,7 +37,7 @@ class MultiTests(unittest.TestCase):
             reply = C.grouped_reply(a, self.c.meta['stream_map'], lang)
             self.assertIn('2', reply)
             self.assertEqual(reply.count(C.BIN_SHORT['recyclable'][lang]), 1)
-        self.c.p = [.69, .2, .11]
+        self.c.p = [.45, .3, .25]   # below the steady-rule floor (confirm_conf - 0.2) -> reset
         self.assertEqual(signature(self.m.process(self.rgb)), ())
         self.c.p = [.9, .05, .05]
         self.assertFalse(any(o['confirmed'] for o in self.m.process(self.rgb)))

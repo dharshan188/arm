@@ -30,16 +30,26 @@ def square_crop(rgb, box, pad=.10):
 
 class MultiVision:
     def __init__(self, detector_pte=DEFAULT_PTE, folder=HERE / 'v2_best', *, detector=None,
-                 classifier=None, confirm_frames=6, confirm_conf=.65, exclude=None, centre_fallback=False):  # 6@0.65: ~2x coverage, 0 wrong/hallucinated on test video
+                 classifier=None, confirm_frames=6, confirm_conf=.75, exclude=None, centre_fallback=False,
+                 hold_frames=2, smooth=.5, extra_detectors='coco', confirm_floor=.15):  # 6@0.65: ~2x coverage, 0 wrong/hallucinated on test video
         self.detector = detector if detector is not None else Detector(detector_pte, exclude=exclude)
         self.classifier = classifier if classifier is not None else SortiVision(str(Path(folder).expanduser()))
         self.meta = self.classifier.meta
         self.confirm_frames, self.confirm_conf = confirm_frames, confirm_conf
         self.centre_fallback = centre_fallback   # False: scan the whole frame, boxes only where waste is detected
+        self.hold_frames = hold_frames   # a confirmed item stays shown through this many missed/unsure frames
+        self.smooth = smooth             # box EMA weight of the previous position (0 = no smoothing)
+        self.floor = confirm_floor        # no frame in a confirming streak may drop below confirm_conf - floor
+        if extra_detectors == 'coco':      # hybrid default: COCO YOLO11n (mouse, laptop, phone, bottle, cup...) alongside the waste YOLO
+            coco = HERE / 'det/yolo11n_320.pte'
+            extra_detectors = [Detector(coco, threshold=.15, exclude=[0])] if coco.exists() and detector is None else []
+        self.extra = list(extra_detectors or [])   # hybrid: e.g. COCO yolo11n (mouse, laptop, phone, bottle...) + waste YOLO
         self.tracks = {}; self.next_id = 1
 
     def process(self, rgb):
-        boxes = self.detector.detect(rgb)
+        boxes = list(self.detector.detect(rgb))
+        for d in self.extra:
+            boxes += list(d.detect(rgb))
         candidates = []
         for box in boxes:
             p = self.classifier.probs(square_crop(rgb, box, pad=.10))
@@ -56,6 +66,21 @@ class MultiVision:
             p = self.classifier.probs(square_crop(rgb, box, pad=0))
             idx = int(p.argmax())
             candidates = [(box, self.classifier.classes[idx], float(p[idx]))]
+        # duplicate removal: one box per physical item (overlapping or mostly-contained boxes -> keep the surer one)
+        candidates.sort(key=lambda c: c[2] * max(float(c[0][4]), .05), reverse=True)
+        kept = []
+        for c in candidates:
+            b = np.array(c[0][:4], float); area = max((b[2] - b[0]) * (b[3] - b[1]), 1.)
+            dup = False
+            for k in kept:
+                q = np.array(k[0][:4], float)
+                ix = max(0., min(b[2], q[2]) - max(b[0], q[0])) * max(0., min(b[3], q[3]) - max(b[1], q[1]))
+                qa = max((q[2] - q[0]) * (q[3] - q[1]), 1.)
+                if ix / (area + qa - ix) > .45 or ix / min(area, qa) > .7:
+                    dup = True; break
+            if not dup:
+                kept.append(c)
+        candidates = kept
         boxes = [c[0] for c in candidates]
         # Greedy global IoU matching, each track/detection used at most once.
         pairs = sorted(((float(iou(np.array(b[:4]), [t['box']])[0]), j, tid)
@@ -65,33 +90,49 @@ class MultiVision:
         for overlap, j, tid in pairs:
             if overlap >= .3 and j not in matched and tid not in used:
                 matched[j] = tid; used.add(tid)
-        for tid in list(self.tracks):
-            if tid not in used:
-                t = self.tracks[tid]; t['missed'] += 1
-                t.update(streak=0, confirmed=False)
-                if t['missed'] > 3:
-                    del self.tracks[tid]
         objects = []
+        for tid in list(self.tracks):          # unmatched tracks: confirmed ones are held (no flicker), others dropped
+            if tid in used:
+                continue
+            t = self.tracks[tid]; t['missed'] += 1; t['streak'] = 0
+            if t.get('confirmed_cls') and t['missed'] <= self.hold_frames:
+                objects.append(self._out(tid, t, fallback))
+            elif t['missed'] > (self.hold_frames if t.get('confirmed_cls') else 3):
+                del self.tracks[tid]
+            else:
+                t['confirmed'] = False
         for j, (box, cls, conf) in enumerate(candidates):
             tid = matched.get(j)
             if tid is None:
                 tid = self.next_id; self.next_id += 1
-                self.tracks[tid] = dict(cls=None, streak=0, fallback=fallback)
+                self.tracks[tid] = dict(cls=None, streak=0, fallback=fallback, confirmed_cls=None, conf=0., box=list(map(float, box[:4])))
             t = self.tracks[tid]
-            streak = t['streak'] + 1 if t['cls'] == cls else 1
-            if conf < self.confirm_conf or cls == 'background':
-                streak = 0
-            t.update(cls=cls, box=list(map(float, box[:4])), streak=streak, missed=0,
-                     confirmed=streak >= self.confirm_frames)
-            if cls == 'background':
+            # steady rule: same class for N frames, mean conf >= confirm_conf, no frame below confirm_conf - 0.2
+            same = t['cls'] == cls and t['streak'] > 0
+            streak = t['streak'] + 1 if same else 1
+            t['csum'] = (t.get('csum', 0.) if same else 0.) + conf
+            if conf < self.confirm_conf - self.floor or cls == 'background':
+                streak = 0; t['csum'] = 0.
+            a = self.smooth if t.get('confirmed_cls') or t['streak'] else 0.
+            nb = [a * o + (1 - a) * n for o, n in zip(t['box'], map(float, box[:4]))]
+            t.update(cls=cls, box=nb, streak=streak, missed=0, score=float(box[4]))
+            if streak >= self.confirm_frames and t['csum'] / streak >= self.confirm_conf:   # (re)confirm needs a full steady streak
+                t['confirmed_cls'] = cls
+            if t.get('confirmed_cls') == cls:
+                t['conf'] = .7 * t['conf'] + .3 * conf if t['conf'] else conf
+            t['confirmed'] = bool(t.get('confirmed_cls')) and (self.hold_frames > 0 or streak >= self.confirm_frames)
+            if not t['confirmed'] and cls == 'background':
                 continue
-            stream = self.meta['stream_map'].get(cls)
-            objects.append(dict(id=tid, box=t['box'], cls=cls, conf=round(conf, 4),
-                                score=round(float(box[4]), 4), stream=stream,
-                                color=C.BINS.get(stream, {}).get('color', 'grey'),
-                                confirmed=t['confirmed'], streak=streak, need=self.confirm_frames,
-                                fallback=fallback))
+            objects.append(self._out(tid, t, fallback, cls, conf))
         return objects
+
+    def _out(self, tid, t, fallback, cls=None, conf=None):
+        shown = t['confirmed_cls'] if t.get('confirmed') and t.get('confirmed_cls') else (cls or t['cls'])
+        stream = self.meta['stream_map'].get(shown)
+        return dict(id=tid, box=t['box'], cls=shown, conf=round(float(t['conf'] if t.get('confirmed') else (conf or 0)), 4),
+                    score=round(float(t.get('score', 0)), 4), stream=stream,
+                    color=C.BINS.get(stream, {}).get('color', 'grey'),
+                    confirmed=bool(t.get('confirmed')), streak=t['streak'], need=self.confirm_frames, fallback=fallback)
 
 
 def signature(objects):
@@ -113,24 +154,24 @@ def draw_objects(frame, objects, ms=0., fps=0.):
             y0 = y; y = y + tht + 10
         cv2.rectangle(frame, (x, y0), (x + tw + 10, y), bg, -1)
         cv2.putText(frame, text, (x + 5, y - 6), font, scale, (255, 255, 255), th, cv2.LINE_AA)
-    shown = 0
-    for o in objects:
+    shown = 0; tags = []
+    for o in objects:                                   # pass 1: boxes
+        if not o['confirmed']:
+            continue
         x0, y0, x1, y1 = map(int, o['box'])
         color = colors.get(o.get('color'), (170, 170, 170))
-        name = o['cls'].replace('_waste', '').replace('_', ' ').capitalize()
+        name = {'e_waste': 'E-waste', 'battery_waste': 'Battery', 'light_bulbs': 'Light bulb', 'general_waste': 'General waste'}.get(
+            o['cls'], o['cls'].replace('_waste', '').replace('_', ' ').capitalize())
         dest = C.BIN_SHORT.get(o['stream'], {}).get('en', 'check')
-        if o['confirmed']:
-            shown += 1
-            cv2.rectangle(frame, (x0, y0), (x1, y1), color, 2, cv2.LINE_AA)
-            L = max(12, min(x1 - x0, y1 - y0) // 5)        # corner accents
-            for (cx, cy, dx, dy) in ((x0, y0, 1, 1), (x1, y0, -1, 1), (x0, y1, 1, -1), (x1, y1, -1, -1)):
-                cv2.line(frame, (cx, cy), (cx + dx * L, cy), color, 5, cv2.LINE_AA)
-                cv2.line(frame, (cx, cy), (cx, cy + dy * L), color, 5, cv2.LINE_AA)
-            tag(f"{name} - {dest}  {o['conf']:.0%}", x0, y0, color, .6, 2)
-        else:
-            ov = frame.copy(); cv2.rectangle(ov, (x0, y0), (x1, y1), color, 1, cv2.LINE_AA)
-            frame[:] = cv2.addWeighted(ov, .6, frame, .4, 0)
-            tag(f"checking {o['streak']}/{o['need']}", x0, y0, (80, 80, 80), .45, 1)
+        shown += 1
+        cv2.rectangle(frame, (x0, y0), (x1, y1), color, 2, cv2.LINE_AA)
+        L = max(12, min(x1 - x0, y1 - y0) // 5)        # corner accents
+        for (cx, cy, dx, dy) in ((x0, y0, 1, 1), (x1, y0, -1, 1), (x0, y1, 1, -1), (x1, y1, -1, -1)):
+            cv2.line(frame, (cx, cy), (cx + dx * L, cy), color, 5, cv2.LINE_AA)
+            cv2.line(frame, (cx, cy), (cx, cy + dy * L), color, 5, cv2.LINE_AA)
+        tags.append((f"{name} - {dest}  {o['conf']:.0%}", x0, y0, color))
+    for text, x, y, color in tags:                      # pass 2: labels on top of every box
+        tag(text, x, y, color, .6, 2)
     head = f"{shown} item{'s' if shown != 1 else ''}" if shown else "show waste to the camera"
     tag(head, 10, 34, (40, 40, 40), .65, 2)
     cv2.putText(frame, f'{fps:.1f} FPS', (w - 95, h - 12), font, .5, (120, 230, 120), 1, cv2.LINE_AA)

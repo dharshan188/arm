@@ -100,7 +100,8 @@ def main():
     ap.add_argument('--height', type=int, default=720)
     ap.add_argument('--confirm-frames', type=int, default=6)
     ap.add_argument('--centre-fallback', action='store_true', help='classify the centre square when no box is detected')
-    ap.add_argument('--confirm-conf', type=float, default=0.65)
+    ap.add_argument('--confirm-conf', type=float, default=0.75)
+    ap.add_argument('--no-hybrid', action='store_true', help='waste detector only (no COCO YOLO11n)')
     ap.add_argument('--host', default='0.0.0.0')
     ap.add_argument('--port', type=int, default=8080)
     ap.add_argument('--print-every', type=int, default=100)
@@ -112,7 +113,8 @@ def main():
     torch.set_num_threads(4)
     exclude = None if a.detector_exclude is None else [int(c) for c in a.detector_exclude.split(',') if c]
     model = MultiVision(a.detector_pte, a.model_dir, confirm_frames=a.confirm_frames,
-                        confirm_conf=a.confirm_conf, exclude=exclude, centre_fallback=a.centre_fallback)
+                        confirm_conf=a.confirm_conf, exclude=exclude, centre_fallback=a.centre_fallback,
+                        extra_detectors=[] if a.no_hybrid else 'coco')
     if a.benchmark:
         camera_loop(a, model); return
     threading.Thread(target=camera_loop, args=(a, model), daemon=True).start()
