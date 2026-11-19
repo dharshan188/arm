@@ -1,0 +1,108 @@
+/* Sorti v3 theme: "Industrial Vision Dark Mode" (from Sorti_Final_Frontend/DESIGN.md), fully offline.
+   Layered on top of style.css: same markup and IDs, so app.js and the backend contract are unchanged. */
+:root {
+  --v3-bg: #001428; --v3-surf: #0b2135; --v3-surf-low: #061d31; --v3-surf-high: #172b40; --v3-surf-top: #22364c;
+  --v3-line: #3f4852; --v3-text: #F0F5FF; --v3-sub: #8FA3BD; --v3-blue: #00A6FF; --v3-teal: #00D4B8; --v3-violet: #a090ff;
+  --v3-red: #ff6b6b; --v3-green: #3ddc84; --v3-radius: 14px;
+  --v3-sans: "Inter", "Segoe UI", system-ui, -apple-system, "Noto Sans", "Noto Sans Tamil", "Noto Sans Devanagari", sans-serif;
+  --v3-mono: "JetBrains Mono", "DejaVu Sans Mono", ui-monospace, monospace;
+  color-scheme: dark;
+}
+html, body { background: var(--v3-bg) !important; color: var(--v3-text) !important; font-family: var(--v3-sans) !important; }
+body { background-image: radial-gradient(1200px 600px at 10% -10%, rgba(0,166,255,.10), transparent 60%),
+                          radial-gradient(900px 500px at 110% 10%, rgba(0,212,184,.08), transparent 60%) !important; }
+
+/* ---------- header ---------- */
+.topbar { background: rgba(0,20,40,.85) !important; border-bottom: 1px solid var(--v3-line) !important; backdrop-filter: blur(8px);
+          color: var(--v3-text) !important; box-shadow: none !important; }
+.brand { gap: 12px !important; }
+.brand-mark { background: linear-gradient(135deg, var(--v3-blue), var(--v3-teal)) !important; border-radius: 10px !important;
+              box-shadow: 0 0 18px rgba(0,166,255,.35); }
+.brand-name { font-weight: 700 !important; letter-spacing: -.02em; color: var(--v3-text) !important; position: relative; }
+.brand-name::after { content: "AI WASTE ASSISTANT"; display: block; font: 600 9.5px/1 var(--v3-mono); letter-spacing: .18em;
+                     color: var(--v3-sub); margin-top: 4px; }
+#status { font-family: var(--v3-mono) !important; font-size: 12px !important; color: var(--v3-sub) !important;
+          background: var(--v3-surf) !important; border: 1px solid var(--v3-line) !important; border-radius: 999px !important; }
+#status::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 8px;
+                  background: var(--v3-teal); box-shadow: 0 0 8px var(--v3-teal); vertical-align: middle; }
+#lang button, #restart-btn { background: var(--v3-surf) !important; color: var(--v3-sub) !important; border: 1px solid var(--v3-line) !important;
+                             border-radius: 10px !important; font-family: var(--v3-sans) !important; }
+#lang button[aria-pressed="true"] { background: rgba(0,166,255,.16) !important; color: var(--v3-text) !important; border-color: var(--v3-blue) !important; }
+
+/* ---------- panels ---------- */
+.camera, .panel { background: var(--v3-surf) !important; border: 1px solid var(--v3-line) !important; border-radius: var(--v3-radius) !important;
+                  box-shadow: 0 10px 30px rgba(0,0,0,.35) !important; color: var(--v3-text) !important; }
+#stage-title { color: var(--v3-text) !important; font-weight: 700 !important; letter-spacing: -.03em; }
+#stage-title span { color: var(--v3-blue) !important; }
+.eyebrow, .result-kicker, .type-label { font-family: var(--v3-mono) !important; color: var(--v3-sub) !important; letter-spacing: .14em !important; }
+
+/* camera viewport: crisp frame + status row (live boxes are drawn server-side on the MJPEG) */
+.stage { background: #000a14 !important; border: 1px solid var(--v3-line) !important; border-radius: 12px !important; overflow: hidden; }
+.stage-top { font-family: var(--v3-mono) !important; color: var(--v3-sub) !important; background: linear-gradient(#000a14cc, transparent) !important; }
+.camera-live { color: var(--v3-text) !important; }
+.camera-live::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 8px;
+                       background: var(--v3-teal); box-shadow: 0 0 6px var(--v3-teal); vertical-align: middle; }
+#scan-guide { display: none !important; }             /* whole-frame multi-object detection: no centre square */
+.live-chip { background: rgba(6,29,49,.85) !important; border: 1px solid rgba(0,166,255,.35) !important; color: var(--v3-text) !important;
+             font-family: var(--v3-mono) !important; border-radius: 999px !important; }
+#live-conf { --c: var(--v3-blue); }
+.steps .step { background: var(--v3-surf-low) !important; border: 1px solid var(--v3-line) !important; color: var(--v3-sub) !important; border-radius: 10px !important; }
+.steps .step b { background: rgba(0,166,255,.16) !important; color: var(--v3-blue) !important; }
+.t3-name, .t3-p { color: var(--v3-text) !important; font-family: var(--v3-mono) !important; }
+.t3-bar { background: var(--v3-surf-top) !important; }
+.t3-bar::after { background: linear-gradient(90deg, var(--v3-blue), var(--v3-teal)) !important; }
+
+/* buttons */
+.btn { background: var(--v3-surf-high) !important; color: var(--v3-text) !important; border: 1px solid var(--v3-line) !important; border-radius: 10px !important; }
+.btn:hover { border-color: var(--v3-blue) !important; }
+.btn-quiet { background: transparent !important; color: var(--v3-sub) !important; }
+.switch-text { color: var(--v3-sub) !important; }
+
+/* ---------- detection result card ---------- */
+#item-card { background: var(--v3-surf-low) !important; border: 1px solid var(--v3-line) !important; border-radius: 12px !important; color: var(--v3-text) !important; }
+#item-title { color: var(--v3-text) !important; font-weight: 700 !important; letter-spacing: -.02em; }
+#item-bin { display: inline-flex !important; align-items: center; gap: 8px; padding: 6px 12px !important; border-radius: 999px !important;
+            background: rgba(0,166,255,.14) !important; border: 1px solid rgba(0,166,255,.45) !important; color: var(--v3-text) !important; font-weight: 600 !important; }
+#item-card[data-bin="green"] #item-bin { background: rgba(61,220,132,.14) !important; border-color: rgba(61,220,132,.5) !important; }
+#item-card[data-bin="red"]   #item-bin { background: rgba(255,107,107,.14) !important; border-color: rgba(255,107,107,.5) !important; }
+#item-card[data-bin="grey"]  #item-bin { background: rgba(160,144,255,.14) !important; border-color: rgba(160,144,255,.5) !important; }
+#item-fact, #item-empty, #item-empty span { color: var(--v3-sub) !important; }
+#bins .bin { background: var(--v3-surf-low) !important; border: 1px solid var(--v3-line) !important; color: var(--v3-sub) !important; border-radius: 10px !important; }
+#bins .bin-name { color: var(--v3-text) !important; }
+
+/* ---------- assistant chat ---------- */
+.chat-wrap { background: var(--v3-surf-low) !important; border: 1px solid var(--v3-line) !important; border-radius: 12px !important; }
+.chat-heading::after { content: "Sorti Assistant · Active"; font: 600 11px var(--v3-mono); color: var(--v3-teal); margin-left: 10px; }
+.voice-bars i { background: var(--v3-teal) !important; }
+#chat-empty, #chat-empty p { color: var(--v3-sub) !important; }
+#chat li { color: var(--v3-text) !important; }
+#chat li[data-role="user"], #chat li.user, #chat li.you { background: rgba(0,166,255,.16) !important; border: 1px solid rgba(0,166,255,.35) !important;
+                                                           border-radius: 14px 14px 4px 14px !important; margin-left: auto !important; }
+#chat li[data-role="assistant"], #chat li.bot, #chat li.sorti { background: var(--v3-surf-high) !important; border: 1px solid var(--v3-line) !important;
+                                                                 border-radius: 14px 14px 14px 4px !important; }
+
+/* ask button + typed question */
+#ask-btn { background: linear-gradient(135deg, var(--v3-blue), #0077cc) !important; color: #fff !important; border: 0 !important;
+           border-radius: 14px !important; box-shadow: 0 8px 24px rgba(0,166,255,.28) !important; }
+#ask-btn[data-state="disabled"] { background: var(--v3-surf-high) !important; color: var(--v3-sub) !important; box-shadow: none !important; }
+#ask-btn[data-state="recording"] { background: linear-gradient(135deg, var(--v3-teal), #00a58e) !important; }
+#type-input { background: var(--v3-surf-low) !important; color: var(--v3-text) !important; border: 1px solid var(--v3-line) !important; border-radius: 10px !important; }
+#type-input::placeholder { color: var(--v3-sub) !important; }
+.type-send { background: var(--v3-blue) !important; color: #fff !important; border-radius: 10px !important; }
+
+/* footer diagnostics */
+.diag { background: rgba(0,15,32,.9) !important; border-top: 1px solid var(--v3-line) !important; color: var(--v3-sub) !important; font-family: var(--v3-mono) !important; }
+#models span { border: 1px solid var(--v3-line) !important; background: var(--v3-surf) !important; color: var(--v3-sub) !important; border-radius: 999px !important; }
+#models span[data-state="ready"], #models span[data-state="on"] { color: var(--v3-teal) !important; border-color: rgba(0,212,184,.5) !important; }
+
+/* welcome overlay + educational video */
+#welcome { background: radial-gradient(1000px 600px at 50% 0%, rgba(0,166,255,.18), transparent 60%), var(--v3-bg) !important; color: var(--v3-text) !important; }
+.welcome-dialog { background: var(--v3-surf) !important; border: 1px solid var(--v3-line) !important; border-radius: 18px !important; }
+.welcome-q { color: var(--v3-text) !important; }
+.welcome-choices button { background: var(--v3-surf-low) !important; color: var(--v3-text) !important; border: 1px solid var(--v3-line) !important; border-radius: 14px !important; }
+.welcome-choices button:hover { border-color: var(--v3-blue) !important; }
+.wc-sub, .wc-action, #welcome-status, #welcome-heard { color: var(--v3-sub) !important; }
+#welcome-talk { background: var(--v3-blue) !important; color: #fff !important; border-radius: 12px !important; }
+#edu-video { background: #000a14 !important; }
+#edu-title, #edu-credit { color: var(--v3-text) !important; }
+#toast { background: var(--v3-surf-high) !important; color: var(--v3-text) !important; border: 1px solid var(--v3-line) !important; }
