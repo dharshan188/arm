@@ -5,7 +5,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-DEFAULT_PTE = Path(__file__).resolve().parent / 'det/yolo11n_320.pte'
+DEFAULT_PTE = Path(__file__).resolve().parent / 'det/waste_320.pte'  # waste-trained YOLO11n; yolo11n_320/world_320 are options
 
 
 def iou(box, boxes):

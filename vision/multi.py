@@ -30,7 +30,7 @@ def square_crop(rgb, box, pad=.10):
 
 class MultiVision:
     def __init__(self, detector_pte=DEFAULT_PTE, folder=HERE / 'v2_best', *, detector=None,
-                 classifier=None, confirm_frames=8, confirm_conf=.70, exclude=None):
+                 classifier=None, confirm_frames=6, confirm_conf=.65, exclude=None):  # 6@0.65: ~2x coverage, 0 wrong/hallucinated on test video
         self.detector = detector if detector is not None else Detector(detector_pte, exclude=exclude)
         self.classifier = classifier if classifier is not None else SortiVision(str(Path(folder).expanduser()))
         self.meta = self.classifier.meta
