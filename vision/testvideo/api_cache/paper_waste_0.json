@@ -1,0 +1,1528 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 15,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "19959384": {
+        "pageid": 19959384,
+        "ns": 6,
+        "title": "File:2011 newspapers Tehran 6030393078.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/2011_newspapers_Tehran_6030393078.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 836,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/2011_newspapers_Tehran_6030393078.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 836
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/2011_newspapers_Tehran_6030393078.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2011_newspapers_Tehran_6030393078.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/19959384",
+            "sha1": "2d1dd3ff735c058088a09b91200182ff7ee2ddc4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-06-19 19:15:47",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2011 newspapers Tehran 6030393078",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with iPhone 4|Flickr images reviewed by trusted users|Files with coordinates missing SDC location of creation|Iran photographs taken on 2011-08-10|2010s newspapers of Iran|Files from Kai Hendry Flickr stream",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "35.683000",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "51.418166",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Iranian press in Tehran",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-08-10 17:48",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/hendry/6030393078/\">English riots in the Iranian press in Tehran #mongolrally</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/16105436@N00\">Kai Hendry</a> from Singapore, Malaysia",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "79929610": {
+        "pageid": 79929610,
+        "ns": 6,
+        "title": "File:A newspaper vending machine in Mississippi, USA.jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/A_newspaper_vending_machine_in_Mississippi%2C_USA.jpg/960px-A_newspaper_vending_machine_in_Mississippi%2C_USA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 912,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/A_newspaper_vending_machine_in_Mississippi%2C_USA.jpg/1280px-A_newspaper_vending_machine_in_Mississippi%2C_USA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/A_newspaper_vending_machine_in_Mississippi%2C_USA.jpg/960px-A_newspaper_vending_machine_in_Mississippi%2C_USA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 912,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/A_newspaper_vending_machine_in_Mississippi%2C_USA.jpg/1280px-A_newspaper_vending_machine_in_Mississippi%2C_USA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/A_newspaper_vending_machine_in_Mississippi%2C_USA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:A_newspaper_vending_machine_in_Mississippi,_USA.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/79929610",
+            "sha1": "8dd140df3e0928799574ee4266e12424b2a5f3f8",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-06-24 23:41:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "A newspaper vending machine in Mississippi, USA",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Newspapers of Mississippi (state)|Newspaper dispensers in the United States",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A newspaper vending machine in Mississippi, USA",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-06-24 18:34:22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Freekhou5\" title=\"User:Freekhou5\">Freekhou5</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "156913843": {
+        "pageid": 156913843,
+        "ns": 6,
+        "title": "File:Death to fascism (newspaper).jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Death_to_fascism_%28newspaper%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 920,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Death_to_fascism_%28newspaper%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 920
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Death_to_fascism_%28newspaper%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Death_to_fascism_(newspaper).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/156913843",
+            "sha1": "1fb1e9e69cce25c4d59f73010c0486849019d3be",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-12-20 01:55:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Death to fascism (newspaper)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Newspapers of Belarus in Russian|Author died more than 70 years ago public domain images|CC-PD-Mark|20th-century newspapers of Belarus|Newspapers of the Soviet Union, 1944",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f \u0433\u0430\u0437\u0435\u0442\u0430, \u044f\u043a\u0430\u044f \u0437\u2019\u044f\u045e\u043b\u044f\u043b\u0430\u0441\u044f \u043e\u0440\u0433\u0430\u043d\u0430\u043c \u041b\u044e\u0431\u0447\u0430\u043d\u0441\u043a\u0430\u0433\u0430 \u043f\u0430\u0434\u043f\u043e\u043b\u044c\u043d\u0430\u0433\u0430 \u0440\u0430\u0439\u043a\u0430\u043c\u0430 \u041a\u041f(\u0431)\u0411 \u0411\u0430\u0440\u0430\u043d\u0430\u0432\u0456\u0446\u043a\u0430\u0439 \u0432\u043e\u0431\u043b\u0430\u0441\u0446\u0456 \u045e \u0433\u0430\u0434\u044b \u0414\u0440\u0443\u0433\u043e\u0439 \u0441\u0443\u0441\u0432\u0435\u0442\u043d\u0430\u0439 \u0432\u0430\u0439\u043d\u044b.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1944-05-23",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://belarusenc.by/temy/belarusinsecwar/1147/\">https://belarusenc.by/temy/belarusinsecwar/1147/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "\u0421\u043c\u0435\u0440\u0442\u044c \u0444\u0430\u0448\u0438\u0437\u043c\u0443 (newspaper)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "142337": {
+        "pageid": 142337,
+        "ns": 6,
+        "title": "File:International newspaper, Rome May 2005.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/International_newspaper%2C_Rome_May_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/International_newspaper%2C_Rome_May_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/International_newspaper%2C_Rome_May_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:International_newspaper,_Rome_May_2005.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/142337",
+            "sha1": "6978989e3d6c785242aba0ac94a8bf499069f14b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2005-05-15 21:58:24",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "International newspaper, Rome May 2005",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon PowerShot Pro1|Printed media|Files with no machine-readable author|Files with no machine-readable source|Media missing infobox template|Attribution only license|Newspaper stands in Italy|Files in need of review (sources)|Files in need of review (sources)/Attribution",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Attribution",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "162968181": {
+        "pageid": 162968181,
+        "ns": 6,
+        "title": "File:Newspaper 20250330 120826.jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Newspaper_20250330_120826.jpg/960px-Newspaper_20250330_120826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 360,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Newspaper_20250330_120826.jpg/1280px-Newspaper_20250330_120826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Newspaper_20250330_120826.jpg/960px-Newspaper_20250330_120826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 360,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Newspaper_20250330_120826.jpg/1280px-Newspaper_20250330_120826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Newspaper_20250330_120826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Newspaper_20250330_120826.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/162968181",
+            "sha1": "98f1a85e2af378c39a04887578b0bacedca88a2e",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-03-30 06:54:42",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Newspaper 20250330 120826",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Newspaper recycling in Japan",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Bundles of old newspapers for recycling in Japan.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-03-30 12:08:26",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ka23_13\" title=\"User:Ka23 13\">Ka23 13</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "140842329": {
+        "pageid": 140842329,
+        "ns": 6,
+        "title": "File:Newspaper Vendor at keihan Senbayashi Station.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Newspaper_Vendor_at_keihan_Senbayashi_Station.jpg/960px-Newspaper_Vendor_at_keihan_Senbayashi_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Newspaper_Vendor_at_keihan_Senbayashi_Station.jpg/1280px-Newspaper_Vendor_at_keihan_Senbayashi_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Newspaper_Vendor_at_keihan_Senbayashi_Station.jpg/960px-Newspaper_Vendor_at_keihan_Senbayashi_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Newspaper_Vendor_at_keihan_Senbayashi_Station.jpg/1280px-Newspaper_Vendor_at_keihan_Senbayashi_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Newspaper_Vendor_at_keihan_Senbayashi_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Newspaper_Vendor_at_keihan_Senbayashi_Station.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/140842329",
+            "sha1": "204ecd8c77073fd58ec02ea4e0750f09e9ae44d2",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-11-15 15:19:24",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Newspaper Vendor at keihan Senbayashi Station",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Sembayashi Station|Self-published work|Newspapers in Japanese|Osaka photographs taken on 2023-11-09|Vending machines in Osaka|Newspaper vending machines in Japan|Sports newspapers of Japan|Evening newspapers of Japan",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Newspaper Vendor at keihan Senbayashi Station",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "9 November 2023, 22:44:59",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Mr.%E3%81%A1%E3%82%85%E3%82%89%E3%81%95%E3%82%93\" title=\"User:Mr.\u3061\u3085\u3089\u3055\u3093\">Mr.\u3061\u3085\u3089\u3055\u3093</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "99504604": {
+        "pageid": 99504604,
+        "ns": 6,
+        "title": "File:Newspaper bag.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Newspaper_bag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 747,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Newspaper_bag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 747
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Newspaper_bag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Newspaper_bag.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/99504604",
+            "sha1": "0772200550c0fc963a1cadbcd29d35e3e668c998",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-02-02 12:12:24",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Newspaper bag",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Newspaper delivery|Newspapers of Virginia|Flickr images reviewed by FlickreviewR 2",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A newspaper in a plastic bag lying on the driveway",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-04-01 16:00:33",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/66992990@N00/4818934445/\">https://www.flickr.com/photos/66992990@N00/4818934445/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Joanna Bourne",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "162401588": {
+        "pageid": 162401588,
+        "ns": 6,
+        "title": "File:Newspaper delivery.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Newspaper_delivery.jpg/960px-Newspaper_delivery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Newspaper_delivery.jpg/1280px-Newspaper_delivery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Newspaper_delivery.jpg/960px-Newspaper_delivery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Newspaper_delivery.jpg/1280px-Newspaper_delivery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Newspaper_delivery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Newspaper_delivery.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/162401588",
+            "sha1": "dc66e1d18d247396df2996090564590196d1a9c0",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-03-19 04:34:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Newspaper delivery",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Epoch Times|Newspaper delivery|Self-published work|Photo challenge winners|Metal gates in Victoria, Australia",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Rolled up newspaper delivered to a home in Redan, Victoria. It is wrapped in plastic, and has been placed in a fancy iron work gate.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-10-21 10:18:36",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Peterdownunder\" title=\"User:Peterdownunder\">Peterdownunder</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "84028284": {
+        "pageid": 84028284,
+        "ns": 6,
+        "title": "File:Old man reading newspaper early in the morning at Basantapur-IMG 6800.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Old_man_reading_newspaper_early_in_the_morning_at_Basantapur-IMG_6800.jpg/960px-Old_man_reading_newspaper_early_in_the_morning_at_Basantapur-IMG_6800.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Old_man_reading_newspaper_early_in_the_morning_at_Basantapur-IMG_6800.jpg/1280px-Old_man_reading_newspaper_early_in_the_morning_at_Basantapur-IMG_6800.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Old_man_reading_newspaper_early_in_the_morning_at_Basantapur-IMG_6800.jpg/960px-Old_man_reading_newspaper_early_in_the_morning_at_Basantapur-IMG_6800.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 960,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Old_man_reading_newspaper_early_in_the_morning_at_Basantapur-IMG_6800.jpg/1280px-Old_man_reading_newspaper_early_in_the_morning_at_Basantapur-IMG_6800.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Old_man_reading_newspaper_early_in_the_morning_at_Basantapur-IMG_6800.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Old_man_reading_newspaper_early_in_the_morning_at_Basantapur-IMG_6800.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/84028284",
+            "sha1": "f0cd257dc47bde0ab81591f700d63555ff83c798",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-11-16 14:18:41",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Old man reading newspaper early in the morning at Basantapur-IMG 6800",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Featured pictures of Nepal|Featured pictures by Bijay chaurasia|Photos by Bijay chaurasia|Featured pictures of people|Newspaper readers in Nepal|Old people of Nepal|November 2019 Nepal photographs|Portraits of old men|Basantapur Dabli|Photographs taken on 2019-11-15|Old men sitting|People on Durbar Square, Kathmandu|Old men with canes|Old men reading newspapers",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality|featured",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Old man reading news paper early in the morning at Basantapur",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-11-15 08:50:29",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi>Bijay Chaurasia</bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Bijay chaurasia",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "141339816": {
+        "pageid": 141339816,
+        "ns": 6,
+        "title": "File:Old newspaper ad.png",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Old_newspaper_ad.png/960px-Old_newspaper_ad.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 405,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Old_newspaper_ad.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Old_newspaper_ad.png/960px-Old_newspaper_ad.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 405,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Old_newspaper_ad.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Old_newspaper_ad.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Old_newspaper_ad.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/141339816",
+            "sha1": "d397a655a3b2f73696ddc0f4e0314370fa792118",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-11-24 15:58:45",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Old newspaper ad",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|1969 advertisements in the United States|Newspapers of the United States, 1969|Newspaper advertisements|DeVorss & Company",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Numerous other successful titles in this burgeoning field were also signed by DeVorss. Prominent among these: The Aquarian Gospel of Jesus the Christ; The Impersonal Life; and Quiet Talks with the Master.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1969-11-23",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "The Los Angeles Times",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Newspapers.com",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "49641287": {
+        "pageid": 49641287,
+        "ns": 6,
+        "title": "File:Reading, newspaper, porch, woman, portrait Fortepan 22074.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Reading%2C_newspaper%2C_porch%2C_woman%2C_portrait_Fortepan_22074.jpg/960px-Reading%2C_newspaper%2C_porch%2C_woman%2C_portrait_Fortepan_22074.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 755,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Reading%2C_newspaper%2C_porch%2C_woman%2C_portrait_Fortepan_22074.jpg/1280px-Reading%2C_newspaper%2C_porch%2C_woman%2C_portrait_Fortepan_22074.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Reading%2C_newspaper%2C_porch%2C_woman%2C_portrait_Fortepan_22074.jpg/960px-Reading%2C_newspaper%2C_porch%2C_woman%2C_portrait_Fortepan_22074.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 755,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Reading%2C_newspaper%2C_porch%2C_woman%2C_portrait_Fortepan_22074.jpg/1280px-Reading%2C_newspaper%2C_porch%2C_woman%2C_portrait_Fortepan_22074.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Reading%2C_newspaper%2C_porch%2C_woman%2C_portrait_Fortepan_22074.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Reading,_newspaper,_porch,_woman,_portrait_Fortepan_22074.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/49641287",
+            "sha1": "8eaf0a3bad38196bd668d96c0a9e233f04823745",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-06-22 10:21:22",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Reading, newspaper, porch, woman, portrait Fortepan 22074",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from Fortepan|Images uploaded by F\u00e6|Black and white portrait photographs of women|1926 black and white portrait photographs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<ul><li>Tags: reading, newspaper, porch, woman, portrait</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1926",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.fortepan.hu/_photo/download/fortepan_30679.jpg\">http://www.fortepan.hu/_photo/download/fortepan_30679.jpg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "FOTO:Fortepan \u2014 <b>ID 22074</b>: <span typeof=\"mw:File\"><a href=\"https://fortepan.hu/\" rel=\"nofollow\"><img alt=\"Home page\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/60px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span typeof=\"mw:File\"><a href=\"http://www.fortepan.hu/_photo/download/fortepan_30679.jpg\" rel=\"nofollow\"><img alt=\"Picture\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Inkscape.svg/40px-Inkscape.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Inkscape.svg/60px-Inkscape.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"60\" data-file-height=\"60\"></a></span><span typeof=\"mw:File\"><a href=\"http://www.fortepan.hu/?lang=en&amp;img=22074\" rel=\"nofollow\"><img alt=\"Information page\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/60px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span><br>Adom\u00e1nyoz\u00f3/Donor: Storymap.hu.",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "FOTO:FORTEPAN / Storymap.hu",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "177848424": {
+        "pageid": 177848424,
+        "ns": 6,
+        "title": "File:Rus newspaper 1905.jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Rus_newspaper_1905.jpg/960px-Rus_newspaper_1905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 1001,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Rus_newspaper_1905.jpg/1280px-Rus_newspaper_1905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Rus_newspaper_1905.jpg/960px-Rus_newspaper_1905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1001,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Rus_newspaper_1905.jpg/1280px-Rus_newspaper_1905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Rus_newspaper_1905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rus_newspaper_1905.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/177848424",
+            "sha1": "41cffddfddb63d562f436e56cbe034b27ecad9be",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-11-04 23:08:50",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Rus newspaper 1905",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD-Russia-expired|Template Unknown (author)|Newspapers of Russia, 1905",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Front page of the \"Rus\" newspaper, #48, September 12 (25), 1905",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1905-09-12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "\u00ab\u0420\u0443\u0441\u044c\u00bb, 1905, \u2116 48 (12 (25) \u0441\u0435\u043d\u0442.) / \u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430\u044f \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u0430\u044f \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0430 <a rel=\"nofollow\" class=\"external free\" href=\"https://rusneb.ru/catalog/000200_000018_RU_NLR_BIBL_A_012177233/\">https://rusneb.ru/catalog/000200_000018_RU_NLR_BIBL_A_012177233/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "108735919": {
+        "pageid": 108735919,
+        "ns": 6,
+        "title": "File:The Saturday Paper Front Page Issue 337.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/The_Saturday_Paper_Front_Page_Issue_337.jpg/960px-The_Saturday_Paper_Front_Page_Issue_337.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 896,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/9/9f/The_Saturday_Paper_Front_Page_Issue_337.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/The_Saturday_Paper_Front_Page_Issue_337.jpg/960px-The_Saturday_Paper_Front_Page_Issue_337.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 896,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/9f/The_Saturday_Paper_Front_Page_Issue_337.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/The_Saturday_Paper_Front_Page_Issue_337.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Saturday_Paper_Front_Page_Issue_337.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/108735919",
+            "sha1": "11901b8e92f807402c7d99e5fc2b1fe2f25c11fe",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-08-17 05:48:14",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Saturday Paper Front Page Issue 337",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Items with VRTS permission confirmed|2020s newspapers of Australia",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The front page of Issue #337 of The Saturday Paper, published by Schwartz Media. First published February 20, 2021.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-02-20",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.thesaturdaypaper.com.au/edition/2021/02/20\">https://www.thesaturdaypaper.com.au/edition/2021/02/20</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "The Saturday Paper / Schwartz Media",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<p><span class=\"layouttemplateargs\" style=\"display:none;speak:none;\" title=\"template=PermissionTicket 1%3Dhttps%3A%2F%2Fticket.wikimedia.org%2Fotrs%2Findex.pl%3FAction%3DAgentTicketZoom%26TicketNumber%3D2021081610004528 2%3D2021081610004528\">\u00a0</span>\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1254222110\">.mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0.9em;padding-inline-end:0;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0;padding-inline-end:0.9em;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important}</style><table class=\"plainlinks messagebox mbox-notice layouttemplate\" role=\"presentation\" style=\"margin:0.3em 0;width:100%;\"><tbody><tr><td class=\"mbox-image\"><span typeof=\"mw:File\"><span title=\"VRT Wikimedia\"><img alt=\"VRT Wikimedia\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Permission_logo_2021.svg/120px-Permission_logo_2021.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"75\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Permission_logo_2021.svg/250px-Permission_logo_2021.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"935\" data-file-height=\"600\"></span></span></td><td class=\"mbox-text\">This work is <a href=\"https://freedomdefined.org/Definition\" class=\"extiw\" title=\"freedomdefined:Definition\">free</a> and may be used by anyone for any purpose. If you wish to <b><a href=\"//commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia\" title=\"Commons:Reusing content outside Wikimedia\">use this content</a></b>, you do not need to request permission as long as you follow any licensing requirements mentioned on this page.\n<p>The Wikimedia Foundation has received an e-mail confirming that the copyright holder has approved publication under the terms mentioned on this page. This correspondence has been <strong style=\"color: var(--color-content-added, darkgreen);\">reviewed</strong> by a <a href=\"//commons.wikimedia.org/wiki/Template:PermissionTicket/Users\" title=\"Template:PermissionTicket/Users\">Volunteer Response Team (VRT) member</a> and stored in our <a href=\"//commons.wikimedia.org/wiki/Commons:Volunteer_Response_Team\" title=\"Commons:Volunteer Response Team\">permission archive</a>. The correspondence is available to trusted volunteers as <b><a href=\"https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&amp;TicketNumber=2021081610004528\" class=\"extiw\" title=\"ticket:2021081610004528\">ticket #2021081610004528</a></b>.\n</p><p><small>If you have questions about the archived correspondence, please use the <a href=\"//commons.wikimedia.org/wiki/Commons:Volunteer_Response_Team/Noticeboard\" title=\"Commons:Volunteer Response Team/Noticeboard\">VRT noticeboard</a>.</small>\n<small>Ticket link: <a class=\"external free\" href=\"https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&amp;TicketNumber=2021081610004528\">https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&amp;TicketNumber=2021081610004528</a></small>\n<br><small>Find other files from the same ticket:</small> <span typeof=\"mw:File\"><a href=\"https://wcqs-beta.wmflabs.org/#%23defaultView%3AImageGrid%09%0ASELECT%20%3Fimage%20%20%20%7B%0A%20%20%3Ffile%20wdt%3AP6305%20%222021081610004528%22%20.%0A%20%20%3Ffile%20schema%3Aurl%20%3Fimage.%0A%7D%20%0A\" title=\"SDC query (SPARQL)\" rel=\"nofollow\"><img alt=\"SDC query (SPARQL)\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wikimedia_Commons_Query_Service_Logo.svg/20px-Wikimedia_Commons_Query_Service_Logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"15\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wikimedia_Commons_Query_Service_Logo.svg/40px-Wikimedia_Commons_Query_Service_Logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"688\"></a></span>\n</p>\n<span id=\"field-otrs\" title=\"https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&amp;TicketNumber=2021081610004528\"></span></td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "123060313": {
+        "pageid": 123060313,
+        "ns": 6,
+        "title": "File:The first newspaper \"Erkin-Too\".jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/The_first_newspaper_%22Erkin-Too%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 883,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/The_first_newspaper_%22Erkin-Too%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 883
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/The_first_newspaper_%22Erkin-Too%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_first_newspaper_%22Erkin-Too%22.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/123060313",
+            "sha1": "0946f493d12631af579cad840bc17d0da37833a7",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-09-16 17:14:46",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The first newspaper \"Erkin-Too\"",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Transliteration|Kyrgyz language|1926 in Kyrgyzstan|PD Old|Newspapers of Kyrgyzstan|CC-PD-Mark|Newspapers of the Soviet Union, 1926|PD-old missing SDC copyright status|Abdukadyr Urazbekov in the newspaper",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The first kyrgyz newspaper \"Erkin-Too\"",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1926",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://kg.akipress.org/news:629953\">https://kg.akipress.org/news:629953</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "\"Erkin-Too\" newspaper",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "24911620": {
+        "pageid": 24911620,
+        "ns": 6,
+        "title": "File:Winston the paper retriever.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Winston_the_paper_retriever.jpg/960px-Winston_the_paper_retriever.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Winston_the_paper_retriever.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Winston_the_paper_retriever.jpg/960px-Winston_the_paper_retriever.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Winston_the_paper_retriever.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Winston_the_paper_retriever.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Winston_the_paper_retriever.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/24911620",
+            "sha1": "12607f8a1b47031eae1542d6a3bcd2b2f35addc4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-02-28 16:31:17",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Winston the paper retriever",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Stereotypes|Tulsa World|Clich\u00e9s|Dogs fetching|Flickr images reviewed by FlickreviewR|United States photographs taken on 2004-06-30|Dogs on grass|Blue merle tricolour dogs|Dogs performing tricks|Australian Shepherd heads|Newspaper nameplates of the United States|Particolor dog eyes|Dogs and newspapers",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Winston (Copper Oaks Blue Magic, CD) the <a href=\"//commons.wikimedia.org/wiki/Category:Blue_merle_dogs\" title=\"Category:Blue merle dogs\">blue merle</a> <a href=\"https://en.wikipedia.org/wiki/Australian_Shepherd\" class=\"extiw\" title=\"en:Australian Shepherd\">Australian Shepherd</a>. He retrieved the <a href=\"https://en.wikipedia.org/wiki/Tulsa_World\" class=\"extiw\" title=\"en:Tulsa World\">Tulsa World</a> each morning.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2004-06-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/australianshepherds/490496049\">https://www.flickr.com/photos/australianshepherds/490496049</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/australianshepherds\">cartese</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,2079 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 20,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "60502463": {
+        "pageid": 60502463,
+        "ns": 6,
+        "title": "File:-Japanese Man Posing with Baskets, Brooms and Feather Dusters- MET DP155582.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/-Japanese_Man_Posing_with_Baskets%2C_Brooms_and_Feather_Dusters-_MET_DP155582.jpg/960px--Japanese_Man_Posing_with_Baskets%2C_Brooms_and_Feather_Dusters-_MET_DP155582.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 511,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/-Japanese_Man_Posing_with_Baskets%2C_Brooms_and_Feather_Dusters-_MET_DP155582.jpg/1280px--Japanese_Man_Posing_with_Baskets%2C_Brooms_and_Feather_Dusters-_MET_DP155582.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/-Japanese_Man_Posing_with_Baskets%2C_Brooms_and_Feather_Dusters-_MET_DP155582.jpg/960px--Japanese_Man_Posing_with_Baskets%2C_Brooms_and_Feather_Dusters-_MET_DP155582.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 511,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/-Japanese_Man_Posing_with_Baskets%2C_Brooms_and_Feather_Dusters-_MET_DP155582.jpg/1280px--Japanese_Man_Posing_with_Baskets%2C_Brooms_and_Feather_Dusters-_MET_DP155582.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/-Japanese_Man_Posing_with_Baskets%2C_Brooms_and_Feather_Dusters-_MET_DP155582.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:-Japanese_Man_Posing_with_Baskets,_Brooms_and_Feather_Dusters-_MET_DP155582.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/60502463",
+            "sha1": "2213bc40863bdba2af0daab09cf18f410ee55654",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-06-29 16:48:54",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n[Japanese Man Posing with Baskets, Brooms and Feather Dusters]</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "19th-century people of Japan|CC-Zero|Feather dusters|Artworks without Wikidata item|1870s photographs of Japan|Artworks with known accession number|Images from Metropolitan Museum of Art|Hats of Japan|Template Unknown (author)|Baskets of Japan|GWToolset Batch Upload|Albumen prints in the Metropolitan Museum of Art|Brooms in Japan|People carrying baskets|Groups of baskets|Round baskets|19th-century baskets|Gilman Collection",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span></div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<dl><dt>Photograph; Photographs</dt></dl></div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1870s<div style=\"display: none;\">date QS:P571,+1870-00-00T00:00:00Z/8</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This file was donated to Wikimedia Commons as part of a project by the <a href=\"//commons.wikimedia.org/wiki/Commons:Met\" title=\"Commons:Met\">Metropolitan Museum of Art</a>. See the <a rel=\"nofollow\" class=\"external text\" href=\"https://metmuseum.org/about-the-met/policies-and-documents/image-resources\">Image and Data Resources Open Access Policy</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table style=\"width:100%; clear:both; text-align:center; margin:0.5em auto; background-color:var(--background-color-neutral-subtle, #f8f9fa); border: 2px solid var(--border-color-subtle, #c8ccd1); padding: 0; border-spacing: 8px; color:var(--color-base, #202122);\" dir=\"ltr\" class=\"layouttemplate licensetpl\" lang=\"en\">\n<tbody><tr>\n<td style=\"width:90px;\" rowspan=\"2\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"Creative Commons\"><img alt=\"Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/40px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/60px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span>\u00a0<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"CC-Zero\"><img alt=\"CC-Zero\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Cc-zero.svg/40px-Cc-zero.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Cc-zero.svg/60px-Cc-zero.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span>\n</td>\n<td>This file is made available under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"https://creativecommons.org/publicdomain/zero/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/zero/1.0/deed.en\">CC0 1.0 Universal Public Domain Dedication</a>.\n</td></tr>\n<tr style=\"text-align:left;\">\n<td>The person who associated a work with this deed has dedicated the work to the <a href=\"https://en.wikipedia.org/wiki/en:public_domain\" class=\"extiw\" title=\"w:en:public domain\">public domain</a> by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.\n<p><span class=\"licensetpl_link\" style=\"display:none;\">http://creativecommons.org/publicdomain/zero/1.0/deed.en</span><span class=\"licensetpl_short\" style=\"display:none;\">CC0</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Zero, Public Domain Dedication</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>\n</p>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "11462811": {
+        "pageid": 11462811,
+        "ns": 6,
+        "title": "File:Anamobaea orstedii (Split-Crown Feather Duster - red variation).jpg",
+        "index": 17,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Anamobaea_orstedii_%28Split-Crown_Feather_Duster_-_red_variation%29.jpg/960px-Anamobaea_orstedii_%28Split-Crown_Feather_Duster_-_red_variation%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 481,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Anamobaea_orstedii_%28Split-Crown_Feather_Duster_-_red_variation%29.jpg/1280px-Anamobaea_orstedii_%28Split-Crown_Feather_Duster_-_red_variation%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Anamobaea_orstedii_%28Split-Crown_Feather_Duster_-_red_variation%29.jpg/960px-Anamobaea_orstedii_%28Split-Crown_Feather_Duster_-_red_variation%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 481,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Anamobaea_orstedii_%28Split-Crown_Feather_Duster_-_red_variation%29.jpg/1280px-Anamobaea_orstedii_%28Split-Crown_Feather_Duster_-_red_variation%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Anamobaea_orstedii_%28Split-Crown_Feather_Duster_-_red_variation%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Anamobaea_orstedii_(Split-Crown_Feather_Duster_-_red_variation).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/11462811",
+            "sha1": "afd8b3bdf94b9104148717592445fd0901762174",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-09-12 19:29:24",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Anamobaea orstedii (Split-Crown Feather Duster - red variation)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Anamobaea orstedii|GFDL|Taken with Olympus E-330|CC-BY-SA-3.0,2.5,2.0,1.0|License migration redundant|Self-published work|Marine animals of Haiti|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "19.764794",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-72.319639",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Anamobaea orstedii (Split-Crown Feather Duster - red variation)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-09-12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Nhobgood\" title=\"User:Nhobgood\">Nhobgood</a> Nick Hobgood",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "11448866": {
+        "pageid": 11448866,
+        "ns": 6,
+        "title": "File:Bispira brunnea (Social Feather Duster Worm).jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Bispira_brunnea_%28Social_Feather_Duster_Worm%29.jpg/960px-Bispira_brunnea_%28Social_Feather_Duster_Worm%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 481,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Bispira_brunnea_%28Social_Feather_Duster_Worm%29.jpg/1280px-Bispira_brunnea_%28Social_Feather_Duster_Worm%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Bispira_brunnea_%28Social_Feather_Duster_Worm%29.jpg/960px-Bispira_brunnea_%28Social_Feather_Duster_Worm%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 481,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Bispira_brunnea_%28Social_Feather_Duster_Worm%29.jpg/1280px-Bispira_brunnea_%28Social_Feather_Duster_Worm%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Bispira_brunnea_%28Social_Feather_Duster_Worm%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bispira_brunnea_(Social_Feather_Duster_Worm).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/11448866",
+            "sha1": "66fc3864023623e24c09bbe6e0472af616a55a4f",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-09-11 17:00:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Bispira brunnea (Social Feather Duster Worm)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Bispira brunnea|Taken with Olympus E-330|Marine animals of Haiti|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "19.791256",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-72.284192",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Bispira brunnea (Social Feather Duster Worm)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-06-03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Nhobgood\" title=\"User:Nhobgood\">Nhobgood</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Nhobgood\" title=\"User talk:Nhobgood\"><span class=\"signature-talk\">talk</span></a>) Nick Hobgood",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "39952998": {
+        "pageid": 39952998,
+        "ns": 6,
+        "title": "File:Bispira brunnea (social feather duster worms) (San Salvador Island, Bahamas) 2 (15523990783).jpg",
+        "index": 19,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Bispira_brunnea_%28social_feather_duster_worms%29_%28San_Salvador_Island%2C_Bahamas%29_2_%2815523990783%29.jpg/960px-Bispira_brunnea_%28social_feather_duster_worms%29_%28San_Salvador_Island%2C_Bahamas%29_2_%2815523990783%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 648,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Bispira_brunnea_%28social_feather_duster_worms%29_%28San_Salvador_Island%2C_Bahamas%29_2_%2815523990783%29.jpg/1280px-Bispira_brunnea_%28social_feather_duster_worms%29_%28San_Salvador_Island%2C_Bahamas%29_2_%2815523990783%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Bispira_brunnea_%28social_feather_duster_worms%29_%28San_Salvador_Island%2C_Bahamas%29_2_%2815523990783%29.jpg/960px-Bispira_brunnea_%28social_feather_duster_worms%29_%28San_Salvador_Island%2C_Bahamas%29_2_%2815523990783%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 648,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Bispira_brunnea_%28social_feather_duster_worms%29_%28San_Salvador_Island%2C_Bahamas%29_2_%2815523990783%29.jpg/1280px-Bispira_brunnea_%28social_feather_duster_worms%29_%28San_Salvador_Island%2C_Bahamas%29_2_%2815523990783%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Bispira_brunnea_%28social_feather_duster_worms%29_%28San_Salvador_Island%2C_Bahamas%29_2_%2815523990783%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bispira_brunnea_(social_feather_duster_worms)_(San_Salvador_Island,_Bahamas)_2_(15523990783).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/39952998",
+            "sha1": "86205eced9dda509d73f249716d1b091937a46bf",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-05-03 21:17:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Bispira brunnea (social feather duster worms) (San Salvador Island, Bahamas) 2 (15523990783)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Bispira brunnea|Flickr images reviewed by FlickreviewR|Underwater photographs in the Bahamas|Files from James St. John Flickr stream|Marine animals of San Salvador Island",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Bispira brunnea (Treadwell, 1917) - social feather duster worms at a patch reef.\n</p><p>Social feather duster worms occur in clusters.  Their bodies occupy irregularly cylindrical, parchment-like tubes composed of organic material and fine-grained sediments.  Some feather duster worms have their tubes buried in the seafloor (infaunal).  Social feather duster worms have their tubes exposed (epifaunal).  The worms shown above have extended their crowns of feathery appendages, which extract dissolved oxygen and filter the water for particles of food (filter feeding/suspension feeding).  When disturbed, the worms quickly retract their feeding appendages.\n</p><p>Classification: Animalia, Annelida, Polychaeta, Sedentaria, Sabellidae\n</p>\nLocality: patch reef just west of Cut Cay, eastern Graham\u2019s Harbour, northeastern San Salvador Island, eastern Bahamas",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-06-22 10:48",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/jsjgeology/15523990783/\">Bispira brunnea (social feather duster worms) (San Salvador Island, Bahamas) 2</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/47445767@N05\">James St. John</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "7721812": {
+        "pageid": 7721812,
+        "ns": 6,
+        "title": "File:Duster.jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 479,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 479
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Duster.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/7721812",
+            "sha1": "1976be7757941bbd75117435ae6c6c414869a8e5",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2009-09-03 00:11:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Duster",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Feather dusters|License migration redundant|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "23\" Ostrich Black Feather Duster",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2009-01-15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "featherdusterdepot.com",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Corey Anderson / featherdusterdepot.com",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "19217109": {
+        "pageid": 19217109,
+        "ns": 6,
+        "title": "File:Duster 2.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Duster_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 464,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Duster_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 464
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Duster_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Duster_2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/19217109",
+            "sha1": "9d7495bc1ad09f7f6c26b4aade6ce25693601ce6",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-04-25 19:46:32",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Duster 2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD-user|Feather dusters",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A duster",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "10 September 2006 (original upload date)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span> (original: <i>Created by The Duster</i>)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/User:The_Duster\" class=\"extiw\" title=\"en:User:The Duster\">User:The Duster</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "4475277": {
+        "pageid": 4475277,
+        "ns": 6,
+        "title": "File:Dusters and rubber gloves.jpg",
+        "index": 16,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Dusters_and_rubber_gloves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 858,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/Dusters_and_rubber_gloves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 858
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Dusters_and_rubber_gloves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dusters_and_rubber_gloves.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/4475277",
+            "sha1": "fab44e3d4b130aa2ee2701abe5582c9d8465df9a",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-07-31 08:54:42",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Dusters and rubber gloves",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cleaning equipment|Safety equipment|Feather dusters",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "One pair of rubber gloves and some dusters.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "0007",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Chuck_Marean\" title=\"User:Chuck Marean\">Chuck Marean</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0 us",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0 us",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0-us",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "14699339": {
+        "pageid": 14699339,
+        "ns": 6,
+        "title": "File:Endust duster in use.jpeg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Endust_duster_in_use.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Endust_duster_in_use.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Endust_duster_in_use.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Endust_duster_in_use.jpeg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/14699339",
+            "sha1": "a72e216e61668f448f1e0445b24fee5082da4a7c",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-03-25 21:13:54",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Endust duster in use",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with LG LX350|Feather dusters|Sara Lee (corporation)|License migration redundant|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The <b>Endust Duster</b> is a duster which comes with a handle and six disposable heads. Its head is fluffy and can be shaken. It is for multi-surface use, but not on hot or wet surfaces. It is used to remove dust. It is made by China and distributed by Sara Lee.<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup>\n<p>Sara Lee used to be called Consolidated Foods Corporation and has been buying other companies since at least 1939.<sup id=\"cite_ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup> The corporation sells in about 200 countries and makes a profit of about $13 billion a year.<sup id=\"cite_ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup> It has 12 people on its board of directors.<sup id=\"cite_ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> In 2010 it sold a little less than in 2009, its dividends were 44 cents per share, and it had 33,000 employees.<sup id=\"cite_ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> Some of Sara Lee's brands are centuries old, and many of its brands are leaders in their categories.<sup id=\"cite_ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup>\n</p><p>One meaning of \u201cduster\u201d is: a cloth, brush or other tool for removing dust.<sup id=\"cite_ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> An early usage of \u201cduster\u201d was \"dust brush for clothes\" in the 1570s.<sup id=\"cite_ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup> Dusters are used to swipe or forcefully sweep dust away.<sup id=\"cite_ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup>\n</p><p>Endust\u2019s web site gives a few cleaning tips: 1. the person should store cleaning supplies together, and put them back when done using them 2. the person should begin when he or she feels like it 3. when beginning to dust, the room the person does not want to dust should be dusted first to get it over with 4. setting a limit to how long to dust helps a person get in the mood to dust  5 listening to high-energy music makes the dusting more enjoyable and 6. finding tools that make dusting easier also helps end dust.<sup id=\"cite_ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup>\n</p><p>SLE stands for Sara Lee on the New York Stock Exchange.<sup id=\"cite_ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup>\n</p>\n<div class=\"mw-heading mw-heading2\"><h2 id=\"References\">References</h2></div>\n<ol class=\"references\">\n<li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">\u2191</a></span> <span class=\"reference-text\"><i>Endust Duster</i> Exton, PA: Sara Lee Household and Body Care USA</span>\n</li>\n<li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">\u2191</a></span> <span class=\"reference-text\">www.saralee.com/AboutSaraLee/OurTimeline.aspx March 25, 2011</span>\n</li>\n<li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-3\">\u2191</a></span> <span class=\"reference-text\">www.endust.com/about.aspx March 25, 2011</span>\n</li>\n<li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">\u2191</a></span> <span class=\"reference-text\">www.saralee.com/AboutSaraLee/BoardOfDirectors.aspx March 25, 2011</span>\n</li>\n<li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">\u2191</a></span> <span class=\"reference-text\">Sara Lee Annual Report via www.saralee.com/InvestorRelations.aspx March 25, 2011</span>\n</li>\n<li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">\u2191</a></span> <span class=\"reference-text\">www.saralee.com/AboutSaraLee.aspx March 25, 2011</span>\n</li>\n<li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">\u2191</a></span> <span class=\"reference-text\">Dictionary.com Unabridged Based on the Random House Dictionary, \u00a9 Random House, Inc. March 25, 2011</span>\n</li>\n<li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">\u2191</a></span> <span class=\"reference-text\">Online Etymology Dictionary, \u00a9 2010 Douglas Harper</span>\n</li>\n<li id=\"cite_note-9\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-9\">\u2191</a></span> <span class=\"reference-text\">www.endust.com/endust_products.aspx &amp; Encarta \u00ae World English Dictionary \u00a9 &amp; (P) 1998-2004 Microsoft Corporation.</span>\n</li>\n<li id=\"cite_note-10\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-10\">\u2191</a></span> <span class=\"reference-text\">www.endust.com/cleaning_tips_home.aspx</span>\n</li>\n<li id=\"cite_note-11\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-11\">\u2191</a></span> <span class=\"reference-text\">www.saralee.com/AboutSaraLee/OurTimeline.aspx</span>\n</li>\n</ol>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-03-25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Chuck_Marean\" title=\"User:Chuck Marean\">Chuck Marean</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "3544245": {
+        "pageid": 3544245,
+        "ns": 6,
+        "title": "File:Feather duster.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Feather_duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Feather_duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Feather_duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Feather_duster.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/3544245",
+            "sha1": "0a4d94091a4f72007f26779d96641fd7b18c1627",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-02-12 17:11:32",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Feather duster",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD-user|Feather dusters",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This is a feather duster, dusting a table.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "23 October 2006 (original upload date)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a></span> to Commons.</bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/User:Tami24\" class=\"extiw\" title=\"wikipedia:User:Tami24\">Tami24</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>.",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>This work has been released into the <b><a href=\"https://en.wikipedia.org/wiki/en:public_domain\" class=\"extiw\" title=\"w:en:public domain\">public domain</a></b> by its author, <b><a href=\"https://en.wikipedia.org/wiki/User:Tami24\" class=\"extiw\" title=\"wikipedia:User:Tami24\">Tami24</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a></b>. This applies worldwide.<br><small>In some countries this may not be legally possible; if so:</small><br><a href=\"https://en.wikipedia.org/wiki/en:User:Tami24\" class=\"extiw\" title=\"wikipedia:en:User:Tami24\">Tami24</a> grants anyone the right to use this work <b>for any purpose</b>, without any conditions, unless such conditions are required by law.<span class=\"licensetpl_short\" style=\"display:none;\">Public domain</span><span class=\"licensetpl_long\" style=\"display:none;\">Public domain</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "106757985": {
+        "pageid": 106757985,
+        "ns": 6,
+        "title": "File:Feather duster asv2021-03.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Feather_duster_asv2021-03.jpg/960px-Feather_duster_asv2021-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 320,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Feather_duster_asv2021-03.jpg/1280px-Feather_duster_asv2021-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Feather_duster_asv2021-03.jpg/960px-Feather_duster_asv2021-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 320,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Feather_duster_asv2021-03.jpg/1280px-Feather_duster_asv2021-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Feather_duster_asv2021-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Feather_duster_asv2021-03.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/106757985",
+            "sha1": "1d6aa83a5aa8d61e812269edef452c30cd78fd07",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-06-19 14:51:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Feather duster asv2021-03",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Germany photographs taken on 2021-03-30|FAL|Feather dusters|Location withheld|Photographs by A.Savin taken in 2021|Tools on gray background|Photographs by A.Savin/Germany|Taken with Sony ILCE-7RM3 and Sony FE 24-105mm F4 G OSS",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Feather duster",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-03-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<div style=\"background:#DDFFFF\">\n<p><b><a href=\"https://en.wikipedia.org/wiki/en:Free_Art_License\" class=\"extiw\" title=\"w:en:Free Art License\">Free Art License</a></b>. Correct attribution is \u00ab<i><b>A.Savin, Wikipedia</b></i>\u00bb. Free usage of the photo, no need to ask for approval.\n</p>\n<hr>\n<p><b><a href=\"https://en.wikipedia.org/wiki/ru:%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Free_Art\" class=\"extiw\" title=\"w:ru:\u041b\u0438\u0446\u0435\u043d\u0437\u0438\u044f Free Art\">\u041b\u0438\u0446\u0435\u043d\u0437\u0438\u044f \u0421\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0435 \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u043e</a></b>. \u041a\u043e\u0440\u0440\u0435\u043a\u0442\u043d\u043e\u0435 \u0443\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0430\u0432\u0442\u043e\u0440\u0441\u0442\u0432\u0430 \u2014 \u00ab<i><b>\u0410.\u0421\u0430\u0432\u0438\u043d, \u0412\u0438\u043a\u0438\u043f\u0435\u0434\u0438\u044f</b></i>\u00bb. \u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438 \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e, \u0441\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u0438\u0435 \u043d\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f.\n</p>\n<hr>\n<p><b><a href=\"https://en.wikipedia.org/wiki/de:Lizenz_Freie_Kunst\" class=\"extiw\" title=\"w:de:Lizenz Freie Kunst\">Lizenz Freie Kunst</a></b>. Korrekte Autorenkennzeichnung ist \u00ab<i><b>A.Savin, Wikipedia</b></i>\u00bb. Nutzung des Fotos kostenlos, Anfrage nicht erforderlich.\n</p>\n</div>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "FAL",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Free Art License",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://artlibre.org/licence/lal/en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "187219435": {
+        "pageid": 187219435,
+        "ns": 6,
+        "title": "File:Feather duster broom.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Feather_duster_broom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 527,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Feather_duster_broom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 527
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Feather_duster_broom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Feather_duster_broom.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/187219435",
+            "sha1": "0c704d21144443f30bfa6d7a072acf37e7911015",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-03-27 15:59:05",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Feather duster broom",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Self-published work|Feather (chicken) dusters|Brooms in Botswana|Images from Wiki Loves Folklore 2026|Images from Wiki Loves Folklore 2026 in Botswana|Wiki Loves Folklore 2026 from WikiVerse Botswana",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Wood log is taken and attached with Chicken feathers and tied .The broom is normally used for dusting surfaces.Just a simple way of making a broom with resources available.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-03-27",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bonolo_Nikita_Rankaga&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bonolo Nikita Rankaga (page does not exist)\">Bonolo Nikita Rankaga</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "1988666": {
+        "pageid": 1988666,
+        "ns": 6,
+        "title": "File:Feather duster worm.jpg",
+        "index": 20,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Feather_duster_worm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Feather_duster_worm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Feather_duster_worm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Feather_duster_worm.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/1988666",
+            "sha1": "7abd261f313d57ee2c1b2490ef4a4a791064d0fc",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2007-04-23 08:32:44",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Feather duster worm",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Sabella spallanzanii|PD-user",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Spirographe.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "15 March 2007 (original upload date)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//nl.wikipedia.org\" href=\"https://nl.wikipedia.org\">nl.wikipedia</a></span> to Commons.</bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<p><a href=\"https://en.wikipedia.org/wiki/nl:User:Albert_Kok\" class=\"extiw\" title=\"w:nl:User:Albert Kok\">Albert Kok</a> at <a href=\"https://en.wikipedia.org/wiki/nl:\" class=\"extiw\" title=\"w:nl:\">Dutch Wikipedia</a><br>\n</p>\n(<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">Albert Kok</bdi></i></span>)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "31284741": {
+        "pageid": 31284741,
+        "ns": 6,
+        "title": "File:Feather dusters.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Feather_dusters.jpg/960px-Feather_dusters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 1138,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Feather_dusters.jpg/1280px-Feather_dusters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Feather_dusters.jpg/960px-Feather_dusters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1138,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Feather_dusters.jpg/1280px-Feather_dusters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Feather_dusters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Feather_dusters.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/31284741",
+            "sha1": "a9ca590c9f3c9758df2ffdd2eae504f15ce275c0",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-02-22 04:22:38",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Feather dusters",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Sony Xperia Z|Feather dusters|Self-published work|Uploaded with Mobile/Android|Photographs taken on 2014-02-22|Feather (chicken) dusters",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "featuring real feathers",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "22 February 2014\u00a0(according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ProjectManhattan&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ProjectManhattan (page does not exist)\">ProjectManhattan</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "89860870": {
+        "pageid": 89860870,
+        "ns": 6,
+        "title": "File:MOD 3060 plumero de colores corto 2.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/MOD_3060_plumero_de_colores_corto_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 397,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/MOD_3060_plumero_de_colores_corto_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 397
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/MOD_3060_plumero_de_colores_corto_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MOD_3060_plumero_de_colores_corto_2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/89860870",
+            "sha1": "4d4d7a689b77b637937d1ea3e81ec6fd713984a9",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-05-04 20:52:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "MOD 3060 plumero de colores corto 2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Feathers|Feather dusters|Self-published work|11 objects",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "sirve parta limpiar",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-05-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Israel_101214&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Israel 101214 (page does not exist)\">Israel 101214</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "124451175": {
+        "pageid": 124451175,
+        "ns": 6,
+        "title": "File:NL21-167 microfiber-feather-dusters.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/NL21-167_microfiber-feather-dusters.jpg/960px-NL21-167_microfiber-feather-dusters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/NL21-167_microfiber-feather-dusters.jpg/1280px-NL21-167_microfiber-feather-dusters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/NL21-167_microfiber-feather-dusters.jpg/960px-NL21-167_microfiber-feather-dusters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/NL21-167_microfiber-feather-dusters.jpg/1280px-NL21-167_microfiber-feather-dusters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/NL21-167_microfiber-feather-dusters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:NL21-167_microfiber-feather-dusters.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/124451175",
+            "sha1": "a82d4fe2158a4d365b4d2fb1d68da1e361a3ab17",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-10-21 18:19:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "NL21-167 microfiber-feather-dusters",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Feather dusters|Self-published work|Collections of Het Nieuwe Instituut",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Three green microfiber feather dusters in the Design and Architecture Museum Het nieuwe Instituut, Rotterdam, Niederlande",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-09-29",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Lusi_Lindwurm\" title=\"User:Lusi Lindwurm\">Lusi Lindwurm</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "128944804": {
+        "pageid": 128944804,
+        "ns": 6,
+        "title": "File:Ostrich Feather Duster.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Ostrich_Feather_Duster.jpg/960px-Ostrich_Feather_Duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 962,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Ostrich_Feather_Duster.jpg/1280px-Ostrich_Feather_Duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Ostrich_Feather_Duster.jpg/960px-Ostrich_Feather_Duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 962,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Ostrich_Feather_Duster.jpg/1280px-Ostrich_Feather_Duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ostrich_Feather_Duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ostrich_Feather_Duster.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/128944804",
+            "sha1": "b54b6c07c2712ec45f741b02d941ee2c9c3531bc",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-02-22 04:03:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ostrich Feather Duster",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Feather dusters|Ostrich feathers",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Making a clean sweep - close up Feather Duster on a Wooden Stick Isolated on White Background with Copy Space on Top.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-11-21 02:03:39",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.freeimageslive.co.uk/free_stock_image/duster-jpg\">https://www.freeimageslive.co.uk/free_stock_image/duster-jpg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "freebie.photography",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "128944884": {
+        "pageid": 128944884,
+        "ns": 6,
+        "title": "File:Ostrich Feather Duster cropped.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Ostrich_Feather_Duster_cropped.jpg/960px-Ostrich_Feather_Duster_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 755,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Ostrich_Feather_Duster_cropped.jpg/1280px-Ostrich_Feather_Duster_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Ostrich_Feather_Duster_cropped.jpg/960px-Ostrich_Feather_Duster_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 755,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Ostrich_Feather_Duster_cropped.jpg/1280px-Ostrich_Feather_Duster_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Ostrich_Feather_Duster_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ostrich_Feather_Duster_cropped.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/128944884",
+            "sha1": "7358ad3906f312b94ae364325c71f0ef23be01f6",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-02-22 04:10:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ostrich Feather Duster cropped",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Feather dusters|Ostrich feathers",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Making a clean sweep - close up Feather Duster on a Wooden Stick Isolated on White Background with Copy Space on Top.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-02-22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "File:Ostrich_Feather_Duster.jpg",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "freebie.photography",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "128797533": {
+        "pageid": 128797533,
+        "ns": 6,
+        "title": "File:Ostrich Feather Dusters Street Vendors ... (Photo JC PLE) (52692691194).jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Ostrich_Feather_Dusters_Street_Vendors_..._%28Photo_JC_PLE%29_%2852692691194%29.jpg/960px-Ostrich_Feather_Dusters_Street_Vendors_..._%28Photo_JC_PLE%29_%2852692691194%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 313,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Ostrich_Feather_Dusters_Street_Vendors_..._%28Photo_JC_PLE%29_%2852692691194%29.jpg/1280px-Ostrich_Feather_Dusters_Street_Vendors_..._%28Photo_JC_PLE%29_%2852692691194%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Ostrich_Feather_Dusters_Street_Vendors_..._%28Photo_JC_PLE%29_%2852692691194%29.jpg/960px-Ostrich_Feather_Dusters_Street_Vendors_..._%28Photo_JC_PLE%29_%2852692691194%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 313,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Ostrich_Feather_Dusters_Street_Vendors_..._%28Photo_JC_PLE%29_%2852692691194%29.jpg/1280px-Ostrich_Feather_Dusters_Street_Vendors_..._%28Photo_JC_PLE%29_%2852692691194%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Ostrich_Feather_Dusters_Street_Vendors_..._%28Photo_JC_PLE%29_%2852692691194%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ostrich_Feather_Dusters_Street_Vendors_..._(Photo_JC_PLE)_(52692691194).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/128797533",
+            "sha1": "1e0f6e515c931424e42f43ace28c85da8b585308",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-02-17 08:53:50",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ostrich Feather Dusters Street Vendors ... (Photo JC PLE) (52692691194)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Feather dusters|Oudtshoorn|Street vendors in South Africa|South Africa photographs taken on 2023-02-16|Photographs by Bernard Dupont|Flickr images reviewed by FlickreviewR 2|Ostrich feathers",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Oudtshoorn, Western Cape, SOUTH AFRICA",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-02-16 09:17",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/berniedup/52692691194/\">Ostrich Feather Dusters Street Vendors ... (Photo JC PLE)</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/65695019@N07\">Bernard DUPONT</a> from FRANCE",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "53555141": {
+        "pageid": 53555141,
+        "ns": 6,
+        "title": "File:TV stoffen met plumeau - Dusting the television with a feather-brush (4398562798).jpg",
+        "index": 18,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/TV_stoffen_met_plumeau_-_Dusting_the_television_with_a_feather-brush_%284398562798%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 484,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/TV_stoffen_met_plumeau_-_Dusting_the_television_with_a_feather-brush_%284398562798%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 484
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/TV_stoffen_met_plumeau_-_Dusting_the_television_with_a_feather-brush_%284398562798%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:TV_stoffen_met_plumeau_-_Dusting_the_television_with_a_feather-brush_(4398562798).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/53555141",
+            "sha1": "c14c010984efda00a4c43b28233bce68e364cd5b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-11-27 03:58:38",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "TV stoffen met plumeau - Dusting the television with a feather-brush (4398562798)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from Nationaal Archief|Feather dusters|Photos uploaded from Flickr by F\u00e6 using a script|Flickr images reviewed by FlickreviewR|Files from Flickr's 'The Commons'|People cleaning|Cleaning in the Netherlands|Dusting",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Nationaal Archief / Spaarnestad Photo, SFA006004495<br>\n<p>Huisvrouw met schort bezig met het afstoffen van een TV een plumeau.<br>\nHousewife cleaning a TV set with a feather-brush.<br>\nCollectie Spaarnestad<br>\nVoor meer informatie en voor meer foto\u2019s uit de collectie van Spaarnestad Photo, bezoek onze Beeldbank:<br>\n<a rel=\"nofollow\" class=\"external free\" href=\"http://www.spaarnestadphoto.nl/\">http://www.spaarnestadphoto.nl/</a><br>\nU kunt ons helpen onze kennis van de fotocollecties te verrijken door tags en commentaren toe te voegen. Herkent u mensen of locaties of heeft u een bijzonder verhaal te vertellen bij \u00e9\u00e9n van de foto\u2019s, laat dan een reactie achter (als u ingelogd bent bij Flickr) of stuur een mailtje naar: hhamelink@spaarnestadphoto.nl<br>\n</p>\nYou can help us gain more knowledge on the content of our collection by simply adding a comment with information. If you do not wish to log in, you can write an e-mail to: hhamelink@spaarnestadphoto.nl",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-03-01 15:00:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/nationaalarchief/4398562798/\">https://www.flickr.com/photos/nationaalarchief/4398562798/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/29998366@N02\">Nationaal Archief</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "At the time of upload, the image license was automatically confirmed using the Flickr <a href=\"https://en.wikipedia.org/wiki/API\" class=\"extiw\" title=\"en:API\">API</a>. For more information see <a href=\"//commons.wikimedia.org/wiki/User:F%C3%A6/Flickr_API_detail\" title=\"User:F\u00e6/Flickr API detail\">Flickr API detail</a>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "No restrictions",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "No known copyright restrictions",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://www.flickr.com/commons/usage/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "118190087": {
+        "pageid": 118190087,
+        "ns": 6,
+        "title": "File:Teenager Wikipe-tan holding feather duster.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Teenager_Wikipe-tan_holding_feather_duster.jpg/960px-Teenager_Wikipe-tan_holding_feather_duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 908,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Teenager_Wikipe-tan_holding_feather_duster.jpg/1280px-Teenager_Wikipe-tan_holding_feather_duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Teenager_Wikipe-tan_holding_feather_duster.jpg/960px-Teenager_Wikipe-tan_holding_feather_duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 908,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Teenager_Wikipe-tan_holding_feather_duster.jpg/1280px-Teenager_Wikipe-tan_holding_feather_duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Teenager_Wikipe-tan_holding_feather_duster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Teenager_Wikipe-tan_holding_feather_duster.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/118190087",
+            "sha1": "300a0205fa51307821527868568bde06546fc8f0",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-05-20 16:33:30",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Teenager Wikipe-tan holding feather duster",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Portraits of Wikipe-tan at full length|Feather dusters in art|Teenager Wikipe-tan|Wikipe-tan with objects",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u200b\u62ff\u8457\u96de\u6bdb\u64a2\u5b50\u7684\u7dad\u57fa\u5a18",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-05-20",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:FireFeather\" title=\"User:FireFeather\">FireFeather</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

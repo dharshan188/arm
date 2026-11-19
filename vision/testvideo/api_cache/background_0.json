@@ -1,0 +1,1647 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 15,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "17548765": {
+        "pageid": 17548765,
+        "ns": 6,
+        "title": "File:Chaillot - Grand Foyer.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Chaillot_-_Grand_Foyer.jpg/960px-Chaillot_-_Grand_Foyer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Chaillot_-_Grand_Foyer.jpg/1280px-Chaillot_-_Grand_Foyer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Chaillot_-_Grand_Foyer.jpg/960px-Chaillot_-_Grand_Foyer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Chaillot_-_Grand_Foyer.jpg/1280px-Chaillot_-_Grand_Foyer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Chaillot_-_Grand_Foyer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chaillot_-_Grand_Foyer.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/17548765",
+            "sha1": "ffbba4bfb86bcfd47c95256a288f6722c32a0206",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-10-20 05:35:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Chaillot - Grand Foyer",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS-1Ds Mark III|Lobbies (room)|Th\u00e9\u00e2tre national de Chaillot|Self-published work|April 2009 in Paris|France photographs taken on 2009-04-21|Tables in Paris|Files with coordinates missing SDC location of creation (48\u00b0 N, 2\u00b0 E)|Chairs in Paris|Empty rooms|Grand foyers",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "valued",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "48.863417",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "2.281981",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Grand Foyer of the Th\u00e9\u00e2tre National de Chaillot, Paris.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a021 April 2009",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Audiane56&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Audiane56 (page does not exist)\">Patrick Berger</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "140557945": {
+        "pageid": 140557945,
+        "ns": 6,
+        "title": "File:Conference preparations.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Conference_preparations.jpg/960px-Conference_preparations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Conference_preparations.jpg/1280px-Conference_preparations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Conference_preparations.jpg/960px-Conference_preparations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Conference_preparations.jpg/1280px-Conference_preparations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Conference_preparations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Conference_preparations.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/140557945",
+            "sha1": "4178e2b5a5b73078061f604d956561146fbdc948",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-11-11 00:23:44",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Conference preparations",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Tables|Self-published work|Files with coordinates missing SDC location of creation|WikiConference North America 2023 Friday",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "43.672072",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-79.386314",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Empty conference room tables before the start of the Toronto confernce",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-11-10 08:05:06",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:LingLass\" title=\"User:LingLass\">LingLass</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "75559977": {
+        "pageid": 75559977,
+        "ns": 6,
+        "title": "File:Dining room table and setting - Hay-McKinney Mansion (32599479048).jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Dining_room_table_and_setting_-_Hay-McKinney_Mansion_%2832599479048%29.jpg/960px-Dining_room_table_and_setting_-_Hay-McKinney_Mansion_%2832599479048%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 888,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Dining_room_table_and_setting_-_Hay-McKinney_Mansion_%2832599479048%29.jpg/1280px-Dining_room_table_and_setting_-_Hay-McKinney_Mansion_%2832599479048%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Dining_room_table_and_setting_-_Hay-McKinney_Mansion_%2832599479048%29.jpg/960px-Dining_room_table_and_setting_-_Hay-McKinney_Mansion_%2832599479048%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 888,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Dining_room_table_and_setting_-_Hay-McKinney_Mansion_%2832599479048%29.jpg/1280px-Dining_room_table_and_setting_-_Hay-McKinney_Mansion_%2832599479048%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Dining_room_table_and_setting_-_Hay-McKinney_Mansion_%2832599479048%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dining_room_table_and_setting_-_Hay-McKinney_Mansion_(32599479048).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/75559977",
+            "sha1": "f266b1a072a0f0e272a195e8a5d6ce1de78013e5",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-01-04 02:25:27",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Dining room table and setting - Hay-McKinney Mansion (32599479048)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Hay-McKinney Mansion|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Tim Evanson",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "41.512777",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-81.609445",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Dining room table settings at the Hay-McKinney Mansion in Cleveland, Ohio.\n</p><p>All of the decorative and fine arts items in the mansion are part of the collection of the Western Reserve Historical Society. Only a tiny number were owned by the Hay or McKinney families.\n</p><p>The 20,000-squre-foot Italian Renaissance Revival Villa was designed by Abram Garfield. It was built by Clara Stone Hay and completed in 1911. She was the daughter of the railroad robber-baron Amasa Stone, and the wife of John Hay -- Abraham Lincoln's secretary and later an important diplomat. John Hay died in 1905, and Clara wanted to return to Cleveland to be closer to her sister, Flora Stone Mather. Flora died in January 1909, however, and Clara never moved in (preferring to stay in D.C. where her friends were).\n</p><p>Steel executive Price McKinney, co-founder of Corrigan-McKinney Steel, bought the property in 1916. He, his wife Lucy, and his three children inhabited the house until his suicide in April 1926. The house sat empty once again until the Western Reserve Historical Society purchased the home from Lucy McKinney on November 1, 1938.\n</p><p>The Hay-McKinney Mansion served as the primary museum of the WRHS.  Leonard C. Hanna Jr. donated the adjacent Henry Payne Bingham mansion (now called the Bingham-Hanna mansion) to the association in 1940. The WRHS library moved into that structure in 1941. The two houses were connected with a pavilion in 1959, and the east side of the Bingham house enclosed with a pavilion to create a new courtyard. \n</p><p>The society build the Crawford auto-aviation wing on the west side of the Bingham house in 1965, and a stand-alone library built in 1984. The library was connected to the Crawford wing in 1993 by the Reinberger Gallery, and in 2014 a pavilion erected on the campus' west side for the Euclid Beach carousel pavilion.\n</p>\nThe Hay-McKinney Mansion is the only historic house in Cleveland open for regular tours.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-12-22 18:36",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/timevanson/32599479048/\">dining room table and setting - Hay-McKinney Mansion</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/23165290@N00\">Tim Evanson</a> from Cleveland Heights, Ohio, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "180414461": {
+        "pageid": 180414461,
+        "ns": 6,
+        "title": "File:EFTA00000716 - Empty room with two green side tables electrical outlets and a simple ceiling light.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/EFTA00000716_-_Empty_room_with_two_green_side_tables_electrical_outlets_and_a_simple_ceiling_light.jpg/960px-EFTA00000716_-_Empty_room_with_two_green_side_tables_electrical_outlets_and_a_simple_ceiling_light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/a/ae/EFTA00000716_-_Empty_room_with_two_green_side_tables_electrical_outlets_and_a_simple_ceiling_light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/EFTA00000716_-_Empty_room_with_two_green_side_tables_electrical_outlets_and_a_simple_ceiling_light.jpg/960px-EFTA00000716_-_Empty_room_with_two_green_side_tables_electrical_outlets_and_a_simple_ceiling_light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/ae/EFTA00000716_-_Empty_room_with_two_green_side_tables_electrical_outlets_and_a_simple_ceiling_light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/EFTA00000716_-_Empty_room_with_two_green_side_tables_electrical_outlets_and_a_simple_ceiling_light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:EFTA00000716_-_Empty_room_with_two_green_side_tables_electrical_outlets_and_a_simple_ceiling_light.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/180414461",
+            "sha1": "0b7715832fda3a15025959424e5b2ce0c5c7e425",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-12-20 22:15:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "EFTA00000716 - Empty room with two green side tables electrical outlets and a simple ceiling light",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Uploaded with pattypan|PD-USGov missing SDC copyright status|Media by the Federal Bureau of Investigation|2019 FBI raid on Epstein's townhouse",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Part of Epstein Files released by the DOJ on December 19 2025",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "6 July 2019 (FBI search of Jeffrey Epstein's Manhattan residence)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.justice.gov/epstein/doj-disclosures\">https://www.justice.gov/epstein/doj-disclosures</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/Category:Federal_Bureau_of_Investigation\" title=\"Category:Federal Bureau of Investigation\">Federal Bureau of Investigation</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "180426266": {
+        "pageid": 180426266,
+        "ns": 6,
+        "title": "File:EFTA00001269 - Empty room with two circular side tables a ceiling light and electrical outlets on the wall.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/EFTA00001269_-_Empty_room_with_two_circular_side_tables_a_ceiling_light_and_electrical_outlets_on_the_wall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 960,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/EFTA00001269_-_Empty_room_with_two_circular_side_tables_a_ceiling_light_and_electrical_outlets_on_the_wall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 960
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/EFTA00001269_-_Empty_room_with_two_circular_side_tables_a_ceiling_light_and_electrical_outlets_on_the_wall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:EFTA00001269_-_Empty_room_with_two_circular_side_tables_a_ceiling_light_and_electrical_outlets_on_the_wall.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/180426266",
+            "sha1": "f1b53d85a73ffcb65faaeb31bd73614616fdbfed",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-12-21 02:46:33",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "EFTA00001269 - Empty room with two circular side tables a ceiling light and electrical outlets on the wall",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Uploaded with pattypan|PD-USGov missing SDC copyright status|Media by the Federal Bureau of Investigation|2019 FBI raid on Epstein's townhouse",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Part of Epstein Files released by the DOJ on December 19 2025",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "6 July 2019 (FBI search of Jeffrey Epstein's Manhattan residence)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.justice.gov/epstein/doj-disclosures\">https://www.justice.gov/epstein/doj-disclosures</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/Category:Federal_Bureau_of_Investigation\" title=\"Category:Federal Bureau of Investigation\">Federal Bureau of Investigation</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "180427070": {
+        "pageid": 180427070,
+        "ns": 6,
+        "title": "File:EFTA00001465 - Empty room with beige walls light-colored floor and a small round table in the corner.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/33/EFTA00001465_-_Empty_room_with_beige_walls_light-colored_floor_and_a_small_round_table_in_the_corner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 960,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/EFTA00001465_-_Empty_room_with_beige_walls_light-colored_floor_and_a_small_round_table_in_the_corner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 960
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/EFTA00001465_-_Empty_room_with_beige_walls_light-colored_floor_and_a_small_round_table_in_the_corner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:EFTA00001465_-_Empty_room_with_beige_walls_light-colored_floor_and_a_small_round_table_in_the_corner.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/180427070",
+            "sha1": "2632ac5e098d4b18960842570b9b989c13f3d2b3",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-12-21 03:19:04",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "EFTA00001465 - Empty room with beige walls light-colored floor and a small round table in the corner",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Uploaded with pattypan|PD-USGov missing SDC copyright status|Media by the Federal Bureau of Investigation|2019 FBI raid on Epstein's townhouse",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Part of Epstein Files released by the DOJ on December 19 2025",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "6 July 2019 (FBI search of Jeffrey Epstein's Manhattan residence)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.justice.gov/epstein/doj-disclosures\">https://www.justice.gov/epstein/doj-disclosures</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/Category:Federal_Bureau_of_Investigation\" title=\"Category:Federal Bureau of Investigation\">Federal Bureau of Investigation</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "71407770": {
+        "pageid": 71407770,
+        "ns": 6,
+        "title": "File:Empty Keflavik Airport (221071677).jpeg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Empty_Keflavik_Airport_%28221071677%29.jpeg/960px-Empty_Keflavik_Airport_%28221071677%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Empty_Keflavik_Airport_%28221071677%29.jpeg/1280px-Empty_Keflavik_Airport_%28221071677%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Empty_Keflavik_Airport_%28221071677%29.jpeg/960px-Empty_Keflavik_Airport_%28221071677%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Empty_Keflavik_Airport_%28221071677%29.jpeg/1280px-Empty_Keflavik_Airport_%28221071677%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Empty_Keflavik_Airport_%28221071677%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Empty_Keflavik_Airport_(221071677).jpeg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/71407770",
+            "sha1": "7bedfde57e6ec9fbddb82337b1117aca96e0593e",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-08-06 19:48:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nEmpty Keflavik Airport</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Interior of Keflav\u00edk International Airport|Joe & The Juice|Files with coordinates missing SDC location of creation|Iceland photographs taken on 2016-03-26|Photos imported with import-500px",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "63.986807",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-22.627967",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/DennisBruijn\">Dennis Bruijn</a></div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n500px provided description: We had to wait for a couple of hours for our plane to land at Keflavik airport, due to the size of the airport and a national holiday everything was closed. [#city ,#travel ,#window ,#light ,#architecture ,#airport ,#bar ,#chair ,#seat ,#empty ,#dark ,#hotel ,#room ,#restaurant ,#table ,#pub ,#furniture ,#business ,#indoors ,#stock ,#contemporary ,#interior design ,#no person ,#Iceland ,#Keflavik]</div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a026 March 2016, 04:52:49 (UTC)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Imported from <a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/photo/221071677/empty-keflavik-airport-by-dennis-bruijn\">500px</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/201807id_/https://drscdn.500px.org/photo/221071677/m%3D2048/v2?webp=true&amp;sig=93e883b6faf38f6fcdfb57fa2aa466de43d1a88bb4089eb1625dfbe22484c3d5\">archived version</a>) by <a rel=\"nofollow\" class=\"external text\" href=\"https://www.archiveteam.org/index.php?title=500px\">the Archive Team</a>. (<a href=\"https://iw.toolforge.org/import-500px/photo/221071677\" class=\"extiw\" title=\"toolforge:import-500px/photo/221071677\">detail page</a>)",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> \u2013 to copy, distribute and transmit the work</li>\n<li><b>to remix</b> \u2013 to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> \u2013 You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> \u2013 If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "26215251": {
+        "pageid": 26215251,
+        "ns": 6,
+        "title": "File:Empty LEGO Room Build Table.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Empty_LEGO_Room_Build_Table.jpg/960px-Empty_LEGO_Room_Build_Table.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Empty_LEGO_Room_Build_Table.jpg/1280px-Empty_LEGO_Room_Build_Table.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Empty_LEGO_Room_Build_Table.jpg/960px-Empty_LEGO_Room_Build_Table.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 960,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Empty_LEGO_Room_Build_Table.jpg/1280px-Empty_LEGO_Room_Build_Table.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Empty_LEGO_Room_Build_Table.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Empty_LEGO_Room_Build_Table.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/26215251",
+            "sha1": "b9056fe2b1b651f22193610835969bb50f16759b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-05-21 12:49:07",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Empty LEGO Room Build Table",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 400D|Lego|Flickr images reviewed by FlickreviewR|Files uploaded from Flickr by Jacopo Werther|Plastic multi-drawer storage cabinets",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "I recently packed up all my Lego.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-07-18 00:14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/pmiaki/7595117892/\">End of an Era</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/55723329@N00\">Mike</a> from Lowell, MA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "67071351": {
+        "pageid": 67071351,
+        "ns": 6,
+        "title": "File:H\u00f4tel room at one niseko resort towers in 2018.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/H%C3%B4tel_room_at_one_niseko_resort_towers_in_2018.jpg/960px-H%C3%B4tel_room_at_one_niseko_resort_towers_in_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/H%C3%B4tel_room_at_one_niseko_resort_towers_in_2018.jpg/1280px-H%C3%B4tel_room_at_one_niseko_resort_towers_in_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/H%C3%B4tel_room_at_one_niseko_resort_towers_in_2018.jpg/960px-H%C3%B4tel_room_at_one_niseko_resort_towers_in_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/H%C3%B4tel_room_at_one_niseko_resort_towers_in_2018.jpg/1280px-H%C3%B4tel_room_at_one_niseko_resort_towers_in_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/H%C3%B4tel_room_at_one_niseko_resort_towers_in_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_room_at_one_niseko_resort_towers_in_2018.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/67071351",
+            "sha1": "0f1bc741c083e3375454a88fca1e669cf23c7ea5",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-03-05 04:29:27",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "H\u00f4tel room at one niseko resort towers in 2018",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Wooden tables|Tables in Japan|Hotel bedrooms in Japan|Files with coordinates missing SDC location of creation|February 2018 in Hokkaido|Taken with Oppo F1s|Hotels in Niseko, Hokkaido|Empty bedrooms|Chairs in Hokkaid\u014d",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "42.847565",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "140.623947",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "h\u00f4tel room at one niseko resort towers in 2018",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-02-23 13:45:47",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Lasthib\" title=\"User:Lasthib\">Lasthib</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "61684342": {
+        "pageid": 61684342,
+        "ns": 6,
+        "title": "File:Minimalist meeting room (Unsplash).jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Minimalist_meeting_room_%28Unsplash%29.jpg/960px-Minimalist_meeting_room_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Minimalist_meeting_room_%28Unsplash%29.jpg/1280px-Minimalist_meeting_room_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Minimalist_meeting_room_%28Unsplash%29.jpg/960px-Minimalist_meeting_room_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Minimalist_meeting_room_%28Unsplash%29.jpg/1280px-Minimalist_meeting_room_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Minimalist_meeting_room_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Minimalist_meeting_room_(Unsplash).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/61684342",
+            "sha1": "a9695cd431c163ce17220be1a64e9a235e072349",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-08-15 00:18:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Minimalist meeting room (Unsplash)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Images uploaded by F\u00e6|Images from Unsplash|Files with coordinates missing SDC location of creation|Rooms in New York City|2016 in Chelsea, Manhattan|New York City photographs taken on 2016-11-29|Tables in Manhattan, New York City|Meeting rooms in the United States|November 2016 in Manhattan, New York City|27th Street (Manhattan)|Buildings in Chelsea, Manhattan",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "40.746774",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-73.992879",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "150 W 28th Street, New York, United States",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a029 November 2016",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/BlEfS8-wzHM\">https://unsplash.com/photos/BlEfS8-wzHM</a>\n</p>\n<ul><li><bdi lang=\"en\" dir=\"ltr\" title=\"archived on 29 April 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170429072714/https%3A//unsplash.com/photos/BlEfS8-wzHM\">archive copy</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Breather <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@breather\">breather</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "190236304": {
+        "pageid": 190236304,
+        "ns": 6,
+        "title": "File:Newark Park Buff Room Ozleworth Gloucestershire England.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Newark_Park_Buff_Room_Ozleworth_Gloucestershire_England.jpg/960px-Newark_Park_Buff_Room_Ozleworth_Gloucestershire_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 444,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Newark_Park_Buff_Room_Ozleworth_Gloucestershire_England.jpg/1280px-Newark_Park_Buff_Room_Ozleworth_Gloucestershire_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Newark_Park_Buff_Room_Ozleworth_Gloucestershire_England.jpg/960px-Newark_Park_Buff_Room_Ozleworth_Gloucestershire_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 444,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Newark_Park_Buff_Room_Ozleworth_Gloucestershire_England.jpg/1280px-Newark_Park_Buff_Room_Ozleworth_Gloucestershire_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Newark_Park_Buff_Room_Ozleworth_Gloucestershire_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Newark_Park_Buff_Room_Ozleworth_Gloucestershire_England.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/190236304",
+            "sha1": "a94f0b0070b5328e8ebacba87b81640e7ffffdc7",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-04-24 12:01:57",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Newark Park Buff Room Ozleworth Gloucestershire England",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 6D Mark II and Canon EF 24-105mm F4L IS USM|Libraries in Gloucestershire|Self-published work|Wooden tables|Rectangular tables|Empty rooms in the United Kingdom|Houses photographed in 2026|Bookshelves in England|Acabashi photos: buildings in Gloucestershire|England photographs taken on 2026-04-07|April 2026 in Gloucestershire|England photos taken with Canon EOS 6D Mark II|Buildings in Gloucestershire photographed in 2026|Tables in Gloucestershire|Interior of Newark Park|Rooms in Gloucestershire",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Buff Room, reading and library room, at Newark park, a National Trust and Grade I-listed house, originally an Elizabethan Hunting Lodge, near Ozleworth, Gloucestershire, England.<br>Wikimedia (2026) makes it difficult to view photos related to this image. To see its most relevant allied photo groups, click on the categories at the bottom of this page, or this uploader's <a href=\"//commons.wikimedia.org/wiki/Category:Photos_by_Acabashi\" title=\"Category:Photos by Acabashi\">Photos</a>. This image is one of a series of date and/or subject allied consecutive photographs kept in progression or location by file name, number and/or time marking.<br><b>Camera</b>: <a href=\"https://en.wikipedia.org/wiki/Canon_EOS_6D_Mark_II\" class=\"extiw\" title=\"en:Canon EOS 6D Mark II\">Canon EOS 6D Mark II</a>. <b>Software</b>: file lens-corrected and optimized with <a href=\"https://en.wikipedia.org/wiki/DxO_PhotoLab\" class=\"extiw\" title=\"en:DxO PhotoLab\">DxO PhotoLab 9 Elite</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-04-07 14:24:05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Acabashi\" title=\"User:Acabashi\">Acabashi</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "190236306": {
+        "pageid": 190236306,
+        "ns": 6,
+        "title": "File:Newark Park Dining Room Ozleworth Gloucestershire England.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Newark_Park_Dining_Room_Ozleworth_Gloucestershire_England.jpg/960px-Newark_Park_Dining_Room_Ozleworth_Gloucestershire_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 512,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Newark_Park_Dining_Room_Ozleworth_Gloucestershire_England.jpg/1280px-Newark_Park_Dining_Room_Ozleworth_Gloucestershire_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Newark_Park_Dining_Room_Ozleworth_Gloucestershire_England.jpg/960px-Newark_Park_Dining_Room_Ozleworth_Gloucestershire_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 512,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Newark_Park_Dining_Room_Ozleworth_Gloucestershire_England.jpg/1280px-Newark_Park_Dining_Room_Ozleworth_Gloucestershire_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Newark_Park_Dining_Room_Ozleworth_Gloucestershire_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Newark_Park_Dining_Room_Ozleworth_Gloucestershire_England.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/190236306",
+            "sha1": "abd200d711ae3e841006d177b0ae13ac151b4af3",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-04-24 12:01:58",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Newark Park Dining Room Ozleworth Gloucestershire England",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 6D Mark II and Canon EF 24-105mm F4L IS USM|Self-published work|Table with seats|Empty rooms in the United Kingdom|Houses photographed in 2026|Files with coordinates missing SDC location of creation (51\u00b0 N, 3\u00b0 W)|Dining rooms in England|Acabashi photos: buildings in Gloucestershire|England photographs taken on 2026-04-07|April 2026 in Gloucestershire|England photos taken with Canon EOS 6D Mark II|Buildings in Gloucestershire photographed in 2026|Interior of Newark Park|Rooms in Gloucestershire",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "51.636767",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-2.318982",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Dining Room at Newark park, a National Trust and Grade I-listed house, originally an Elizabethan Hunting Lodge, near Ozleworth, Gloucestershire, England.<br>Wikimedia (2026) makes it difficult to view photos related to this image. To see its most relevant allied photo groups, click on the categories at the bottom of this page, or this uploader's <a href=\"//commons.wikimedia.org/wiki/Category:Photos_by_Acabashi\" title=\"Category:Photos by Acabashi\">Photos</a>. This image is one of a series of date and/or subject allied consecutive photographs kept in progression or location by file name, number and/or time marking.<br><b>Camera</b>: <a href=\"https://en.wikipedia.org/wiki/Canon_EOS_6D_Mark_II\" class=\"extiw\" title=\"en:Canon EOS 6D Mark II\">Canon EOS 6D Mark II</a>. <b>Software</b>: file lens-corrected and optimized with <a href=\"https://en.wikipedia.org/wiki/DxO_PhotoLab\" class=\"extiw\" title=\"en:DxO PhotoLab\">DxO PhotoLab 9 Elite</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-04-07 14:17:21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Acabashi\" title=\"User:Acabashi\">Acabashi</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "120824645": {
+        "pageid": 120824645,
+        "ns": 6,
+        "title": "File:Omenahotelli hotel room in Tampere.jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Omenahotelli_hotel_room_in_Tampere.jpg/960px-Omenahotelli_hotel_room_in_Tampere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Omenahotelli_hotel_room_in_Tampere.jpg/1280px-Omenahotelli_hotel_room_in_Tampere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Omenahotelli_hotel_room_in_Tampere.jpg/960px-Omenahotelli_hotel_room_in_Tampere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Omenahotelli_hotel_room_in_Tampere.jpg/1280px-Omenahotelli_hotel_room_in_Tampere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Omenahotelli_hotel_room_in_Tampere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Omenahotelli_hotel_room_in_Tampere.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/120824645",
+            "sha1": "b26102402a86483394ac8061091298c7f2a8af4c",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-07-20 20:39:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Omenahotelli hotel room in Tampere",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Olympus E-M1|License migration redundant|Omena Hotels|Self-published work|Hotel rooms in Finland|Finland photographs taken on 2022-06-11|June 2022 in Tampere|Interiors of hotels in Tampere",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Interior of a hotel room at Omenahotelli in Tampere, Finland. The bed and the exit door are in the background, with bags of used clothes on the floor. In the foreground is a table with several empty beer cans and a telephoto camera lens on the left, and a hanger for clothes and used towels on the right.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-06-11",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:JIP&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:JIP (page does not exist)\">JIP</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "66631801": {
+        "pageid": 66631801,
+        "ns": 6,
+        "title": "File:Place settings for only one person as Uncle Ho generally ate alone (30645986283).jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Place_settings_for_only_one_person_as_Uncle_Ho_generally_ate_alone_%2830645986283%29.jpg/960px-Place_settings_for_only_one_person_as_Uncle_Ho_generally_ate_alone_%2830645986283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Place_settings_for_only_one_person_as_Uncle_Ho_generally_ate_alone_%2830645986283%29.jpg/1280px-Place_settings_for_only_one_person_as_Uncle_Ho_generally_ate_alone_%2830645986283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Place_settings_for_only_one_person_as_Uncle_Ho_generally_ate_alone_%2830645986283%29.jpg/960px-Place_settings_for_only_one_person_as_Uncle_Ho_generally_ate_alone_%2830645986283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Place_settings_for_only_one_person_as_Uncle_Ho_generally_ate_alone_%2830645986283%29.jpg/1280px-Place_settings_for_only_one_person_as_Uncle_Ho_generally_ate_alone_%2830645986283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Place_settings_for_only_one_person_as_Uncle_Ho_generally_ate_alone_%2830645986283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Place_settings_for_only_one_person_as_Uncle_Ho_generally_ate_alone_(30645986283).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/66631801",
+            "sha1": "bb7365989b6fe43dd3f889a4905ec8572815b894",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-02-20 16:27:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Place settings for only one person as Uncle Ho generally ate alone (30645986283)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Table settings|Ho Chi Minh House|Empty seats|Flickr images reviewed by FlickreviewR 2|Photographs by shankar s.",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The dining area of HCM's simple office building in the grounds of the HCM park. The first room of this two room building is the study (see previous picture), while this second room is the dining area. Note that the place settings are for one person only, as HCM generally lived and dined alone. Now whether you agree with HCM's Communist ideology or not, it is hard to dislike a person who lived in such rustic surroundings and dedicated himself to the service of his people. (Hanoi, Vietnam, Oct./ Nov. 2016)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-11-01 00:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/shankaronline/30645986283/\">Place settings for only one person as Uncle Ho generally ate alone</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/77742560@N06\">shankar s.</a> from Dubai, united arab emirates",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "55239976": {
+        "pageid": 55239976,
+        "ns": 6,
+        "title": "File:Tischgedeckt.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Tischgedeckt.jpg/960px-Tischgedeckt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Tischgedeckt.jpg/1280px-Tischgedeckt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Tischgedeckt.jpg/960px-Tischgedeckt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Tischgedeckt.jpg/1280px-Tischgedeckt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Tischgedeckt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tischgedeckt.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/55239976",
+            "sha1": "e3d24377b304c2a790c9f11115a3b592e3304abd",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-01-22 17:14:44",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tischgedeckt",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Breads of Germany|Breakfast in Germany|Table settings in Germany|Bread rolls|Empty seats in Germany|Tables with food in Germany|Self-published work|Rectangular tables|Tiered serving trays|Table settings with food|Dining room tables",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Gedeckter Tisch mit \u00c9tag\u00e8re",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-01-01",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ostseesaxophonistin&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ostseesaxophonistin (page does not exist)\">Ostseesaxophonistin</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1603 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 15,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "11075010": {
+        "pageid": 11075010,
+        "ns": 6,
+        "title": "File:20100404 205709 BacteriaFromKitchenSponge.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/20100404_205709_BacteriaFromKitchenSponge.jpg/960px-20100404_205709_BacteriaFromKitchenSponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/20100404_205709_BacteriaFromKitchenSponge.jpg/1280px-20100404_205709_BacteriaFromKitchenSponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/20100404_205709_BacteriaFromKitchenSponge.jpg/960px-20100404_205709_BacteriaFromKitchenSponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/20100404_205709_BacteriaFromKitchenSponge.jpg/1280px-20100404_205709_BacteriaFromKitchenSponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/20100404_205709_BacteriaFromKitchenSponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:20100404_205709_BacteriaFromKitchenSponge.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/11075010",
+            "sha1": "dba85c67321ce2015769d3dd7beadabe1a9a775f",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-08-02 20:59:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "20100404 205709 BacteriaFromKitchenSponge",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with ADPK CD500D4|Cleaning sponges|License migration redundant|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Bacteria from a kitchen sponge",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "5 April 2010 (original upload date)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span> (<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">I (<a href=\"https://en.wikipedia.org/wiki/User:Bob_Blaylock\" class=\"extiw\" title=\"en:User:Bob Blaylock\">Bob Blaylock</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Bob_Blaylock\" class=\"extiw\" title=\"en:User talk:Bob Blaylock\">talk</a>)) created this work entirely by myself.</bdi></i></span>)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/User:Bob_Blaylock\" class=\"extiw\" title=\"wikipedia:User:Bob Blaylock\">Bob Blaylock</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/User:Bob_Blaylock\" class=\"extiw\" title=\"wikipedia:User:Bob Blaylock\">Bob Blaylock</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "1388735": {
+        "pageid": 1388735,
+        "ns": 6,
+        "title": "File:Cannon tools sponge.png",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Cannon_tools_sponge.png/960px-Cannon_tools_sponge.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 68,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Cannon_tools_sponge.png/1280px-Cannon_tools_sponge.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Cannon_tools_sponge.png/960px-Cannon_tools_sponge.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 68,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Cannon_tools_sponge.png/1280px-Cannon_tools_sponge.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Cannon_tools_sponge.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cannon_tools_sponge.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/1388735",
+            "sha1": "c5ecd5dc5150924737c21eb689727b061eaa5f1f",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2006-11-21 03:52:09",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cannon tools sponge",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cleaning sponges|Files with no machine-readable author|Artillery equipment|Author died more than 100 years ago public domain images|Gun sponges|Media lacking author information|PD Britannica|Images from Encyclop\u00e6dia Britannica|CC-PD-Mark|Tools on white background|PD-old missing SDC copyright status",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cannon tools, from Plate XCVIII",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1771",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Encyclopedia Britannica",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "799009": {
+        "pageid": 799009,
+        "ns": 6,
+        "title": "File:Car sponge.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Car_sponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 378,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Car_sponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 378
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Car_sponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Car_sponge.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/799009",
+            "sha1": "dd4526f8056cf5f1ea63b1c8749bf046343808a9",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2006-05-21 09:27:57",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Car sponge",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon Coolpix 5700|Cleaning sponges|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Picture of a car sponge.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-05-21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Taken by <i>ABW</i>.",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<i>ABW</i>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.5",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.5",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "ABW",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.5",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.5",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "57162896": {
+        "pageid": 57162896,
+        "ns": 6,
+        "title": "File:Pink Sponge isolated on White Background.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Pink_Sponge_isolated_on_White_Background.jpg/960px-Pink_Sponge_isolated_on_White_Background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Pink_Sponge_isolated_on_White_Background.jpg/1280px-Pink_Sponge_isolated_on_White_Background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Pink_Sponge_isolated_on_White_Background.jpg/960px-Pink_Sponge_isolated_on_White_Background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Pink_Sponge_isolated_on_White_Background.jpg/1280px-Pink_Sponge_isolated_on_White_Background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Pink_Sponge_isolated_on_White_Background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pink_Sponge_isolated_on_White_Background.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/57162896",
+            "sha1": "c30cad74dc7e4457bf5d235c60c8f6d23d8c834e",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-03-17 10:57:49",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Pink Sponge isolated on White Background",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cleaning sponges|Location not applicable|Self-published work|Media created by technology pool of Wikimedia Sverige|Photographs taken on 2016-12-21|Plastic cleaning sponges|Photographs taken by Josve05a (CC-BY-SA-4.0)|Photographs taken by Josve05a using the pool of technology at Wikimedia Sverige (January\u2013February 2017)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Pink Sponge isolated on White Background",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "21 December 2016, 13:55:49",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28709959\" class=\"extiw\" title=\"d:Q28709959\"><span title=\"researcher\">Jonatan Svensson Glad</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table align=\"center\" class=\"{{{id}}}\" style=\"background: lightblue; border: 1px solid #aaa; padding: 0.5em; margin-bottom: 3px; font-size: 95%; width: auto;\">\n<tbody><tr>\n<td style=\"padding-right: 4px; padding-left: 4px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Pisxy_logo.png\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Pisxy_logo.png/120px-Pisxy_logo.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"100\" height=\"31\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Pisxy_logo.png/250px-Pisxy_logo.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"272\" data-file-height=\"84\"></a></span>\n</td>\n<td><b>This image is protected against image theft.</b><br><div class=\"plainlinks\"><figure class=\"mw-default-size mw-halign-right\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Protected_by_Pixsy_Badge-3.png\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/6/6d/Protected_by_Pixsy_Badge-3.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled\" decoding=\"async\" loading=\"lazy\" width=\"98\" height=\"50\" class=\"mw-file-element\" data-file-width=\"98\" data-file-height=\"50\"></a><figcaption></figcaption></figure>Failure to comply with the following license may result in legal or monetary liabilities.\nI use <a rel=\"nofollow\" class=\"external text\" href=\"https://my.pixsy.com/\">Pixsy</a> to monitor, find, and fight image theft by issuing takedown notices and recover compensation. Please follow the license specified on this page below, in order to not perform image theft.</div>\n</td></tr></tbody></table>\n<table style=\"width:100%; clear:both; margin:0.5em auto; border-spacing:8px; background-color:var(--background-color-neutral-subtle,#f7f8ff); border:2px solid #8888aa;color: inherit;\" lang=\"\" dir=\"ltr\" class=\"layouttemplate restrictiontemplate plainlinks\">\n<tbody><tr>\n<td><span aria-hidden=\"true\"><span class=\"mw-default-size skin-invert\" typeof=\"mw:File/Frameless\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"110\" height=\"44\" style=\"--mw-file-upright: 0.45\" class=\"mw-file-element mw-file-upright\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span></span><br>\n</td>\n<td>This image is <b>not in the <a href=\"https://en.wikipedia.org/wiki/Public_domain\" class=\"extiw\" title=\"w:Public domain\">public domain</a></b>. If you wish to use it anywhere other than on Wikipedia or <a href=\"https://meta.wikimedia.org/wiki/Wikimedia_projects\" class=\"extiw\" title=\"m:Wikimedia projects\">other Wikimedia projects</a> you are obligated to provide the following details along with it:<br>\n<ul><li>Author: <a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:Josve05a\">Jonatan Svensson Glad</a></li>\n<li><i><a class=\"mw-selflink-fragment\" href=\"##\">Pink Sponge isolated on White Background.jpg</a></i> from <a href=\"//commons.wikimedia.org/wiki/Main_Page\" title=\"Main Page\">Wikimedia Commons</a><br></li>\n<li>License: <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">Creative Commons Attribution-ShareAlike 4.0</a><br></li></ul>\n<p><b>Credit line example:</b> \"<a class=\"mw-selflink-fragment\" href=\"##\">Pink Sponge isolated on White Background.jpg</a> from <a href=\"//commons.wikimedia.org/wiki/Main_Page\" title=\"Main Page\">Wikimedia Commons</a> by <a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:Josve05a\">Jonatan Svensson Glad</a>,\u00a0<a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">CC-BY-SA 4.0</a>\"<br>\nA statement such as \"From Wikimedia Commons\" or similar is <i>not</i> by itself sufficient. If you do not provide clear attribution to the author and indicate the file name as shown here, you didn't comply with the terms of the file's license and may not use this file. If you are unable or unwilling to provide attribution and <b>release your own work</b> that <a href=\"//commons.wikimedia.org/wiki/Commons:Derivative_works\" title=\"Commons:Derivative works\">incorporates this work</a> with a Creative Commons Attribution-ShareAlike 4.0 license you should contact <a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:Josve05a\">Jonatan Svensson Glad</a> to negotiate a different license.   \n</p>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Jonatan Svensson Glad // <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC-BY-SA 4.0</a> // via <a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/File:Pink_Sponge_isolated_on_White_Background.jpg\">Wikimedia Commons</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "39090559": {
+        "pageid": 39090559,
+        "ns": 6,
+        "title": "File:Putzschwamm Mikroplastik Sponge Microplastic.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Putzschwamm_Mikroplastik_Sponge_Microplastic.jpg/960px-Putzschwamm_Mikroplastik_Sponge_Microplastic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Putzschwamm_Mikroplastik_Sponge_Microplastic.jpg/1280px-Putzschwamm_Mikroplastik_Sponge_Microplastic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Putzschwamm_Mikroplastik_Sponge_Microplastic.jpg/960px-Putzschwamm_Mikroplastik_Sponge_Microplastic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Putzschwamm_Mikroplastik_Sponge_Microplastic.jpg/1280px-Putzschwamm_Mikroplastik_Sponge_Microplastic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Putzschwamm_Mikroplastik_Sponge_Microplastic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Putzschwamm_Mikroplastik_Sponge_Microplastic.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/39090559",
+            "sha1": "95d00ac80a7227571f21f6ea5d2ee5d314829b56",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-03-19 16:18:46",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Putzschwamm Mikroplastik Sponge Microplastic",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cleaning sponges|Microplastic|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sponge micro-plastic discovered during rinsing, abrasion of a household cleaning / cleaning / scratching sponge in a salad bowl",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-03-19 09:43:14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hungchaka\" title=\"User:Hungchaka\">Hungchaka</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "77732237": {
+        "pageid": 77732237,
+        "ns": 6,
+        "title": "File:Schuursponsjes kokosvezel en koper.jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Schuursponsjes_kokosvezel_en_koper.jpg/960px-Schuursponsjes_kokosvezel_en_koper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Schuursponsjes_kokosvezel_en_koper.jpg/1280px-Schuursponsjes_kokosvezel_en_koper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Schuursponsjes_kokosvezel_en_koper.jpg/960px-Schuursponsjes_kokosvezel_en_koper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Schuursponsjes_kokosvezel_en_koper.jpg/1280px-Schuursponsjes_kokosvezel_en_koper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Schuursponsjes_kokosvezel_en_koper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Schuursponsjes_kokosvezel_en_koper.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/77732237",
+            "sha1": "862beecbb6601230f176ef756aadcf8224048af7",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-04-02 12:28:31",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Schuursponsjes kokosvezel en koper",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cleaning sponges|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cleaning sponges from coconut and from copper",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-04-02 14:17:25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kattiel\" title=\"User:Kattiel\">Kattiel</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "150877174": {
+        "pageid": 150877174,
+        "ns": 6,
+        "title": "File:Scrub Daddy single.jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Scrub_Daddy_single.jpg/960px-Scrub_Daddy_single.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 617,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Scrub_Daddy_single.jpg/1280px-Scrub_Daddy_single.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Scrub_Daddy_single.jpg/960px-Scrub_Daddy_single.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 617,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Scrub_Daddy_single.jpg/1280px-Scrub_Daddy_single.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Scrub_Daddy_single.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Scrub_Daddy_single.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/150877174",
+            "sha1": "10c7d079f75a41144e817d741f1ee7816fe18f0b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-07-29 19:33:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Scrub Daddy single",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Files with coordinates missing SDC location of creation|Scrub Daddy",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "29.814894",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-95.526825",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "a scrub daddy",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-08-07 12:37:28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:The_Sharpest_Lives&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:The Sharpest Lives (page does not exist)\">The Sharpest Lives</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "65946912": {
+        "pageid": 65946912,
+        "ns": 6,
+        "title": "File:Small yellow green sponge.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Small_yellow_green_sponge.jpg/960px-Small_yellow_green_sponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Small_yellow_green_sponge.jpg/1280px-Small_yellow_green_sponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Small_yellow_green_sponge.jpg/960px-Small_yellow_green_sponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Small_yellow_green_sponge.jpg/1280px-Small_yellow_green_sponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Small_yellow_green_sponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Small_yellow_green_sponge.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/65946912",
+            "sha1": "862c60cbfda7ec4fad0b6f8fe60b099a3b35f170",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-01-29 13:50:12",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Small yellow green sponge",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cleaning sponges|Self-published work|Czech photo workshop - photo tent 2017",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Small yellow green sponge.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-01-02 20:42:39",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Frettie\" title=\"User:Frettie\">Ji\u0159\u00ed Sedl\u00e1\u010dek</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "57356633": {
+        "pageid": 57356633,
+        "ns": 6,
+        "title": "File:Sponge-for-washing-1212612.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Sponge-for-washing-1212612.jpg/960px-Sponge-for-washing-1212612.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 424,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Sponge-for-washing-1212612.jpg/1280px-Sponge-for-washing-1212612.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Sponge-for-washing-1212612.jpg/960px-Sponge-for-washing-1212612.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 424,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Sponge-for-washing-1212612.jpg/1280px-Sponge-for-washing-1212612.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Sponge-for-washing-1212612.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sponge-for-washing-1212612.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/57356633",
+            "sha1": "3e5da6eaf9d4a460713eb08f92ac5d783ad23dcc",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-03-24 10:47:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sponge-for-washing-1212612",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Cleaning sponges|Images from Pixabay",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Une \u00e9ponge pour nettoyer.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-07-22 20:34:14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://pixabay.com/en/sponge-for-washing-sponge-cleaning-1212612/\">https://pixabay.com/en/sponge-for-washing-sponge-cleaning-1212612/</a> <bdi lang=\"en\" dir=\"ltr\" title=\"archived on 18 January 2019 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190118231558/https%3A//pixabay.com/en/sponge-for-washing-sponge-cleaning-1212612/\">archive copy</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://pixabay.com/en/users/Robfoto-2051168/\">Robert Fotograf </a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "1042392": {
+        "pageid": 1042392,
+        "ns": 6,
+        "title": "File:Sponge-viscose.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Sponge-viscose.jpg/960px-Sponge-viscose.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Sponge-viscose.jpg/1280px-Sponge-viscose.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Sponge-viscose.jpg/960px-Sponge-viscose.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Sponge-viscose.jpg/1280px-Sponge-viscose.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Sponge-viscose.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sponge-viscose.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/1042392",
+            "sha1": "8468a0c371dac66bb5b5eb13ea08dddad11d3359",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2006-08-11 12:07:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sponge-viscose",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Canon PowerShot A430|Viscose|License migration completed|Self-published work|Tools on white background|Cellulose cleaning sponges",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A synthetic sponge, to be used in household.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-08-11",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Johan",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "68580750": {
+        "pageid": 68580750,
+        "ns": 6,
+        "title": "File:Sponge Macro.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Sponge_Macro.jpg/960px-Sponge_Macro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Sponge_Macro.jpg/1280px-Sponge_Macro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Sponge_Macro.jpg/960px-Sponge_Macro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Sponge_Macro.jpg/1280px-Sponge_Macro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Sponge_Macro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sponge_Macro.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/68580750",
+            "sha1": "8b35668e0d4c185e7ca30f33f2eaddc1c33d91e4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-04-26 15:38:54",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sponge Macro",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cleaning sponges|Self-published work|Macro photographs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Macro photograph of synthetic sponge material.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-04-16 20:55:14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Prosthetic_Head\" title=\"User:Prosthetic Head\">Prosthetic Head</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "77551611": {
+        "pageid": 77551611,
+        "ns": 6,
+        "title": "File:Sponge fishing exhibit in the Government Building, Lewis and Clark Exposition, Portland, Oregon, 1905 (AL+CA 1981).jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Sponge_fishing_exhibit_in_the_Government_Building%2C_Lewis_and_Clark_Exposition%2C_Portland%2C_Oregon%2C_1905_%28AL%2BCA_1981%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 499,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Sponge_fishing_exhibit_in_the_Government_Building%2C_Lewis_and_Clark_Exposition%2C_Portland%2C_Oregon%2C_1905_%28AL%2BCA_1981%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 499
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Sponge_fishing_exhibit_in_the_Government_Building%2C_Lewis_and_Clark_Exposition%2C_Portland%2C_Oregon%2C_1905_%28AL%2BCA_1981%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sponge_fishing_exhibit_in_the_Government_Building,_Lewis_and_Clark_Exposition,_Portland,_Oregon,_1905_(AL%2BCA_1981).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/77551611",
+            "sha1": "3fad77fbc1dce5aefd523ee4df29b0570573be68",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-03-25 04:27:38",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sponge fishing exhibit in the Government Building, Lewis and Clark Exposition, Portland, Oregon, 1905",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cleaning sponges|Display cases|PD US expired|Images from the Alaska, Western Canada and United States Collection to check|Template Unknown (author)|Building interiors in Portland, Oregon|Lewis and Clark Centennial Exposition U.S. Government Building|Images from the Alaska, Western Canada and United States Collection",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span></div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<p>Sign on display reads: The vessel sponge fishery is prosecuted from small boats carrying  two men...While the boat is sculled and managed by one man, the other, called the \"hooker,\" watches the bottom through a glass-bottomed bucket - the water glass - which is held with one hand, while with the other he manipulates a long pole to which is attached a three-pronged hook...\n</p><pre>Stamped on verso: Portland, Lewis and Clark Exposition. \n</pre>\n<pre>Handwritten on verso: Exhibits - Florida Sponge and Fishing Exhibit - Gov't. Building. \n</pre>\n Filed in: Box 1/9<p class=\"mw-empty-elt\"></p>\n<p>The Lewis and Clark Exposition was hosted by the city of Portland from June 1 to October 15, 1905. Covering over 400 acres, the fair showcased exhibits from various nations and states, and it promoted the economic potential of the Pacific Northwest region.</p>\n<ul><li>Subjects (LCTGM): Sponges--Oregon--Portland; Sponge fishing; Showcases</li>\n<li>Subjects (LCSH): Lewis and Clark Centennial Exposition (1905\u00a0: Portland, Or.)</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1905<div style=\"display: none;\">date QS:P571,+1905-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://content.lib.washington.edu/alaskawcanadaweb/index.html\">Alaska, Western Canada and United States Collection</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Public domain works must be out of copyright in both the United States and in the source country of the work in order to be hosted on the Commons. If the work is not a U.S. work, the file <b>must</b> have an additional <a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_tags\" title=\"Commons:Copyright tags\">copyright tag</a> indicating the copyright status in the source country.<br><b>Note:</b> This tag should <i>not</i> be used for sound recordings.<span style=\"display:none;\"><span class=\"licensetpl_short\">PD-1923</span><span class=\"licensetpl_long\"><a href=\"//commons.wikimedia.org/wiki/Public_domain\" class=\"mw-redirect\" title=\"Public domain\">Public domain</a> in the United States</span><span class=\"licensetpl_link\">//commons.wikimedia.org/wiki/File:Sponge_fishing_exhibit_in_the_Government_Building,_Lewis_and_Clark_Exposition,_Portland,_Oregon,_1905_(AL%2BCA_1981).jpg</span></span>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "2078959": {
+        "pageid": 2078959,
+        "ns": 6,
+        "title": "File:Sponges.png",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Sponges.png/960px-Sponges.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 387,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Sponges.png/1280px-Sponges.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Sponges.png/960px-Sponges.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 387,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Sponges.png/1280px-Sponges.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Sponges.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sponges.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/2078959",
+            "sha1": "7c5bb16d9d06f36b9fbb3eaceaa52db6aa9d4963",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2007-05-08 22:36:27",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sponges",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Salmonella|GFDL|CC-BY-SA-2.5,2.0,1.0|Cleaning sponges|License migration redundant|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "clean sponge, salmonella sponge",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Hendersons House Rules",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "27322560": {
+        "pageid": 27322560,
+        "ns": 6,
+        "title": "File:S\u00e8vres - Grand atelier - calibrage 105.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/S%C3%A8vres_-_Grand_atelier_-_calibrage_105.jpg/960px-S%C3%A8vres_-_Grand_atelier_-_calibrage_105.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/S%C3%A8vres_-_Grand_atelier_-_calibrage_105.jpg/1280px-S%C3%A8vres_-_Grand_atelier_-_calibrage_105.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/S%C3%A8vres_-_Grand_atelier_-_calibrage_105.jpg/960px-S%C3%A8vres_-_Grand_atelier_-_calibrage_105.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/S%C3%A8vres_-_Grand_atelier_-_calibrage_105.jpg/1280px-S%C3%A8vres_-_Grand_atelier_-_calibrage_105.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/S%C3%A8vres_-_Grand_atelier_-_calibrage_105.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:S%C3%A8vres_-_Grand_atelier_-_calibrage_105.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/27322560",
+            "sha1": "afef23cdb585f571099cd5f1be709fe93b93aed1",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-07-18 20:46:02",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "S\u00e8vres - Grand atelier - calibrage 105",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 600D|Cleaning sponges|Taken with Canon EF 28mm F1.8|Self-published work|Files by User:Coyau|Files by User:Coyau/QI|Media supported by Wikimedia France|Information field template with formatting|Pushing|Media supported by Wikimedia France - S\u00e8vres|Grand Atelier of the manufacture nationale de S\u00e8vres",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Grand Atelier of the <a href=\"https://en.wikipedia.org/wiki/manufacture_nationale_de_S%C3%A8vres\" class=\"extiw\" title=\"w:manufacture nationale de S\u00e8vres\">manufacture nationale de S\u00e8vres</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-06-11 10:57:16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<p><a href=\"//commons.wikimedia.org/wiki/User:Coyau\" title=\"User:Coyau\">Coyau</a>\n</p>",
+                "source": "commons-desc-page"
+              },
+              "Attribution": {
+                "value": "Coyau\u00a0/\u00a0<a href=\"//commons.wikimedia.org/wiki/Main_Page\" title=\"Main Page\">Wikimedia Commons</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "52343078": {
+        "pageid": 52343078,
+        "ns": 6,
+        "title": "File:\u4e8b\u52d9\u7528\u306e\u30b9\u30dd\u30f3\u30b8.jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%E4%BA%8B%E5%8B%99%E7%94%A8%E3%81%AE%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B8.jpg/960px-%E4%BA%8B%E5%8B%99%E7%94%A8%E3%81%AE%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 533,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%E4%BA%8B%E5%8B%99%E7%94%A8%E3%81%AE%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%E4%BA%8B%E5%8B%99%E7%94%A8%E3%81%AE%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B8.jpg/960px-%E4%BA%8B%E5%8B%99%E7%94%A8%E3%81%AE%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 533,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%E4%BA%8B%E5%8B%99%E7%94%A8%E3%81%AE%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%E4%BA%8B%E5%8B%99%E7%94%A8%E3%81%AE%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E4%BA%8B%E5%8B%99%E7%94%A8%E3%81%AE%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B8.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/52343078",
+            "sha1": "cf4ab5be6c97943854432859af3b5279f1a761c2",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-10-18 05:36:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "\u4e8b\u52d9\u7528\u306e\u30b9\u30dd\u30f3\u30b8",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cleaning sponges|Self-published work|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "35.643958",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "139.715028",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u4e8b\u52d9\u7528\u306e\u30b9\u30dd\u30f3\u30b8\u3002\u6e7f\u3089\u305b\u305f\u72b6\u614b\u3067\u3001\u3075\u305f\u306e\u3042\u308b\u30b1\u30fc\u30b9\u306b\u5165\u3063\u3066\u3044\u308b\u3002",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-10-18 14:21:04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ahgwp7m&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ahgwp7m (page does not exist)\">Ahgwp7m</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

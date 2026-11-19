@@ -1,0 +1,2147 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 20,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "10749480": {
+        "pageid": 10749480,
+        "ns": 6,
+        "title": "File:Arabic Coca-Cola and Fanta glass bottle.jpg",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Arabic_Coca-Cola_and_Fanta_glass_bottle.jpg/960px-Arabic_Coca-Cola_and_Fanta_glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 461,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Arabic_Coca-Cola_and_Fanta_glass_bottle.jpg/1280px-Arabic_Coca-Cola_and_Fanta_glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Arabic_Coca-Cola_and_Fanta_glass_bottle.jpg/960px-Arabic_Coca-Cola_and_Fanta_glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 461,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Arabic_Coca-Cola_and_Fanta_glass_bottle.jpg/1280px-Arabic_Coca-Cola_and_Fanta_glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Arabic_Coca-Cola_and_Fanta_glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Arabic_Coca-Cola_and_Fanta_glass_bottle.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/10749480",
+            "sha1": "edc6f3f0eae15882ec319c18f2ad64b2a8ee8be8",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-06-28 10:31:22",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Arabic Coca-Cola and Fanta glass bottle",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Self-published work|Clear glass bottles|Coca-Cola glass bottles|Fanta glass bottles|Photographs by User:Bernard Ladenthin/2010|Empty bottles",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Arabic Coca-Cola and Fanta glass bottle",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-06-23",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bernard_Ladenthin\" title=\"User:Bernard Ladenthin\">Bernard Ladenthin</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "83822659": {
+        "pageid": 83822659,
+        "ns": 6,
+        "title": "File:Bottle, glass (AM 1997.80.276).jpg",
+        "index": 18,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Bottle%2C_glass_%28AM_1997.80.276%29.jpg/960px-Bottle%2C_glass_%28AM_1997.80.276%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Bottle%2C_glass_%28AM_1997.80.276%29.jpg/1280px-Bottle%2C_glass_%28AM_1997.80.276%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Bottle%2C_glass_%28AM_1997.80.276%29.jpg/960px-Bottle%2C_glass_%28AM_1997.80.276%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Bottle%2C_glass_%28AM_1997.80.276%29.jpg/1280px-Bottle%2C_glass_%28AM_1997.80.276%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Bottle%2C_glass_%28AM_1997.80.276%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bottle,_glass_(AM_1997.80.276).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/83822659",
+            "sha1": "c58b4d8fbad62e578eb3e771b6460b07507ac2e5",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-11-10 02:39:08",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nBottle, glass</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images uploaded by F\u00e6|Artworks without Wikidata item|Junket (dessert)|Images from Auckland Museum|Artworks with known accession number|Bottles as food and drink containers|Images with color correction charts from the Auckland Museum|Empty bottles",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nRenco</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Glass bottle, clear glass, rectangular body with slanted shoulders, protruding collar with threaded closure, vertical raised embossed text on one side of bottle, - RENCO-FOR-JUNKET",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "15 Oct 1997; 20 Jan 1998",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"http://api.aucklandmuseum.com/id/humanhistory/object/868299\">API data</a><br>\n<a rel=\"nofollow\" class=\"external text\" href=\"https://www.aucklandmuseum.com/collection/object/am_humanhistory-object-868299\">Catalogue record</a>\n</p>\n<a rel=\"nofollow\" class=\"external text\" href=\"https://api.aucklandmuseum.com/id/media/v/646464\">Photo</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This image has been released as \"CCBY\" by Auckland Museum. For details refer to the <a href=\"//commons.wikimedia.org/wiki/Commons:Batch_uploading/AucklandMuseumCCBY\" title=\"Commons:Batch uploading/AucklandMuseumCCBY\">Commons project page</a>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Auckland Museum",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "49863512": {
+        "pageid": 49863512,
+        "ns": 6,
+        "title": "File:Clear empty glass bottle.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Clear_empty_glass_bottle.jpg/960px-Clear_empty_glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Clear_empty_glass_bottle.jpg/1280px-Clear_empty_glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Clear_empty_glass_bottle.jpg/960px-Clear_empty_glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Clear_empty_glass_bottle.jpg/1280px-Clear_empty_glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Clear_empty_glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Clear_empty_glass_bottle.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/49863512",
+            "sha1": "f4e96b364448192e26f01cc5fb7ece4f686492e1",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-07-02 14:46:50",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Clear empty glass bottle",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Olympus E-400|Clear glass bottles|Photographs taken on 2016-07-02",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Clear empty glass bottle.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-07-02 16:48:14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Zunter\" title=\"User:Zunter\">Santeri Viinam\u00e4ki</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Santeri Viinam\u00e4ki",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "169100549": {
+        "pageid": 169100549,
+        "ns": 6,
+        "title": "File:Close Up Of One Quart Glass Milk Bottle with Original Seal (M. S. Cosgrove & Sons, Dorchester Mass).jpg",
+        "index": 17,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Close_Up_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg/960px-Close_Up_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Close_Up_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg/1280px-Close_Up_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Close_Up_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg/960px-Close_Up_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Close_Up_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg/1280px-Close_Up_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Close_Up_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Close_Up_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_(M._S._Cosgrove_%26_Sons,_Dorchester_Mass).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/169100549",
+            "sha1": "99440103e5473b3c0842bf2ea802c0f4292bc692",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-07-02 17:08:16",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Close Up Of One Quart Glass Milk Bottle with Original Seal (M. S. Cosgrove & Sons, Dorchester Mass)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Empty milk bottles",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Close Up One Quart Glass Milk Bottle with Original Seal (M. S. Cosgrove &amp; Sons, Dorchester Mass)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-07-02 12:54:37",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tacotruckxjr&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tacotruckxjr (page does not exist)\">Tacotruckxjr</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "86274050": {
+        "pageid": 86274050,
+        "ns": 6,
+        "title": "File:Dornbirn-Glass bottles-01ASD.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Dornbirn-Glass_bottles-01ASD.jpg/960px-Dornbirn-Glass_bottles-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 883,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Dornbirn-Glass_bottles-01ASD.jpg/1280px-Dornbirn-Glass_bottles-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Dornbirn-Glass_bottles-01ASD.jpg/960px-Dornbirn-Glass_bottles-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 883,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Dornbirn-Glass_bottles-01ASD.jpg/1280px-Dornbirn-Glass_bottles-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Dornbirn-Glass_bottles-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dornbirn-Glass_bottles-01ASD.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/86274050",
+            "sha1": "9ef899e4c65696d1d33bfd33ea2c31298e466082",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-01-24 18:26:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Dornbirn-Glass bottles-01ASD",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Glass bottles|Self-published work|Empty milk bottles|Photographs by Asurnipal-Dornbirn",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Glass bottles (e.g. for milk) in Dornbirn, Vorarlberg, Austria.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Asurnipal\" title=\"User:Asurnipal\">Asurnipal</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "49775642": {
+        "pageid": 49775642,
+        "ns": 6,
+        "title": "File:Empty beer bottle on grass.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Empty_beer_bottle_on_grass.jpg/960px-Empty_beer_bottle_on_grass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Empty_beer_bottle_on_grass.jpg/1280px-Empty_beer_bottle_on_grass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Empty_beer_bottle_on_grass.jpg/960px-Empty_beer_bottle_on_grass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Empty_beer_bottle_on_grass.jpg/1280px-Empty_beer_bottle_on_grass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Empty_beer_bottle_on_grass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Empty_beer_bottle_on_grass.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/49775642",
+            "sha1": "944e95d3f392246df6d5ccff30b093f16630acb5",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-06-28 16:55:54",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Empty beer bottle on grass",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Olympus E-400|Photographs taken on 2016-06-28|Beer bottles (brown glass)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Empty beer bottle on grass.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-06-28 17:17:50",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Zunter\" title=\"User:Zunter\">Santeri Viinam\u00e4ki</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Santeri Viinam\u00e4ki",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "49775591": {
+        "pageid": 49775591,
+        "ns": 6,
+        "title": "File:Empty beer bottles on grass.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Empty_beer_bottles_on_grass.jpg/960px-Empty_beer_bottles_on_grass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Empty_beer_bottles_on_grass.jpg/1280px-Empty_beer_bottles_on_grass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Empty_beer_bottles_on_grass.jpg/960px-Empty_beer_bottles_on_grass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Empty_beer_bottles_on_grass.jpg/1280px-Empty_beer_bottles_on_grass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Empty_beer_bottles_on_grass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Empty_beer_bottles_on_grass.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/49775591",
+            "sha1": "2541217a1776189d92a76fedb4dea890b1eaa1fd",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-06-28 16:52:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Empty beer bottles on grass",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Olympus E-400|Photographs taken on 2016-06-28|Beer bottles (brown glass)|Empty bottles",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Empty beer bottles on green grass.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-06-28 17:18:52",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Zunter\" title=\"User:Zunter\">Santeri Viinam\u00e4ki</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Santeri Viinam\u00e4ki",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "36199810": {
+        "pageid": 36199810,
+        "ns": 6,
+        "title": "File:Empty glass bottle for medicinal water, Italy, 1920-1930 Wellcome L0057305.jpg",
+        "index": 20,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Empty_glass_bottle_for_medicinal_water%2C_Italy%2C_1920-1930_Wellcome_L0057305.jpg/960px-Empty_glass_bottle_for_medicinal_water%2C_Italy%2C_1920-1930_Wellcome_L0057305.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Empty_glass_bottle_for_medicinal_water%2C_Italy%2C_1920-1930_Wellcome_L0057305.jpg/1280px-Empty_glass_bottle_for_medicinal_water%2C_Italy%2C_1920-1930_Wellcome_L0057305.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Empty_glass_bottle_for_medicinal_water%2C_Italy%2C_1920-1930_Wellcome_L0057305.jpg/960px-Empty_glass_bottle_for_medicinal_water%2C_Italy%2C_1920-1930_Wellcome_L0057305.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Empty_glass_bottle_for_medicinal_water%2C_Italy%2C_1920-1930_Wellcome_L0057305.jpg/1280px-Empty_glass_bottle_for_medicinal_water%2C_Italy%2C_1920-1930_Wellcome_L0057305.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Empty_glass_bottle_for_medicinal_water%2C_Italy%2C_1920-1930_Wellcome_L0057305.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Empty_glass_bottle_for_medicinal_water,_Italy,_1920-1930_Wellcome_L0057305.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/36199810",
+            "sha1": "535aa1cdd168459a38274f1c5bbe639c609964af",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-10-17 08:18:45",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nEmpty glass bottle for medicinal water, Italy, 1920-1930</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Plague|Files with no machine-readable author|Images uploaded by F\u00e6|Artworks without Wikidata item|Files from Wellcome Images (check needed)|Files from Wellcome Images",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<p>The inscription moulded into this glass bottle literally translates from Italian as &amp;#147;Anti-pestilence [or plague] water from Santa Maria Della Scala&amp;#148;. Santa Maria Della Scala is a Christian church in Rome, Italy.\n</p><p>This medicinal water was believed to have the power to cure and to provide protection against disease. Bottles such as this would also be bought by as souvenirs by worshippers who had come to the church on a pilgrimage.\n</p><p>maker: Unknown maker\n</p><p>Place made: Italy\n</p>\n<p>Medical Photographic Library<br>\nKeywords: medicinal water; Plague; bottle</p></div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://wellcomeimages.org/indexplus/obf_images/d9/44/f323718dd9d3356a263cdb39f043.jpg\">https://wellcomeimages.org/indexplus/obf_images/d9/44/f323718dd9d3356a263cdb39f043.jpg</a>\n</p>\n<ul><li>Gallery: <a rel=\"nofollow\" class=\"external free\" href=\"https://wellcomeimages.org/indexplus/image/L0057305.html\">https://wellcomeimages.org/indexplus/image/L0057305.html</a></li>\n<li>Wellcome Collection gallery (2018-03-29): <a rel=\"nofollow\" class=\"external free\" href=\"https://wellcomecollection.org/works/w4424juf\">https://wellcomecollection.org/works/w4424juf</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by/4.0/\">CC-BY-4.0</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "62215920": {
+        "pageid": 62215920,
+        "ns": 6,
+        "title": "File:Emptying a glass bottle (Unsplash).jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Emptying_a_glass_bottle_%28Unsplash%29.jpg/960px-Emptying_a_glass_bottle_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Emptying_a_glass_bottle_%28Unsplash%29.jpg/1280px-Emptying_a_glass_bottle_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Emptying_a_glass_bottle_%28Unsplash%29.jpg/960px-Emptying_a_glass_bottle_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Emptying_a_glass_bottle_%28Unsplash%29.jpg/1280px-Emptying_a_glass_bottle_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Emptying_a_glass_bottle_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Emptying_a_glass_bottle_(Unsplash).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/62215920",
+            "sha1": "702e0e86de74df34b3686d9630ab903e569df28c",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-06 02:06:05",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Emptying a glass bottle (Unsplash)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Images uploaded by F\u00e6|Images from Unsplash|Images from Unsplash (review needed)|Clear glass bottles|Files with coordinates missing SDC location of creation|Water pouring",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "47.681662",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "16.584480",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sopron, Hungary",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-10-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/hfueW9tLWtc\">https://unsplash.com/photos/hfueW9tLWtc</a>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 2 July 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170702223600/https%3A//images.unsplash.com/photo-1476608487893-803e73f5d325\">Image</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>\n</p>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 5 May 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170505154048/https%3A//unsplash.com/photos/hfueW9tLWtc\">Gallery</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Benjamin Voros <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@vorosbenisop\">vorosbenisop</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "169100553": {
+        "pageid": 169100553,
+        "ns": 6,
+        "title": "File:Full Photo Of One Quart Glass Milk Bottle with Original Seal (M. S. Cosgrove & Sons, Dorchester Mass).jpg",
+        "index": 16,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Full_Photo_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg/960px-Full_Photo_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Full_Photo_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg/1280px-Full_Photo_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Full_Photo_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg/960px-Full_Photo_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Full_Photo_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg/1280px-Full_Photo_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Full_Photo_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Full_Photo_Of_One_Quart_Glass_Milk_Bottle_with_Original_Seal_(M._S._Cosgrove_%26_Sons,_Dorchester_Mass).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/169100553",
+            "sha1": "9be62839760aecf66f82a73fedddd1e70f1f0cc2",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-07-02 17:08:16",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Full Photo Of One Quart Glass Milk Bottle with Original Seal (M. S. Cosgrove & Sons, Dorchester Mass)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Empty milk bottles",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "One Quart Glass Milk Bottle with Original Seal (M. S. Cosgrove &amp; Sons, Dorchester Mass)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-07-02 12:53:44",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tacotruckxjr&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tacotruckxjr (page does not exist)\">Tacotruckxjr</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "125781470": {
+        "pageid": 125781470,
+        "ns": 6,
+        "title": "File:Glass bottle.jpg",
+        "index": 19,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Glass_bottle.jpg/960px-Glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 822,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Glass_bottle.jpg/1280px-Glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Glass_bottle.jpg/960px-Glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 822,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Glass_bottle.jpg/1280px-Glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Glass_bottle.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/125781470",
+            "sha1": "3232736fd1bcd451ec50213e0032cd9cc4e08db6",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-11-21 19:28:31",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Glass bottle",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Self-published work|Uploaded with Mobile/Android|Files with coordinates missing SDC location of creation|Photographs taken on 2022-11-21|Empty drinking glasses",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.036798",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.305837",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A photo of a glass bottle on a decorated white table setting.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "21 November 2022\u00a0(according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Yesseruser&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Yesseruser (page does not exist)\">Yesseruser</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "45277905": {
+        "pageid": 45277905,
+        "ns": 6,
+        "title": "File:Glass bottle on the beach.JPG",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Glass_bottle_on_the_beach.JPG/960px-Glass_bottle_on_the_beach.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Glass_bottle_on_the_beach.JPG/1280px-Glass_bottle_on_the_beach.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Glass_bottle_on_the_beach.JPG/960px-Glass_bottle_on_the_beach.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Glass_bottle_on_the_beach.JPG/1280px-Glass_bottle_on_the_beach.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Glass_bottle_on_the_beach.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Glass_bottle_on_the_beach.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/45277905",
+            "sha1": "30710254164d556f5ef0610ebdde9d750a68d84b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-11-27 16:57:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Glass bottle on the beach",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Unidentified Bivalvia|Self-published work|Beaches of unidentified countries|Beach litter|Objects on sand|Empty bottles",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Glass bottle on the beach near some seashells.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-11-27 11:49:03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Revital9\" title=\"User:Revital9\">Revital Salomon</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "178939620": {
+        "pageid": 178939620,
+        "ns": 6,
+        "title": "File:London Bridge dumped empty beer bottle City of London England.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/London_Bridge_dumped_empty_beer_bottle_City_of_London_England.jpg/960px-London_Bridge_dumped_empty_beer_bottle_City_of_London_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/London_Bridge_dumped_empty_beer_bottle_City_of_London_England.jpg/1280px-London_Bridge_dumped_empty_beer_bottle_City_of_London_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/London_Bridge_dumped_empty_beer_bottle_City_of_London_England.jpg/960px-London_Bridge_dumped_empty_beer_bottle_City_of_London_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/London_Bridge_dumped_empty_beer_bottle_City_of_London_England.jpg/1280px-London_Bridge_dumped_empty_beer_bottle_City_of_London_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/London_Bridge_dumped_empty_beer_bottle_City_of_London_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:London_Bridge_dumped_empty_beer_bottle_City_of_London_England.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/178939620",
+            "sha1": "56df870c674d5458dde5722150f8e3adf0cd8a54",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-11-25 10:23:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "London Bridge dumped empty beer bottle City of London England",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "London Bridge|Corona (beer)|Self-published work|2025 in the City of London|Acabashi photos: detritus|London photographs taken on 2025-11-16|Photographs of London by Acabashi|Litter in London|Beer bottles (clear glass)|London photos taken with Canon PowerShot SX60 HS|Empty bottles|Abandoned bottles in London",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Dumped empty Corona beer bottle on London Bridge in the City of London, England.<br>Wikimedia (2025) makes it difficult to immediately view photo groups related to this image. To see the most relevant allied images, go to 'categories' at the bottom of the page, or click on <a href=\"//commons.wikimedia.org/wiki/Category:Photos_by_Acabashi\" title=\"Category:Photos by Acabashi\">this uploader's photos</a>. This image is one of a series of date and/or subject allied consecutive photographs kept in progression or location by file name number and/or time marking.<br><b>Camera</b>: <a href=\"https://en.wikipedia.org/wiki/Canon_PowerShot_SX60_HS\" class=\"extiw\" title=\"w:Canon PowerShot SX60 HS\">Canon PowerShot SX60 HS</a>. <b>Software</b>: <a href=\"https://en.wikipedia.org/wiki/DxO_Labs\" class=\"extiw\" title=\"en:DxO Labs\">DxO PhotoLab 7 Elite</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-11-16 14:00:53",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Acabashi\" title=\"User:Acabashi\">Acabashi</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "178939619": {
+        "pageid": 178939619,
+        "ns": 6,
+        "title": "File:London Bridge dumped empty beer bottles City of London England.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/London_Bridge_dumped_empty_beer_bottles_City_of_London_England.jpg/960px-London_Bridge_dumped_empty_beer_bottles_City_of_London_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 512,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/London_Bridge_dumped_empty_beer_bottles_City_of_London_England.jpg/1280px-London_Bridge_dumped_empty_beer_bottles_City_of_London_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/London_Bridge_dumped_empty_beer_bottles_City_of_London_England.jpg/960px-London_Bridge_dumped_empty_beer_bottles_City_of_London_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 512,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/London_Bridge_dumped_empty_beer_bottles_City_of_London_England.jpg/1280px-London_Bridge_dumped_empty_beer_bottles_City_of_London_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/London_Bridge_dumped_empty_beer_bottles_City_of_London_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:London_Bridge_dumped_empty_beer_bottles_City_of_London_England.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/178939619",
+            "sha1": "c443ba0466d57e0f4dcc451bd96b92e9e049ee91",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-11-25 10:23:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "London Bridge dumped empty beer bottles City of London England",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "London Bridge|Disposable cups|Self-published work|Beer bottles (green glass)|Paper coffee cups|Red coffee cups|Beer bottles (brown glass)|2025 in the City of London|Acabashi photos: detritus|London photographs taken on 2025-11-16|Photographs of London by Acabashi|Litter in London|London photos taken with Canon PowerShot SX60 HS|Empty bottles|Signs on coffee cups|Abandoned bottles in London|Pret A Manger in 2025",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Dumped empty beer bottles and Pret A Manger paper cup on London Bridge in the City of London, England.<br>Wikimedia (2025) makes it difficult to immediately view photo groups related to this image. To see the most relevant allied images, go to 'categories' at the bottom of the page, or click on <a href=\"//commons.wikimedia.org/wiki/Category:Photos_by_Acabashi\" title=\"Category:Photos by Acabashi\">this uploader's photos</a>. This image is one of a series of date and/or subject allied consecutive photographs kept in progression or location by file name number and/or time marking.<br><b>Camera</b>: <a href=\"https://en.wikipedia.org/wiki/Canon_PowerShot_SX60_HS\" class=\"extiw\" title=\"w:Canon PowerShot SX60 HS\">Canon PowerShot SX60 HS</a>. <b>Software</b>: <a href=\"https://en.wikipedia.org/wiki/DxO_Labs\" class=\"extiw\" title=\"en:DxO Labs\">DxO PhotoLab 7 Elite</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-11-16 14:00:28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Acabashi\" title=\"User:Acabashi\">Acabashi</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "169100551": {
+        "pageid": 169100551,
+        "ns": 6,
+        "title": "File:One Quart Glass Milk Bottle with Original Seal (M. S. Cosgrove & Sons, Dorchester Mass).jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg/960px-One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg/1280px-One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg/960px-One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg/1280px-One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/One_Quart_Glass_Milk_Bottle_with_Original_Seal_%28M._S._Cosgrove_%26_Sons%2C_Dorchester_Mass%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:One_Quart_Glass_Milk_Bottle_with_Original_Seal_(M._S._Cosgrove_%26_Sons,_Dorchester_Mass).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/169100551",
+            "sha1": "9dabd80cf9f1682ef0e2adf83135a4eafccaa4d7",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-07-02 17:08:16",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "One Quart Glass Milk Bottle with Original Seal (M. S. Cosgrove & Sons, Dorchester Mass)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Empty milk bottles",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "One Quart Glass Milk Bottle with Original Seal (M. S. Cosgrove &amp; Sons, Dorchester Mass)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-07-02 12:54:05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tacotruckxjr&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tacotruckxjr (page does not exist)\">Tacotruckxjr</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "51534756": {
+        "pageid": 51534756,
+        "ns": 6,
+        "title": "File:Paolyta-B Liq empty glass bottles 20160919.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Paolyta-B_Liq_empty_glass_bottles_20160919.jpg/960px-Paolyta-B_Liq_empty_glass_bottles_20160919.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Paolyta-B_Liq_empty_glass_bottles_20160919.jpg/1280px-Paolyta-B_Liq_empty_glass_bottles_20160919.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Paolyta-B_Liq_empty_glass_bottles_20160919.jpg/960px-Paolyta-B_Liq_empty_glass_bottles_20160919.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Paolyta-B_Liq_empty_glass_bottles_20160919.jpg/1280px-Paolyta-B_Liq_empty_glass_bottles_20160919.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Paolyta-B_Liq_empty_glass_bottles_20160919.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Paolyta-B_Liq_empty_glass_bottles_20160919.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/51534756",
+            "sha1": "8d4e52e36e841cb662e387d0e41f247c82fc8277",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-09-19 10:21:41",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Paolyta-B Liq empty glass bottles 20160919",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Glass bottles|Paolyta-B|Taiwan photographs taken on 2016-09-19|Self-published work|Photographs by Solomon203 taken in 2016|Photographs by Solomon203 by object",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u200b\u4fdd\u529b\u9054B 300cc\u73bb\u7483\u7a7a\u74f6\u3002",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-09-19 17:58:37",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Solomon203\" title=\"User:Solomon203\">Solomon203</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "51609642": {
+        "pageid": 51609642,
+        "ns": 6,
+        "title": "File:Paolyta-B Liq empty glass bottles 20160921.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Paolyta-B_Liq_empty_glass_bottles_20160921.jpg/960px-Paolyta-B_Liq_empty_glass_bottles_20160921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Paolyta-B_Liq_empty_glass_bottles_20160921.jpg/1280px-Paolyta-B_Liq_empty_glass_bottles_20160921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Paolyta-B_Liq_empty_glass_bottles_20160921.jpg/960px-Paolyta-B_Liq_empty_glass_bottles_20160921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Paolyta-B_Liq_empty_glass_bottles_20160921.jpg/1280px-Paolyta-B_Liq_empty_glass_bottles_20160921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Paolyta-B_Liq_empty_glass_bottles_20160921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Paolyta-B_Liq_empty_glass_bottles_20160921.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/51609642",
+            "sha1": "0cfd7b1bba35d1baa02a7b382f45a04b712298e8",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-09-21 10:30:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Paolyta-B Liq empty glass bottles 20160921",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Glass bottles|Paolyta-B|Taiwan photographs taken on 2016-09-21|Self-published work|Photographs by Solomon203 taken in 2016|Photographs by Solomon203 by object",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u200b\u4fdd\u529b\u9054B 300cc\u73bb\u7483\u7a7a\u74f6\u3002",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-09-21 17:51:59",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Solomon203\" title=\"User:Solomon203\">Solomon203</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "183799941": {
+        "pageid": 183799941,
+        "ns": 6,
+        "title": "File:The ocean through an empty glass bottle - Playa Blanca Izabal.jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/The_ocean_through_an_empty_glass_bottle_-_Playa_Blanca_Izabal.jpg/960px-The_ocean_through_an_empty_glass_bottle_-_Playa_Blanca_Izabal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/The_ocean_through_an_empty_glass_bottle_-_Playa_Blanca_Izabal.jpg/1280px-The_ocean_through_an_empty_glass_bottle_-_Playa_Blanca_Izabal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/The_ocean_through_an_empty_glass_bottle_-_Playa_Blanca_Izabal.jpg/960px-The_ocean_through_an_empty_glass_bottle_-_Playa_Blanca_Izabal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/The_ocean_through_an_empty_glass_bottle_-_Playa_Blanca_Izabal.jpg/1280px-The_ocean_through_an_empty_glass_bottle_-_Playa_Blanca_Izabal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/The_ocean_through_an_empty_glass_bottle_-_Playa_Blanca_Izabal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_ocean_through_an_empty_glass_bottle_-_Playa_Blanca_Izabal.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/183799941",
+            "sha1": "8b3f0471bc2b423a05495f03c8dc0ec4d41b4a85",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-02-12 04:36:04",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The ocean through an empty glass bottle - Playa Blanca Izabal",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tourism in Guatemala|CC-Zero|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Flickr images missing SDC published in|Beaches of Livingston, Guatemala|Playa Blanca, Izabal",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "15.888036",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-88.904113",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Tourism in Guatemala",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-08-28 20:31:34",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/145039335@N03/29422968671/\">https://www.flickr.com/photos/145039335@N03/29422968671/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Luc\u00eda Garc\u00eda Gonz\u00e1lez",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "52577609": {
+        "pageid": 52577609,
+        "ns": 6,
+        "title": "File:Whisbih Liq 600cc empty glass bottle face 20161026.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Whisbih_Liq_600cc_empty_glass_bottle_face_20161026.jpg/960px-Whisbih_Liq_600cc_empty_glass_bottle_face_20161026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Whisbih_Liq_600cc_empty_glass_bottle_face_20161026.jpg/1280px-Whisbih_Liq_600cc_empty_glass_bottle_face_20161026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Whisbih_Liq_600cc_empty_glass_bottle_face_20161026.jpg/960px-Whisbih_Liq_600cc_empty_glass_bottle_face_20161026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Whisbih_Liq_600cc_empty_glass_bottle_face_20161026.jpg/1280px-Whisbih_Liq_600cc_empty_glass_bottle_face_20161026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Whisbih_Liq_600cc_empty_glass_bottle_face_20161026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Whisbih_Liq_600cc_empty_glass_bottle_face_20161026.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/52577609",
+            "sha1": "f0d03e6fdd8f0bd31af4ecad638abc042c74f940",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-10-28 10:40:46",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Whisbih Liq 600cc empty glass bottle face 20161026",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Whisbih|Glass bottles|Self-published work|Photographs by Solomon203 taken in 2016|Photographs by Solomon203 by object",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u200b\u4e09\u6d0b\u85e5\u54c1\u7dad\u58eb\u6bd4\u6db2600cc\u73bb\u7483\u7a7a\u74f6\u6b63\u9762\u3002",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-10-26 07:51:48",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Solomon203\" title=\"User:Solomon203\">Solomon203</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "52577608": {
+        "pageid": 52577608,
+        "ns": 6,
+        "title": "File:Whisbih Liq 600cc empty glass bottle rear tag 20161026.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Whisbih_Liq_600cc_empty_glass_bottle_rear_tag_20161026.jpg/960px-Whisbih_Liq_600cc_empty_glass_bottle_rear_tag_20161026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Whisbih_Liq_600cc_empty_glass_bottle_rear_tag_20161026.jpg/1280px-Whisbih_Liq_600cc_empty_glass_bottle_rear_tag_20161026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Whisbih_Liq_600cc_empty_glass_bottle_rear_tag_20161026.jpg/960px-Whisbih_Liq_600cc_empty_glass_bottle_rear_tag_20161026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Whisbih_Liq_600cc_empty_glass_bottle_rear_tag_20161026.jpg/1280px-Whisbih_Liq_600cc_empty_glass_bottle_rear_tag_20161026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Whisbih_Liq_600cc_empty_glass_bottle_rear_tag_20161026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Whisbih_Liq_600cc_empty_glass_bottle_rear_tag_20161026.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/52577608",
+            "sha1": "2662cf8c945b8d5a2369b30e37f70c32ab2c042e",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-10-28 10:40:46",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Whisbih Liq 600cc empty glass bottle rear tag 20161026",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Whisbih|Glass bottles|Ingredients lists of food|Recycling symbols of Taiwan|Self-published work|Photographs by Solomon203 taken in 2016|International Article Number (EAN13)|Photographs by Solomon203 by object",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u200b\u4e09\u6d0b\u85e5\u54c1\u7dad\u58eb\u6bd4\u6db2600cc\u73bb\u7483\u7a7a\u74f6\u80cc\u9762\u6a19\u7c64\u3002",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-10-26 07:54:17",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Solomon203\" title=\"User:Solomon203\">Solomon203</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

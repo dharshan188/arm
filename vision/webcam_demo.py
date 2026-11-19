@@ -26,6 +26,8 @@ STREAM_STYLE = {  # BGR colours for OpenCV
     "recyclable": ((200, 110, 20), "BLUE bin (dry / recyclable)"),
     "hazardous": ((40, 40, 210), "RED bin (domestic hazardous) - do not mix"),
     "e_waste": ((60, 60, 60), "E-WASTE: give to authorised collector"),
+    "general": ((110, 110, 110), "GREY/BLACK bin (general / reject waste)"),
+    "none": ((90, 90, 90), "show one item in the box"),
 }
 
 

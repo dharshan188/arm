@@ -1,0 +1,1575 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 15,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "4882244": {
+        "pageid": 4882244,
+        "ns": 6,
+        "title": "File:02 - Single Energizer Battery.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/02_-_Single_Energizer_Battery.jpg/960px-02_-_Single_Energizer_Battery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 428,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/02_-_Single_Energizer_Battery.jpg/1280px-02_-_Single_Energizer_Battery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/02_-_Single_Energizer_Battery.jpg/960px-02_-_Single_Energizer_Battery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 428,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/02_-_Single_Energizer_Battery.jpg/1280px-02_-_Single_Energizer_Battery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/02_-_Single_Energizer_Battery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:02_-_Single_Energizer_Battery.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/4882244",
+            "sha1": "36925ee22232a8b95a78b2c96cce9ed64e24eff9",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-09-29 01:11:46",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "02 - Single Energizer Battery",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D40x|Self-published work|Objects with white background|Disposable AA batteries|Energizer alkaline batteries",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Image of a single Energizer AA Battery",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Photographed on 29th September 2008",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Own work by uploader (Photographed by myself (Asim18)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Asim18\" title=\"User:Asim18\">Asim18</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "157860396": {
+        "pageid": 157860396,
+        "ns": 6,
+        "title": "File:18650, AA, and AAA battery with penny.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/18650%2C_AA%2C_and_AAA_battery_with_penny.jpg/960px-18650%2C_AA%2C_and_AAA_battery_with_penny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 1014,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/13/18650%2C_AA%2C_and_AAA_battery_with_penny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/18650%2C_AA%2C_and_AAA_battery_with_penny.jpg/960px-18650%2C_AA%2C_and_AAA_battery_with_penny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1014,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/13/18650%2C_AA%2C_and_AAA_battery_with_penny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/18650%2C_AA%2C_and_AAA_battery_with_penny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:18650,_AA,_and_AAA_battery_with_penny.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/157860396",
+            "sha1": "9edd45a4474724869368edff58277c5034d0a9c9",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-01-13 01:39:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "18650, AA, and AAA battery with penny",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images with coins to indicate scale|Lincoln cents|AAA batteries|AA batteries|Self-published work|18650 batteries|2022 coins|Own works by JayCubby|Batteries Size comparison",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "18650, AA, and AAA battery with penny for scale.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-11-18 21:30:58",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:JayCubby\" title=\"User:JayCubby\">JayCubby</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "15957532": {
+        "pageid": 15957532,
+        "ns": 6,
+        "title": "File:2-3rdA-AA-battery.jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/88/2-3rdA-AA-battery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 819,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/2-3rdA-AA-battery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 819
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/2-3rdA-AA-battery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2-3rdA-AA-battery.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/15957532",
+            "sha1": "168018bc9df97149ae904afc3b79a9725e1d27c4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-07-31 15:23:12",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2-3rdA-AA-battery",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "NiMH batteries|Alkaline batteries|Self-published work|Images with Rainbow AA batteries to indicate scale|Trilingual English-Finnish-Swedish signs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A 2/3 A size NiMH (1.2V) rechargeable cell. This is an unstandardised size used in battery packs for various electronic devices. An AA cell and 7mm grid background is included for scale.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-07-31",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Lead_holder\" title=\"User:Lead holder\">Lead holder</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "152850782": {
+        "pageid": 152850782,
+        "ns": 6,
+        "title": "File:2500 mAh NiMH Battery - AA (11469147674).jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/27/2500_mAh_NiMH_Battery_-_AA_%2811469147674%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/27/2500_mAh_NiMH_Battery_-_AA_%2811469147674%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 640
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/2500_mAh_NiMH_Battery_-_AA_%2811469147674%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2500_mAh_NiMH_Battery_-_AA_(11469147674).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/152850782",
+            "sha1": "4487d83e8fb5f320caff2ad4973c732aae269ef6",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-09-19 05:47:46",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2500 mAh NiMH Battery - AA (11469147674)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "NiMH batteries|AA batteries|Flickr images reviewed by FlickreviewR 2|Flickr images missing SDC published in",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "&lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"https://www.sparkfun.com/products/335\">https://www.sparkfun.com/products/335</a>\" rel=\"noreferrer nofollow\"&gt;www.sparkfun.com/products/335&lt;/a&gt;",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-12-17 10:38",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/sparkfun/11469147674/\">2500 mAh NiMH Battery - AA</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/41898857@N04\">SparkFun Electronics</a> from Boulder, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "15746362": {
+        "pageid": 15746362,
+        "ns": 6,
+        "title": "File:4-5ths-A-AA-battery.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/da/4-5ths-A-AA-battery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 806,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/4-5ths-A-AA-battery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 806
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/4-5ths-A-AA-battery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:4-5ths-A-AA-battery.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/15746362",
+            "sha1": "9800f724e918729e7b0dddfeb9b7b2aa0f1192d4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-07-09 15:02:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "4-5ths-A-AA-battery",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "NiMH batteries|Alkaline batteries|Self-published work|Images with Rainbow AA batteries to indicate scale",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A 4/5A size NiMH (1.2V) rechargeable cell. This is an unstandardised size used in battery packs for various electronic devices. An AA cell and 7mm grid background is included for scale.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-07-09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Lead_holder\" title=\"User:Lead holder\">Lead holder</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "157779620": {
+        "pageid": 157779620,
+        "ns": 6,
+        "title": "File:AA Batteries (51825378856).jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/AA_Batteries_%2851825378856%29.jpg/960px-AA_Batteries_%2851825378856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 360,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/AA_Batteries_%2851825378856%29.jpg/1280px-AA_Batteries_%2851825378856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/AA_Batteries_%2851825378856%29.jpg/960px-AA_Batteries_%2851825378856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 360,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/AA_Batteries_%2851825378856%29.jpg/1280px-AA_Batteries_%2851825378856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/AA_Batteries_%2851825378856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:AA_Batteries_(51825378856).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/157779620",
+            "sha1": "890cfc6eee6231ab8031b580ca9865c762951d46",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-01-11 04:23:52",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "AA Batteries (51825378856)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "AA batteries|Flickr images missing SDC inception|Flickr images reviewed by FlickreviewR 2",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "AA, AA Batteries, AA Battery, Battery",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-01-16 21:05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/ajay_suresh/51825378856/\">AA Batteries</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/83136374@N05\">ajay_suresh</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "133725275": {
+        "pageid": 133725275,
+        "ns": 6,
+        "title": "File:AA Battery (2176210906).jpg",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/AA_Battery_%282176210906%29.jpg/960px-AA_Battery_%282176210906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/AA_Battery_%282176210906%29.jpg/1280px-AA_Battery_%282176210906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/AA_Battery_%282176210906%29.jpg/960px-AA_Battery_%282176210906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/AA_Battery_%282176210906%29.jpg/1280px-AA_Battery_%282176210906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/AA_Battery_%282176210906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:AA_Battery_(2176210906).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/133725275",
+            "sha1": "32b99ae3a1f75c6be8fccaabcb1b6608e9d04edd",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-06-29 03:36:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "AA Battery (2176210906)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "AA batteries|Flickr images reviewed by FlickreviewR 2",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "CRW_1412",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-12-14 23:36",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/tompagenet/2176210906/\">CRW_1412</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/73422480@N00\">Tom Page</a> from London, UK",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "97886268": {
+        "pageid": 97886268,
+        "ns": 6,
+        "title": "File:AA VARTA battery-side PNr\u00b00782.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/AA_VARTA_battery-side_PNr%C2%B00782.jpg/960px-AA_VARTA_battery-side_PNr%C2%B00782.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 1691,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/AA_VARTA_battery-side_PNr%C2%B00782.jpg/1280px-AA_VARTA_battery-side_PNr%C2%B00782.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/AA_VARTA_battery-side_PNr%C2%B00782.jpg/960px-AA_VARTA_battery-side_PNr%C2%B00782.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1691,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/AA_VARTA_battery-side_PNr%C2%B00782.jpg/1280px-AA_VARTA_battery-side_PNr%C2%B00782.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/AA_VARTA_battery-side_PNr%C2%B00782.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:AA_VARTA_battery-side_PNr%C2%B00782.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/97886268",
+            "sha1": "2d7ce35932609af8250ee718938b7abee7e53ff3",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-12-21 02:04:41",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "AA VARTA battery-side PNr\u00b00782",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 40D|Created with RawTherapee|Alkaline batteries|AA batteries|Taken with Canon EF-S 60mm F2.8 Macro USM|Files taken by D-Kuru|Photographs taken on 2020-12-21|Varta batteries",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A <a href=\"https://en.wikipedia.org/wiki/AA_battery\" class=\"extiw\" title=\"en:AA battery\">AA battery</a> by <a href=\"https://en.wikipedia.org/wiki/VARTA\" class=\"extiw\" title=\"en:VARTA\">VARTA</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a021 December 2020",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:D-Kuru\" title=\"User:D-Kuru\">D-Kuru</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table align=\"center\" style=\"margin:0; margin-top:1px; width:100%; border:2px solid #A9A9F5; padding: 1em 1em 1em 1em; background-color:#F2F2F2\">\n\n<tbody><tr>\n<td><div class=\"center\"><big><u><b>I, D-Kuru the author of this image, release it under the following licence:</b></u></big></div>\n</td></tr>\n<tr>\n<td><div class=\"center\"><div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/4.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/4.0/deed.en\">Attribution-Share Alike 4.0 International</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> \u2013 to copy, distribute and transmit the work</li>\n<li><b>to remix</b> \u2013 to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> \u2013 You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> \u2013 If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/4.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 4.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 4.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div></div>\n</td></tr>\n<tr>\n<td>\n</td></tr>\n<tr>\n<td><br><hr>\n</td></tr>\n<tr>\n<td><big><u><b>Attribution, disclaimer and additional Information:</b></u></big>\n<p>\t\t<u><b>Attribution:</b></u> <br>\nAttribute me as \"D-Kuru from Wikimedia Commons\" or \"D-Kuru/Wikimedia Commons\". Second suggestion is preferred. You can find an example of how the image could be used in the \u201eDisclaimer\u201c section. You can also visit the help page <i><a href=\"//commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia\" title=\"Commons:Reusing content outside Wikimedia\">Commons:Reusing content outside Wikimedia</a></i> for further information.\n</p>\n</td></tr>\n<tr>\n<td><u><b>Used camera &amp; lens:</b></u>\n\t\t<div style=\"clear:both;\"></div>\n\t\t<figure class=\"mw-halign-left\" typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Tba.PNG/60px-Tba.PNG?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"60\" height=\"60\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Tba.PNG/120px-Tba.PNG?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"200\" data-file-height=\"200\"></span><figcaption></figcaption></figure><figure class=\"mw-halign-right\" typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Tba.PNG/60px-Tba.PNG?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"60\" height=\"60\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Tba.PNG/120px-Tba.PNG?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"200\" data-file-height=\"200\"></span><figcaption></figcaption></figure>This image was taken using\u00a0a Canon EOS 40D.<div align=\"right\">This image was taken using\u00a0a Canon EF-S 60mm F2.8 Macro USM lens.</div>\n\t\t<div style=\"clear:both;\"></div>\n</td></tr>\n<tr>\n<td>\n<figure typeof=\"mw:File/Thumb\"><span><img resource=\"/wiki/File:AA_VARTA_battery-side_PNr%C2%B00782.jpg\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/AA_VARTA_battery-side_PNr%C2%B00782.jpg/120px-AA_VARTA_battery-side_PNr%C2%B00782.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"113\" height=\"300\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/AA_VARTA_battery-side_PNr%C2%B00782.jpg/250px-AA_VARTA_battery-side_PNr%C2%B00782.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1467\" data-file-height=\"3876\"></span><figcaption><b>Author:</b> <a class=\"external text\" data-mw-original-href=\"http://commons.wikimedia.org/wiki/User:D-Kuru\" href=\"https://commons.wikimedia.org/wiki/User:D-Kuru\">D-Kuru/Wikimedia Commons</a><br><b>Licence:</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">CC-BY-SA-4.0</a></figcaption></figure>\n<p><br>\t\t\n\t\t<u><b>Disclaimer:</b></u> <br>\nEven I'm the only copyright holder of this two-dimensional work I can't exclude that third parties or local and/or international law may can restrict the reuse of this image. Possible restrctions could be due to personality rights, copyright (e.g. on buildings) and/or law such as the \"<a href=\"//commons.wikimedia.org/wiki/Commons:Freedom_of_panorama\" title=\"Commons:Freedom of panorama\">Freedom of panorama</a>\".\n</p><p><u><b>Hyperlinks, other licences and additional information:</b></u> <br>\nEven hyperlinks to <a href=\"//commons.wikimedia.org/wiki/User:D-Kuru\" title=\"User:D-Kuru\">my user page on Wikimedia Commons</a> and this page are not required, they are requested. Also not required is a notification if you use this image anywhere but it nice to hear from you.<br>\nIf you want to use my image under different licenceconditions you can cantact me on <a href=\"//commons.wikimedia.org/wiki/User_talk:D-Kuru\" title=\"User talk:D-Kuru\">my talkpage</a> or you can send me a <a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/D-Kuru\" title=\"Special:EmailUser/D-Kuru\">mail</a>.<br>\nI upload all my files in the highest possible resolution and/or bitrate so I can't offer higher resoluted images and/or better quality for my video and/or audio files. However, if you want to have an image from a different angle you can contact me and I can see if I can help you.\n</p><p>Keep in mind that this text <u>does not</u> affect the other usage conditions of the licence (could be \u201eShare Alike\u201c, \u201emake clear to others the license terms of this work\u201c, etc.) in any way! On the right side you can see an example of how the image could be used correctly according to the licenceconditions.\n</p>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "17803828": {
+        "pageid": 17803828,
+        "ns": 6,
+        "title": "File:AA batteries.JPG",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/AA_batteries.JPG/960px-AA_batteries.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/AA_batteries.JPG/1280px-AA_batteries.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/AA_batteries.JPG/960px-AA_batteries.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/AA_batteries.JPG/1280px-AA_batteries.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/AA_batteries.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:AA_batteries.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/17803828",
+            "sha1": "9bf9c3e6f597b7df0d4364919d73a1ffc61366cc",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-12-26 10:29:31",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "AA batteries",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Panasonic Lumix DMC-FZ28|License migration redundant|AA batteries|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "AA batteries",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-12-26",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dmitry_G\" title=\"User:Dmitry G\">Dmitry G</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "You may select the license of your choice.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "2080240": {
+        "pageid": 2080240,
+        "ns": 6,
+        "title": "File:AA battery adapter.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/AA_battery_adapter.jpg/960px-AA_battery_adapter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 601,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/AA_battery_adapter.jpg/1280px-AA_battery_adapter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/AA_battery_adapter.jpg/960px-AA_battery_adapter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 601,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/AA_battery_adapter.jpg/1280px-AA_battery_adapter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/AA_battery_adapter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:AA_battery_adapter.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/2080240",
+            "sha1": "cb7088cd00f7465b3b4ef0aa985152576c09d134",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2007-05-09 10:11:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "AA battery adapter",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|3R12 batteries|License migration completed|AA batteries|Battery size converters",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Selber fotografiert am 17. August 2005. David Croll / <a href=\"https://de.wikipedia.org/wiki/Benutzer:Keimzelle\" class=\"extiw\" title=\"de:Benutzer:Keimzelle\">Keimzelle</a>\n</p><p><span style=\"color: red;\"><b>Wer einen solchen Adapter beschaffen m\u00f6chte...</b></span><br>\n...ich habe diesen bei Transa gekauft (<a rel=\"nofollow\" class=\"external free\" href=\"http://www.transa.ch\">http://www.transa.ch</a>). Im Katalog von Transa habe ich keinen Adapter gefunden; im Laden sollten sie aber verf\u00fcgbar sein... Wem diese schweizerische Firma zu weit weg ist: Geht sonst in ein <a href=\"https://de.wikipedia.org/wiki/Outdoor\" class=\"extiw\" title=\"de:Outdoor\">de:Outdoor</a>-/<a href=\"https://de.wikipedia.org/wiki/Trekking\" class=\"extiw\" title=\"de:Trekking\">de:Trekkingfachgesch</a>\u00e4ft und fragt euch dort rum. Alternative:\n</p><p><a rel=\"nofollow\" class=\"external free\" href=\"http://en.petzl.com/petzl/SportProduits?Produit=231\">http://en.petzl.com/petzl/SportProduits?Produit=231</a>\n</p><p>...irgendwie kann man dieses ger\u00e4t schon an eure bestehende Lampe anschliessen.\n</p>\nGruss, --<a href=\"https://de.wikipedia.org/wiki/Benutzer:Keimzelle\" class=\"extiw\" title=\"de:Benutzer:Keimzelle\">Keimzelle</a> <small><a href=\"https://de.wikipedia.org/wiki/Benutzer_Diskussion:Keimzelle\" class=\"extiw\" title=\"de:Benutzer Diskussion:Keimzelle\">   talk   </a></small> 00:52, 30. M\u00e4r 2006 (CEST)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "17 August 2005 (original upload date)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//de.wikipedia.org\" href=\"https://de.wikipedia.org\">de.wikipedia</a></span> to Commons.</bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/de:User:Keimzelle\" class=\"extiw\" title=\"w:de:User:Keimzelle\">Keimzelle</a> at <a href=\"https://en.wikipedia.org/wiki/de:\" class=\"extiw\" title=\"w:de:\">German Wikipedia</a>.",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "192093027": {
+        "pageid": 192093027,
+        "ns": 6,
+        "title": "File:Battery AA horizontal.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Battery_AA_horizontal.jpg/960px-Battery_AA_horizontal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 371,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Battery_AA_horizontal.jpg/1280px-Battery_AA_horizontal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Battery_AA_horizontal.jpg/960px-Battery_AA_horizontal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 371,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Battery_AA_horizontal.jpg/1280px-Battery_AA_horizontal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Battery_AA_horizontal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Battery_AA_horizontal.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/192093027",
+            "sha1": "1651d5266a6d88d05dd93232d1b41c17be9a17c3",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-05-16 09:22:22",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Battery AA horizontal",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "AA batteries|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A AA Battery",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-05-16 14:11:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Symoum_Syfullah_Priyo\" title=\"User:Symoum Syfullah Priyo\">Symoum Syfullah Priyo</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "85904041": {
+        "pageid": 85904041,
+        "ns": 6,
+        "title": "File:Energizer NiMH rechargeable AA batteries (four) (vertical).jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Energizer_NiMH_rechargeable_AA_batteries_%28four%29_%28vertical%29.jpg/960px-Energizer_NiMH_rechargeable_AA_batteries_%28four%29_%28vertical%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Energizer_NiMH_rechargeable_AA_batteries_%28four%29_%28vertical%29.jpg/1280px-Energizer_NiMH_rechargeable_AA_batteries_%28four%29_%28vertical%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Energizer_NiMH_rechargeable_AA_batteries_%28four%29_%28vertical%29.jpg/960px-Energizer_NiMH_rechargeable_AA_batteries_%28four%29_%28vertical%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Energizer_NiMH_rechargeable_AA_batteries_%28four%29_%28vertical%29.jpg/1280px-Energizer_NiMH_rechargeable_AA_batteries_%28four%29_%28vertical%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Energizer_NiMH_rechargeable_AA_batteries_%28four%29_%28vertical%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Energizer_NiMH_rechargeable_AA_batteries_(four)_(vertical).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/85904041",
+            "sha1": "73eae7804b7ed4abea48ff07c12af1acf7686afb",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-01-14 20:35:50",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Energizer NiMH rechargeable AA batteries (four) (vertical)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Made in China|Multilingual warning signs in China|NiMH batteries|With trademark|Self-published work|Images by User:Multicherry|Energizer batteries|Rechargeable AA batteries|Quadrilingual English-French-German-Spanish signs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Energizer NiMH rechargeable AA batteries (four) (vertical). Sold on the UK market circa 2005 to 2010.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Multicherry\" title=\"User:Multicherry\">Multicherry</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Multicherry\" title=\"User:Multicherry\">Multicherry</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "trademarked",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "159094210": {
+        "pageid": 159094210,
+        "ns": 6,
+        "title": "File:IKEA LADDA rechargeable AA-batteries.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/IKEA_LADDA_rechargeable_AA-batteries.jpg/960px-IKEA_LADDA_rechargeable_AA-batteries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/IKEA_LADDA_rechargeable_AA-batteries.jpg/1280px-IKEA_LADDA_rechargeable_AA-batteries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/IKEA_LADDA_rechargeable_AA-batteries.jpg/960px-IKEA_LADDA_rechargeable_AA-batteries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/IKEA_LADDA_rechargeable_AA-batteries.jpg/1280px-IKEA_LADDA_rechargeable_AA-batteries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/IKEA_LADDA_rechargeable_AA-batteries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:IKEA_LADDA_rechargeable_AA-batteries.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/159094210",
+            "sha1": "c13541170e01278833a3a774fc5984aee7dfe693",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-02-04 11:31:44",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "IKEA LADDA rechargeable AA-batteries",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D3200|CC-Zero|NiMH batteries|IKEA products|Self-published work|Photographs by rail|Rechargeable AA batteries",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A stack of 4 IKEA LADDA (23076) rechargeable Ni-Mh AA batteries",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-11-26 20:51:15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<span style=\"font-family: monospace\"><b><a href=\"//commons.wikimedia.org/wiki/User:Rail01\" title=\"User:Rail01\">RAIL P</a></b>\u00a0(<span class=\"plainlinks\"><a rel=\"nofollow\" class=\"external text\" href=\"https://rail.photography/\">RAIL.PHOTOGRAPHY</a></span>)</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "83043089": {
+        "pageid": 83043089,
+        "ns": 6,
+        "title": "File:Panasonic Power Alkaline- AA Batery.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Panasonic_Power_Alkaline-_AA_Batery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 1280,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Panasonic_Power_Alkaline-_AA_Batery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 1280
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Panasonic_Power_Alkaline-_AA_Batery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Panasonic_Power_Alkaline-_AA_Batery.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/83043089",
+            "sha1": "b1fda384490066bdb93a10baf00bc1a465a0f4f5",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-12-29 20:54:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Panasonic Power Alkaline- AA Batery",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Alkaline batteries|Electrochemical cells|AA batteries|Self-published work|Panasonic batteries",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "1,5V AA Battery made by Panasonic. Power Alkaline model.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-10-12 17:38:10",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mr_Yukio&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mr Yukio (page does not exist)\">Mr Yukio</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "95122264": {
+        "pageid": 95122264,
+        "ns": 6,
+        "title": "File:Tadiran Israel TL-5151 3.6 Volt Lithium battery, half AA-4192.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Tadiran_Israel_TL-5151_3.6_Volt_Lithium_battery%2C_half_AA-4192.jpg/960px-Tadiran_Israel_TL-5151_3.6_Volt_Lithium_battery%2C_half_AA-4192.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Tadiran_Israel_TL-5151_3.6_Volt_Lithium_battery%2C_half_AA-4192.jpg/1280px-Tadiran_Israel_TL-5151_3.6_Volt_Lithium_battery%2C_half_AA-4192.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Tadiran_Israel_TL-5151_3.6_Volt_Lithium_battery%2C_half_AA-4192.jpg/960px-Tadiran_Israel_TL-5151_3.6_Volt_Lithium_battery%2C_half_AA-4192.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Tadiran_Israel_TL-5151_3.6_Volt_Lithium_battery%2C_half_AA-4192.jpg/1280px-Tadiran_Israel_TL-5151_3.6_Volt_Lithium_battery%2C_half_AA-4192.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Tadiran_Israel_TL-5151_3.6_Volt_Lithium_battery%2C_half_AA-4192.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tadiran_Israel_TL-5151_3.6_Volt_Lithium_battery,_half_AA-4192.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/95122264",
+            "sha1": "553618c0bb29ca4f64cf3a473f23c6366ff2b7e4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-10-16 16:38:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tadiran Israel TL-5151 3.6 Volt Lithium battery, half AA-4192",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Lithium batteries|1/2 AA batteries|Self-published work|Files by User:Raymond from de.wikipedia/Objects|Information field template with formatting|Uploaded with LrMediaWiki|Fotosession im Lokal K (IuK-Technik)|Fotosession im Lokal K (2020)|Hauskamera Lokal K - Canon EOS 5D Mark IV (2020)|Tadiran batteries",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Tadiran Israel TL-5151 3.6 Volt Lithium battery, Size: 1/2 AA",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-10-15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q108103612\" class=\"extiw\" title=\"d:Q108103612\"><span title=\"Wikipedian and OpenStreetMap mapper from Cologne, Open Data activist\">Raimond Spekking</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Attribution": {
+                "value": "\u00a9 Raimond Spekking / CC BY-SA 4.0 (via Wikimedia Commons)",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

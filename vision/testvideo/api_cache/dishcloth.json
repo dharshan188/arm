@@ -1,0 +1,2133 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 20,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "181130097": {
+        "pageid": 181130097,
+        "ns": 6,
+        "title": "File:Dark blue tea towel stack.jpg",
+        "index": 11,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Dark_blue_tea_towel_stack.jpg/960px-Dark_blue_tea_towel_stack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/7/70/Dark_blue_tea_towel_stack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Dark_blue_tea_towel_stack.jpg/960px-Dark_blue_tea_towel_stack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 640,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/70/Dark_blue_tea_towel_stack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Dark_blue_tea_towel_stack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dark_blue_tea_towel_stack.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/181130097",
+            "sha1": "22ba3f8a85256f38e8f72264ae79489fb0e1b83b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-01-02 22:56:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Dark blue tea towel stack",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Blue towels",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Four folded dark blue tea towels bound together by gray string",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-02",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:TeaTowel341076&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:TeaTowel341076 (page does not exist)\">TeaTowel341076</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "181130096": {
+        "pageid": 181130096,
+        "ns": 6,
+        "title": "File:Dark blue tea towel stack pixel art.png",
+        "index": 15,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Dark_blue_tea_towel_stack_pixel_art.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 640,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Dark_blue_tea_towel_stack_pixel_art.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 640
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Dark_blue_tea_towel_stack_pixel_art.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dark_blue_tea_towel_stack_pixel_art.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/181130096",
+            "sha1": "217efb629096bc8723ad03539b854cb61dbe7d97",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-01-02 22:56:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Dark blue tea towel stack pixel art",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Blue towels",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Pixel art rendition of a four folded dark blue tea towels bound together by gray string",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:TeaTowel341076&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:TeaTowel341076 (page does not exist)\">TeaTowel341076</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "2953885": {
+        "pageid": 2953885,
+        "ns": 6,
+        "title": "File:Dishcloths.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Dishcloths.jpg/960px-Dishcloths.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Dishcloths.jpg/1280px-Dishcloths.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Dishcloths.jpg/960px-Dishcloths.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Dishcloths.jpg/1280px-Dishcloths.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Dishcloths.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dishcloths.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/2953885",
+            "sha1": "75c8cd908513ece4ba5ecfcb81e2f158851bd525",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2007-10-21 18:30:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Dishcloths",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Dishcloths|Flickr images reviewed by FlickreviewR|Knitted objects",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Here are four colorful dishrags I knitted. The \"Warshrag\" pattern came from <i>Mason-Dixon Knitting.</i>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-09-30 17:43",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/35034348013@N01/256934333/\">Knitted Dishrags</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/35034348013@N01\">anna saccheri</a> from Palo Alto, United States",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "40249587": {
+        "pageid": 40249587,
+        "ns": 6,
+        "title": "File:Dishcloths woven in museum Het Leids Wevershuis 2.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Dishcloths_woven_in_museum_Het_Leids_Wevershuis_2.jpg/960px-Dishcloths_woven_in_museum_Het_Leids_Wevershuis_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 540,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Dishcloths_woven_in_museum_Het_Leids_Wevershuis_2.jpg/1280px-Dishcloths_woven_in_museum_Het_Leids_Wevershuis_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Dishcloths_woven_in_museum_Het_Leids_Wevershuis_2.jpg/960px-Dishcloths_woven_in_museum_Het_Leids_Wevershuis_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 540,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Dishcloths_woven_in_museum_Het_Leids_Wevershuis_2.jpg/1280px-Dishcloths_woven_in_museum_Het_Leids_Wevershuis_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Dishcloths_woven_in_museum_Het_Leids_Wevershuis_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dishcloths_woven_in_museum_Het_Leids_Wevershuis_2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/40249587",
+            "sha1": "ca0af021216e738bafa4c93f113659b07eda48e7",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-05-16 18:45:20",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Dishcloths woven in museum Het Leids Wevershuis 2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Weaving|Het Leids Wevershuis|Dishcloths|Self-published work|2015 in Leiden|Netherlands photographs taken on 2015-05-16",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "52.159937",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "4.498095",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Dishcloths woven in museum Het Leids Wevershuis with the large loom.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-05-16 13:25:59",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Erik_Zachte\" title=\"User:Erik Zachte\">Erik Zachte</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "158785714": {
+        "pageid": 158785714,
+        "ns": 6,
+        "title": "File:Folded chakin (tea towel).jpg",
+        "index": 17,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Folded_chakin_%28tea_towel%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 613,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Folded_chakin_%28tea_towel%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 613
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Folded_chakin_%28tea_towel%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Folded_chakin_(tea_towel).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/158785714",
+            "sha1": "31df43c79a4516380b0297f46372120cd1e6377d",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-01-30 07:08:32",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Folded chakin (tea towel)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Japanese tea utensils|PD-old-100-1996|CC-PD-Mark|PD-old missing SDC copyright status",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u8336\u5dfe\u306e\u305f\u305f\u307f\u65b9",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1882",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "\u8336\u9053\u7bb8\u66fd\u5442\u5f97 \u521d\u7bc7 <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://dl.ndl.go.jp/pid/860732/1/12\">[1]</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "\u9593\u702c\u5175\u53f3\u885b\u9580",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "98927591": {
+        "pageid": 98927591,
+        "ns": 6,
+        "title": "File:Handmade-housewares.jpg",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Handmade-housewares.jpg/960px-Handmade-housewares.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Handmade-housewares.jpg/1280px-Handmade-housewares.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Handmade-housewares.jpg/960px-Handmade-housewares.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Handmade-housewares.jpg/1280px-Handmade-housewares.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Handmade-housewares.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Handmade-housewares.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/98927591",
+            "sha1": "f3384c73351c9e7597b9b00832343a059a589858",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-01-17 07:37:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Handmade-housewares",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images with annotations|Tea towels|Wooden kitchen utensils|Handmade|Flickr images reviewed by FlickreviewR 2|Dryer balls",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Hand-stamped tea towels, hand-crocheted dishwashing cloths, DIY rubber-dipped kitchen tools and handmade wool dryer balls.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-12-24 08:40:59",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/137923544@N08/37405587782/\">https://www.flickr.com/photos/137923544@N08/37405587782/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Jude Brown",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "33952970": {
+        "pageid": 33952970,
+        "ns": 6,
+        "title": "File:Kitchen shelve with utensils.jpg",
+        "index": 16,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Kitchen_shelve_with_utensils.jpg/960px-Kitchen_shelve_with_utensils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 420,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Kitchen_shelve_with_utensils.jpg/1280px-Kitchen_shelve_with_utensils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Kitchen_shelve_with_utensils.jpg/960px-Kitchen_shelve_with_utensils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 420,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Kitchen_shelve_with_utensils.jpg/1280px-Kitchen_shelve_with_utensils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Kitchen_shelve_with_utensils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kitchen_shelve_with_utensils.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/33952970",
+            "sha1": "fafd742994b153c61339a8fba1eccacf5d945167",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-07-13 12:15:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kitchen shelve with utensils",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Kitchenware|Cleaning equipment|Potholders|Dishwashing brushes|Dishwashing liquids|Dishcloths|Rubber gloves|Self-published work|Kitchen linen|Kitchen shelves",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "K\u00fcchenregal in Deutschland mit Sp\u00fclb\u00fcrste, Soda,Geschirrsp\u00fclmittel, Topflappen, Gummihandschuhen, Wischlappen und mehr.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-07-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Oxfordian_Kissuth\" title=\"User:Oxfordian Kissuth\">Oxfordian Kissuth</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "24518729": {
+        "pageid": 24518729,
+        "ns": 6,
+        "title": "File:Lavrete drap d' mwin motchoe d' potche loke sierdoe.JPG",
+        "index": 13,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Lavrete_drap_d%27_mwin_motchoe_d%27_potche_loke_sierdoe.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 640,
+            "thumbheight": 360,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/14/Lavrete_drap_d%27_mwin_motchoe_d%27_potche_loke_sierdoe.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 360
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Lavrete_drap_d%27_mwin_motchoe_d%27_potche_loke_sierdoe.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lavrete_drap_d%27_mwin_motchoe_d%27_potche_loke_sierdoe.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/24518729",
+            "sha1": "184e89a51ea3aed72a507ab120ccd6a09dcb0190",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-02-08 11:11:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Lavrete drap d' mwin motchoe d' potche loke sierdoe",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Handkerchiefs|Taken with Panasonic SDR-H20|Napkins|Dishcloths|Dustcloths|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "do dzeu \u00e5 dzo et di hintche a droete\u00a0: <a href=\"https://wa.wikipedia.org/wiki/serviete\" class=\"extiw\" title=\"wa:serviete\">serviete</a> (<a href=\"https://wa.wikipedia.org/wiki/serviete\" class=\"extiw\" title=\"wa:serviete\">stierdoe</a>) (sol t\u00e5ve), <a href=\"https://wa.wikipedia.org/wiki/loke_a_rlocter\" class=\"extiw\" title=\"wa:loke a rlocter\">loke a rlocter</a> (<a href=\"https://wa.wikipedia.org/wiki/drap_d%27_m%C3%A5jhon\" class=\"extiw\" title=\"wa:drap d' m\u00e5jhon\">drap d' m\u00e5jhon</a>, a tere), <a href=\"https://wa.wikipedia.org/wiki/lavrete\" class=\"extiw\" title=\"wa:lavrete\">lavrete</a> (<a href=\"https://wa.wikipedia.org/wiki/strifion\" class=\"extiw\" title=\"wa:strifion\">strifion</a>, <a href=\"https://wa.wikipedia.org/wiki/lagnet\" class=\"extiw\" title=\"wa:lagnet\">lagnet</a>) (sol t\u00e5ve), <a href=\"https://wa.wikipedia.org/wiki/motchoe_d%27_potche\" class=\"extiw\" title=\"wa:motchoe d' potche\">motchoe d' potche</a> (<a href=\"https://wa.wikipedia.org/wiki/noret_d%27_taxhe\" class=\"extiw\" title=\"wa:noret d' taxhe\">noret d' taxhe</a>), <a href=\"https://wa.wikipedia.org/wiki/drap_d%27_taexhons\" class=\"extiw\" title=\"wa:drap d' taexhons\">drap d' taexhons</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-01-16 13:45:15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Lucyin\" title=\"User:Lucyin\">Lucyin</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "5105442": {
+        "pageid": 5105442,
+        "ns": 6,
+        "title": "File:Microfibre cloth.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Microfibre_cloth.jpg/960px-Microfibre_cloth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Microfibre_cloth.jpg/1280px-Microfibre_cloth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Microfibre_cloth.jpg/960px-Microfibre_cloth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Microfibre_cloth.jpg/1280px-Microfibre_cloth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Microfibre_cloth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Microfibre_cloth.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/5105442",
+            "sha1": "8e3e9302122c16e89eb96678a884f5a1faa8e7b7",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-10-31 14:34:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Microfibre cloth",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon PowerShot A610|Microfiber|Nonwoven|Cleaning cloths|Self-published work|PD-self",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Microfiber household cloth",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-10-31",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Polyesterchen&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Polyesterchen (page does not exist)\">Polyesterchen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "154415849": {
+        "pageid": 154415849,
+        "ns": 6,
+        "title": "File:Natte vaatdoek hangt te drogen aan een rekje bij het aanrecht 2024.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Natte_vaatdoek_hangt_te_drogen_aan_een_rekje_bij_het_aanrecht_2024.jpg/960px-Natte_vaatdoek_hangt_te_drogen_aan_een_rekje_bij_het_aanrecht_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 473,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Natte_vaatdoek_hangt_te_drogen_aan_een_rekje_bij_het_aanrecht_2024.jpg/1280px-Natte_vaatdoek_hangt_te_drogen_aan_een_rekje_bij_het_aanrecht_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Natte_vaatdoek_hangt_te_drogen_aan_een_rekje_bij_het_aanrecht_2024.jpg/960px-Natte_vaatdoek_hangt_te_drogen_aan_een_rekje_bij_het_aanrecht_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 473,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Natte_vaatdoek_hangt_te_drogen_aan_een_rekje_bij_het_aanrecht_2024.jpg/1280px-Natte_vaatdoek_hangt_te_drogen_aan_een_rekje_bij_het_aanrecht_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Natte_vaatdoek_hangt_te_drogen_aan_een_rekje_bij_het_aanrecht_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Natte_vaatdoek_hangt_te_drogen_aan_een_rekje_bij_het_aanrecht_2024.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/154415849",
+            "sha1": "ebfc9458bd3687cd8d1da6ad0961155aaba3a5e7",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-10-27 10:23:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Natte vaatdoek hangt te drogen aan een rekje bij het aanrecht 2024",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Textiles of the Netherlands|Dishcloths|Self-published work|Holders|Uploads by user:JopkeB|Netherlands photographs taken on 2024-10-27",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Natte vaatdoek hangt te drogen aan een rekje bij het aanrecht",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-10-27 10:20:33",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:JopkeB\" title=\"User:JopkeB\">JopkeB</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "92257289": {
+        "pageid": 92257289,
+        "ns": 6,
+        "title": "File:New Fabric - Flickr - ^Vintage Fairytale.jpg",
+        "index": 12,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/New_Fabric_-_Flickr_-_%5EVintage_Fairytale.jpg/960px-New_Fabric_-_Flickr_-_%5EVintage_Fairytale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/New_Fabric_-_Flickr_-_%5EVintage_Fairytale.jpg/1280px-New_Fabric_-_Flickr_-_%5EVintage_Fairytale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/New_Fabric_-_Flickr_-_%5EVintage_Fairytale.jpg/960px-New_Fabric_-_Flickr_-_%5EVintage_Fairytale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/New_Fabric_-_Flickr_-_%5EVintage_Fairytale.jpg/1280px-New_Fabric_-_Flickr_-_%5EVintage_Fairytale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/New_Fabric_-_Flickr_-_%5EVintage_Fairytale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:New_Fabric_-_Flickr_-_%5EVintage_Fairytale.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/92257289",
+            "sha1": "fb6baaa0f30646aa3f1e1b63e1962c4f9a1282b1",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-07-15 03:43:31",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "New Fabric - Flickr - ^Vintage Fairytale",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tea towels|Photographs taken on 2009-10-03|Flickr images reviewed by FlickreviewR 2|Flickr files uploaded by Red panda bot|Photos in Flickr Explore|Wipers",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Now the fun part. Thinking of a new patchwork project.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a03 October 2009, 10:06",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/-staci-/3981121643/\">New Fabric</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/7374708@N04\">*Vintage Fairytale*</a> from Asheville, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "48834946": {
+        "pageid": 48834946,
+        "ns": 6,
+        "title": "File:Rotorua Museum tea towel exhibition.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Rotorua_Museum_tea_towel_exhibition.jpg/960px-Rotorua_Museum_tea_towel_exhibition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 450,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Rotorua_Museum_tea_towel_exhibition.jpg/1280px-Rotorua_Museum_tea_towel_exhibition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Rotorua_Museum_tea_towel_exhibition.jpg/960px-Rotorua_Museum_tea_towel_exhibition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 450,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Rotorua_Museum_tea_towel_exhibition.jpg/1280px-Rotorua_Museum_tea_towel_exhibition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Rotorua_Museum_tea_towel_exhibition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rotorua_Museum_tea_towel_exhibition.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/48834946",
+            "sha1": "22623318221c23ac4c81a9bb3bde8fc4d63f5693",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-05-17 07:37:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Rotorua Museum tea towel exhibition",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Rotorua Museum|Tea towels|Self-published work|PD-self|Uploaded with Commonist|FoP-New Zealand",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Rotorua Museum tea towel exhibition</i></div></div><div style=\"display: none;\">label QS:Len,\"Rotorua Museum tea towel exhibition\"</div><div style=\"display: none;\">label QS:Lhu,\"Teakend\u0151-ki\u00e1ll\u00edt\u00e1s a Rotorua M\u00fazeumban\"</div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-01-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\">Self-photographed</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Szilas",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "48834942": {
+        "pageid": 48834942,
+        "ns": 6,
+        "title": "File:Rotorua Museum tea towel exhibition 2016-01-24.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Rotorua_Museum_tea_towel_exhibition_2016-01-24.jpg/960px-Rotorua_Museum_tea_towel_exhibition_2016-01-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 427,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Rotorua_Museum_tea_towel_exhibition_2016-01-24.jpg/1280px-Rotorua_Museum_tea_towel_exhibition_2016-01-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Rotorua_Museum_tea_towel_exhibition_2016-01-24.jpg/960px-Rotorua_Museum_tea_towel_exhibition_2016-01-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 427,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Rotorua_Museum_tea_towel_exhibition_2016-01-24.jpg/1280px-Rotorua_Museum_tea_towel_exhibition_2016-01-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Rotorua_Museum_tea_towel_exhibition_2016-01-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rotorua_Museum_tea_towel_exhibition_2016-01-24.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/48834942",
+            "sha1": "286f0d35e7b725796bc5110424c5c2123619533f",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-05-17 07:37:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Rotorua Museum tea towel exhibition 2016-01-24",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Rotorua Museum|Tea towels|Self-published work|PD-self|Uploaded with Commonist|FoP-New Zealand",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Rotorua Museum tea towel exhibition</i></div></div><div style=\"display: none;\">label QS:Len,\"Rotorua Museum tea towel exhibition\"</div><div style=\"display: none;\">label QS:Lhu,\"Teakend\u0151-ki\u00e1ll\u00edt\u00e1s a Rotorua M\u00fazeumban\"</div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-01-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\">Self-photographed</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Szilas",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "65681742": {
+        "pageid": 65681742,
+        "ns": 6,
+        "title": "File:Tea towel, souvenir (AM 10223-1).jpg",
+        "index": 18,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Tea_towel%2C_souvenir_%28AM_10223-1%29.jpg/960px-Tea_towel%2C_souvenir_%28AM_10223-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 444,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Tea_towel%2C_souvenir_%28AM_10223-1%29.jpg/1280px-Tea_towel%2C_souvenir_%28AM_10223-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Tea_towel%2C_souvenir_%28AM_10223-1%29.jpg/960px-Tea_towel%2C_souvenir_%28AM_10223-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 444,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Tea_towel%2C_souvenir_%28AM_10223-1%29.jpg/1280px-Tea_towel%2C_souvenir_%28AM_10223-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Tea_towel%2C_souvenir_%28AM_10223-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tea_towel,_souvenir_(AM_10223-1).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/65681742",
+            "sha1": "25bd02a3814ae3795fd1dc46d078a97a7e097494",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-01-20 17:56:07",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nTea towel, souvenir</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "World War I in art|Tea towels|Images uploaded by F\u00e6|Artworks without Wikidata item|Images from Auckland Museum|Unsupported object|Artworks with known accession number|History of the Cocos (Keeling) Islands|Unknown date|Template Unknown (author)|Flags of Belgium in art|Flags of Italy in art|Flags of Russia in art|Flags of the United Kingdom in art|World War I memorabilia|Souvenir in Auckland Museum|Textiles in Auckland Museum|Flags of Australia in art|Flags of New Zealand in art",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span></div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Souvenir cloth, Gallipoli Landing of ANZAC Forces, WW1 printed on cotton cloth- A SOUVENIR OF THE GREAT WORLD WAR AND THE GLORIOUS PART PLAYED BY AUSTRALIA AND NEW ZEALAND; central illustration of THE LANDING OF OUR GALLANT SONS OF EMPIRE ON THE GALLIPOLI PENINSULA; illustrations of battleships in each corner and with allied flags including Australia and new Zealand, image below of \"THE SCRAP HEAP\" - A VIEW OF THE EMDEN AFTER THE FIGHT WITH THE SYDNEY OFF THE COCOS KEELING ISLANDS",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Unknown date; World War 1, 1914-18-wars; 1915; Circa 1914-Circa 1918",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"http://api.aucklandmuseum.com/id/humanhistory/object/10223\">API data</a><br>\n<a rel=\"nofollow\" class=\"external text\" href=\"https://www.aucklandmuseum.com/collection/object/am_humanhistory-object-10223\">Catalogue record</a>\n</p>\n<a rel=\"nofollow\" class=\"external text\" href=\"https://api.aucklandmuseum.com/id/media/v/359257\">Photo</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This image has been released as \"CCBY\" by Auckland Museum. For details refer to the <a href=\"//commons.wikimedia.org/wiki/Commons:Batch_uploading/AucklandMuseumCCBY\" title=\"Commons:Batch uploading/AucklandMuseumCCBY\">Commons project page</a>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Auckland Museum",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "64486012": {
+        "pageid": 64486012,
+        "ns": 6,
+        "title": "File:Tea towel (AM 685646-1).jpg",
+        "index": 20,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Tea_towel_%28AM_685646-1%29.jpg/960px-Tea_towel_%28AM_685646-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Tea_towel_%28AM_685646-1%29.jpg/1280px-Tea_towel_%28AM_685646-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Tea_towel_%28AM_685646-1%29.jpg/960px-Tea_towel_%28AM_685646-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Tea_towel_%28AM_685646-1%29.jpg/1280px-Tea_towel_%28AM_685646-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Tea_towel_%28AM_685646-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tea_towel_(AM_685646-1).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/64486012",
+            "sha1": "7f0a6114140e63cf645b47e8588e0c1724423bf6",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-12-01 01:12:21",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nTea towel</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images uploaded by F\u00e6|Artworks without Wikidata item|Images from Auckland Museum|Unsupported object|Artworks with known accession number|Template Unknown (author)|Food & drink in Auckland Museum|Business in Auckland Museum|1950s in Auckland Museum",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span></div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "A Coffee Guide to Auckland souvenir tea towel (circa 1959); printed on one side in black and blue; illustration of Auckland Harbour bridge at top with title \u201cA Coffee Guide to Auckland\u201d; below a list of 33 coffee houses with address, phone numbers and notes on special dishes, atmosphere, etc",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa 1959<div style=\"display: none;\">date QS:P571,+1959-00-00T00:00:00Z/9,P1480,Q5727902</div>; Unknown; Post 1958; Elizabeth II (1952 -)-House of Windsor-English reign",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"http://api.aucklandmuseum.com/id/humanhistory/object/685646\">API data</a><br>\n<a rel=\"nofollow\" class=\"external text\" href=\"https://www.aucklandmuseum.com/collection/object/am_humanhistory-object-685646\">Catalogue record</a>\n</p>\n<a rel=\"nofollow\" class=\"external text\" href=\"https://api.aucklandmuseum.com/id/media/v/152582\">Photo</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This image has been released as \"CCBY\" by Auckland Museum. For details refer to the <a href=\"//commons.wikimedia.org/wiki/Commons:Batch_uploading/AucklandMuseumCCBY\" title=\"Commons:Batch uploading/AucklandMuseumCCBY\">Commons project page</a>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Auckland Museum",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "64486019": {
+        "pageid": 64486019,
+        "ns": 6,
+        "title": "File:Tea towel (AM 685646-2).jpg",
+        "index": 19,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Tea_towel_%28AM_685646-2%29.jpg/960px-Tea_towel_%28AM_685646-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Tea_towel_%28AM_685646-2%29.jpg/1280px-Tea_towel_%28AM_685646-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Tea_towel_%28AM_685646-2%29.jpg/960px-Tea_towel_%28AM_685646-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Tea_towel_%28AM_685646-2%29.jpg/1280px-Tea_towel_%28AM_685646-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Tea_towel_%28AM_685646-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tea_towel_(AM_685646-2).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/64486019",
+            "sha1": "5a5510ecd735730989a3c2555fedff43d09fc1b3",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-12-01 01:13:20",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nTea towel</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images uploaded by F\u00e6|Artworks without Wikidata item|Images from Auckland Museum|Unsupported object|Artworks with known accession number|Template Unknown (author)|Food & drink in Auckland Museum|Business in Auckland Museum|Textiles in Auckland Museum",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span></div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "A Coffee Guide to Auckland souvenir tea towel (circa 1959); printed on one side in black and blue; illustration of Auckland Harbour bridge at top with title \u201cA Coffee Guide to Auckland\u201d; below a list of 33 coffee houses with address, phone numbers and notes on special dishes, atmosphere, etc",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa 1959<div style=\"display: none;\">date QS:P571,+1959-00-00T00:00:00Z/9,P1480,Q5727902</div>; Unknown; Post 1958; Elizabeth II (1952 -)-House of Windsor-English reign",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"http://api.aucklandmuseum.com/id/humanhistory/object/685646\">API data</a><br>\n<a rel=\"nofollow\" class=\"external text\" href=\"https://www.aucklandmuseum.com/collection/object/am_humanhistory-object-685646\">Catalogue record</a>\n</p>\n<a rel=\"nofollow\" class=\"external text\" href=\"https://api.aucklandmuseum.com/id/media/v/152583\">Photo</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This image has been released as \"CCBY\" by Auckland Museum. For details refer to the <a href=\"//commons.wikimedia.org/wiki/Commons:Batch_uploading/AucklandMuseumCCBY\" title=\"Commons:Batch uploading/AucklandMuseumCCBY\">Commons project page</a>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Auckland Museum",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "1163584": {
+        "pageid": 1163584,
+        "ns": 6,
+        "title": "File:Vaatdoek.jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Vaatdoek.jpg/960px-Vaatdoek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 480,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Vaatdoek.jpg/1280px-Vaatdoek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Vaatdoek.jpg/960px-Vaatdoek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 480,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Vaatdoek.jpg/1280px-Vaatdoek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Vaatdoek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vaatdoek.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/1163584",
+            "sha1": "663bbbda564dc01352fa499c5bcfd66c1abc1043",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-12-22 04:09:28",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vaatdoek",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Canon PowerShot A530|License migration completed|Dishcloths|Files by User:Michiel1972",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "vaatdoek (ja, ik mag wel weer een nieuwe gaan gebruiken..sorry)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/nl:Gebruiker:Michiel1972\" class=\"extiw\" title=\"w:nl:Gebruiker:Michiel1972\">M.Minderhoud</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<b>This media file</b> was made by <i><a href=\"//commons.wikimedia.org/wiki/User:Michiel1972\" title=\"User:Michiel1972\"><b>Michiel1972</b></a></i><br>\n<p>You may use it using a redistributable license (<i>cc-by-sa</i>), see below<br>\n</p>\nPlease credit this\u00a0: <b>M.M.Minderhoud</b> or  <b>Wikipedia/Michiel1972</b>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "71363048": {
+        "pageid": 71363048,
+        "ns": 6,
+        "title": "File:Water running from kitchen tap.jpg",
+        "index": 14,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Water_running_from_kitchen_tap.jpg/960px-Water_running_from_kitchen_tap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 468,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Water_running_from_kitchen_tap.jpg/1280px-Water_running_from_kitchen_tap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Water_running_from_kitchen_tap.jpg/960px-Water_running_from_kitchen_tap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 468,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Water_running_from_kitchen_tap.jpg/1280px-Water_running_from_kitchen_tap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Water_running_from_kitchen_tap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Water_running_from_kitchen_tap.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/71363048",
+            "sha1": "59993c710a5cc69c84c133fe2c79cec00cdd80dc",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-08-05 08:02:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Water running from kitchen tap",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Single handle mixer taps|Kitchen sinks|Dishcloths|Self-published work|Tiled walls|Water flowing from taps",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Tap water running from kitchen tap. A rag sits drying on the tap.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-08-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fourteenzerozero&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fourteenzerozero (page does not exist)\">Fourteenzerozero</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "83173001": {
+        "pageid": 83173001,
+        "ns": 6,
+        "title": "File:White dishcloth on a stainless steel kitchen sink 1.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/White_dishcloth_on_a_stainless_steel_kitchen_sink_1.jpg/960px-White_dishcloth_on_a_stainless_steel_kitchen_sink_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 493,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/White_dishcloth_on_a_stainless_steel_kitchen_sink_1.jpg/1280px-White_dishcloth_on_a_stainless_steel_kitchen_sink_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/White_dishcloth_on_a_stainless_steel_kitchen_sink_1.jpg/960px-White_dishcloth_on_a_stainless_steel_kitchen_sink_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 493,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/White_dishcloth_on_a_stainless_steel_kitchen_sink_1.jpg/1280px-White_dishcloth_on_a_stainless_steel_kitchen_sink_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/White_dishcloth_on_a_stainless_steel_kitchen_sink_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:White_dishcloth_on_a_stainless_steel_kitchen_sink_1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/83173001",
+            "sha1": "842ed94dd3ae75374e9c0ff36210ac5717138098",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-10-18 07:51:20",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "White dishcloth on a stainless steel kitchen sink 1",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Dishcloths|Self-published work|Images by W.carter|Files with coordinates missing SDC location of creation|Studio photography by W.carter in Tuntorp, Brastad",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "58.383990",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "11.473100",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "White patent knitted dishcloth on a stainless steel kitchen sink. Photographed in Brastad, Lysekil Municipality, Sweden.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-02-20 21:44:16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:W.carter\" title=\"User:W.carter\">W.carter</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "83173000": {
+        "pageid": 83173000,
+        "ns": 6,
+        "title": "File:White dishcloth on a stainless steel kitchen sink 2.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/White_dishcloth_on_a_stainless_steel_kitchen_sink_2.jpg/960px-White_dishcloth_on_a_stainless_steel_kitchen_sink_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 640,
+            "thumbheight": 518,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/White_dishcloth_on_a_stainless_steel_kitchen_sink_2.jpg/1280px-White_dishcloth_on_a_stainless_steel_kitchen_sink_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/White_dishcloth_on_a_stainless_steel_kitchen_sink_2.jpg/960px-White_dishcloth_on_a_stainless_steel_kitchen_sink_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 640,
+              "height": 518,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/White_dishcloth_on_a_stainless_steel_kitchen_sink_2.jpg/1280px-White_dishcloth_on_a_stainless_steel_kitchen_sink_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/White_dishcloth_on_a_stainless_steel_kitchen_sink_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:White_dishcloth_on_a_stainless_steel_kitchen_sink_2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/83173000",
+            "sha1": "1f6dbc47bc47eb6831223f00bf8704bfcfc84cd8",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-10-18 07:51:19",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "White dishcloth on a stainless steel kitchen sink 2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Dishcloths|Self-published work|Images by W.carter|Files with coordinates missing SDC location of creation|Studio photography by W.carter in Tuntorp, Brastad",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "58.383990",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "11.473100",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "White patent knitted dishcloth on a stainless steel kitchen sink. Photographed in Brastad, Lysekil Municipality, Sweden.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-02-20 21:46:32",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:W.carter\" title=\"User:W.carter\">W.carter</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
