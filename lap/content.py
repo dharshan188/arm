@@ -225,3 +225,37 @@ def pick_lang(text, whisper_lang):
     if hits:
         return min(hits)[1]
     return LID_MAP.get((whisper_lang or "").strip("<|>"))
+
+# The v2 classifier also recognises non-recyclable general waste. No new bin colour
+# is assumed: the existing stream_map calls this "general".
+NAMES['general_waste'] = {'en': 'general waste', 'hi': 'सामान्य कचरा', 'ta': 'சாதா குப்பை'}
+TITLES['general_waste'] = {'en': 'General waste', 'hi': 'सामान्य कचरा', 'ta': 'சாதா குப்பை'}
+BINS['general'] = {
+    'color': 'grey',
+    'en': 'Keep it separate and follow your local general-waste collection guidance.',
+    'hi': 'इसे अलग रखो और अपने इलाके के सामान्य कचरा कलेक्शन के नियम मानो।',
+    'ta': 'இத தனியா வைங்க, உங்க ஏரியா சாதா குப்பை கலெக்ஷன் விதிப்படி குடுங்க.'}
+BIN_SHORT['general'] = {'en': 'Local general-waste collection', 'hi': 'स्थानीय सामान्य कचरा कलेक्शन',
+                        'ta': 'உள்ளூர் சாதா குப்பை கலெக்ஷன்'}
+FACTS['general_waste'] = {'en': 'Keep this out of clean recyclables.',
+                          'hi': 'इसे साफ़ रीसायकल वाले कचरे से अलग रखो।',
+                          'ta': 'இத சுத்தமான ரீசைக்கிள் குப்பையோட கலக்காதீங்க.'}
+
+
+def grouped_reply(objects, stream_map, lang):
+    """Group confirmed instances by Sorti class, without claiming COCO item identity."""
+    from collections import Counter
+    counts = Counter(o['cls'] for o in objects if o.get('confirmed') and o['cls'] != 'background')
+    phrases = []
+    for cls, count in sorted(counts.items()):
+        stream = stream_map[cls]
+        title = TITLES[cls][lang]
+        dest = BIN_SHORT[stream][lang]
+        if lang == 'en':
+            noun = title.lower() + (' item' if count == 1 else ' items')
+            phrases.append(f'{count} {noun}: {dest}.')
+        elif lang == 'hi':
+            phrases.append(f'{count} {title}: {dest} में दो।')
+        else:
+            phrases.append(f'{count} {title}: {dest}க்கு குடுங்க.')
+    return ' '.join(phrases) if phrases else PHRASES['no_item'][lang]

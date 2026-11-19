@@ -42,6 +42,8 @@ class State:
         self.lang = "en"
         self.status = "loading"          # loading | watching | speaking | listening | thinking
         self.auto = True
+        self.objects = []               # current multi-object tracks
+        self.announced_signature = ()
         self.pred = None                 # live classifier output
         self.item = None                 # last announced item {cls, stream, ...}
         self.messages = []
@@ -83,81 +85,80 @@ S = State()
 
 # ------------------------------------------------------------------ vision
 class Vision(threading.Thread):
-    def __init__(self, cam, pte, threshold):
+    def __init__(self, cam, pte, threshold, detector_pte=None, model_dir=None, video=None, exclude=None):
         super().__init__(daemon=True)
-        self.cam, self.threshold = cam, threshold
-        self.meta = json.load(open(os.path.join(VISION, "labels.json")))
-        self.spec = self.meta["input"]
-        self.pte = pte
+        self.cam, self.video = cam, video
+        self.threshold = threshold
+        model_dir = model_dir or os.path.join(VISION, "v2_best")
+        detector_pte = detector_pte or os.path.join(VISION, "det", "yolo11n_320.pte")
+        self.detector_pte, self.model_dir, self.exclude = detector_pte, model_dir, exclude
         self.jpeg = None
         self.jpeg_cond = threading.Condition()
-        self.hist = collections.deque(maxlen=18)
-        self.last_seen = 0.0
-        self.mean = np.array(self.spec["mean"], np.float32)
-        self.std = np.array(self.spec["std"], np.float32)
-
-    def preprocess(self, bgr):
-        h, w = bgr.shape[:2]
-        r = self.spec["resize_short"]
-        nw, nh = (r, int(r * h / w)) if w <= h else (int(r * w / h), r)
-        img = cv2.resize(cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB), (nw, nh), interpolation=cv2.INTER_LINEAR)
-        c = self.spec["center_crop"]
-        l, t = (nw - c) // 2, (nh - c) // 2
-        a = (img[t:t + c, l:l + c].astype(np.float32) / 255.0 - self.mean) / self.std
-        return np.ascontiguousarray(a.transpose(2, 0, 1)[None])
+        self.meta = json.load(open(os.path.join(model_dir, "labels.json")))
+        self.last_seen = 0.
 
     def run(self):
-        import torch
-        from executorch.extension.pybindings.portable_lib import _load_for_executorch
-        model = _load_for_executorch(self.pte)
-        model.forward((torch.zeros(self.spec["shape"]),))
-        cap = cv2.VideoCapture(self.cam, cv2.CAP_V4L2)
-        cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-        cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
-        if not cap.isOpened():
-            S.set(error=f"camera {self.cam} could not be opened")
+        try:
+            self._run()
+        except Exception as e:
+            log("vision failed:", repr(e))
+            S.set(error=f"vision: {e}")
             S.models["vision"] = "error"
-            return
+
+    def _run(self):
+        import torch
+        sys.path.insert(0, VISION)
+        from multi import MultiVision, draw_objects, signature
+        torch.set_num_threads(4)
+        model = MultiVision(self.detector_pte, self.model_dir, exclude=self.exclude,
+                            confirm_conf=max(.70, self.threshold))
+        self.meta = model.meta
+        cap = cv2.VideoCapture(self.video if self.video else self.cam)
+        if not self.video:
+            cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280); cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+        if not cap.isOpened():
+            raise RuntimeError(f"camera/video {self.video or self.cam} could not be opened")
         S.models["vision"] = "ready"
-        log("vision ready:", os.path.basename(self.pte))
-        classes, smap = self.meta["classes"], self.meta["stream_map"]
-        fps_t, fps = time.time(), 0.0
+        log("multi-object vision ready:", self.detector_pte)
+        fps_t, fps = time.perf_counter(), 0.
+        previous, set_frames = (), 0
         while True:
             ok, frame = cap.read()
             if not ok:
-                time.sleep(0.05)
-                continue
-            frame = cv2.flip(frame, 1)                       # mirror, like a selfie view
-            h, w = frame.shape[:2]
-            s = int(min(h, w) * 0.8)                         # classify the centre square (UI draws the guide)
-            roi = frame[(h - s) // 2:(h + s) // 2, (w - s) // 2:(w + s) // 2]
+                if self.video:
+                    cap.set(cv2.CAP_PROP_POS_FRAMES, 0); model.tracks.clear()
+                time.sleep(.05); continue
+            if not self.video:
+                frame = cv2.flip(frame, 1)
             t0 = time.perf_counter()
-            logits = model.forward((torch.from_numpy(self.preprocess(roi)),))[0].numpy()[0]
+            objects = model.process(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
             ms = (time.perf_counter() - t0) * 1000
-            z = np.exp(logits - logits.max()); p = z / z.sum()
-            order = np.argsort(p)[::-1]
-            top = classes[order[0]]
-            now = time.time(); fps = 0.9 * fps + 0.1 / max(now - fps_t, 1e-3); fps_t = now
-            self.hist.append((top, float(p[order[0]])))
-            same = [c for c, _ in self.hist if c == top]
-            stable = len(self.hist) == self.hist.maxlen and len(same) >= 0.8 * len(self.hist) \
-                and np.mean([q for c, q in self.hist if c == top]) >= self.threshold
+            now = time.perf_counter(); fps = .9 * fps + .1 / max(now - fps_t, 1e-6); fps_t = now
             lang = S.lang
-            S.pred = dict(cls=top, stream=smap[top], color=C.BINS[smap[top]]["color"],
-                          title=C.TITLES[top][lang], bin=C.BIN_SHORT[smap[top]][lang],
-                          conf=round(float(p[order[0]]), 3), stable=bool(stable),
-                          top3=[dict(cls=classes[i], title=C.TITLES[classes[i]][lang], p=round(float(p[i]), 3)) for i in order[:3]],
-                          ms=round(ms, 1), fps=round(fps, 1))
-            if stable:
-                self.last_seen = now
-                if S.chosen and S.auto and S.status == "watching" and (S.item is None or S.item["cls"] != top):
-                    threading.Thread(target=announce, args=(top, smap[top]), daemon=True).start()
-            elif S.item is not None and now - self.last_seen > 4 and S.status == "watching":
-                S.item = None                                # item gone: the same item can be announced again
+            for o in objects:
+                o.update(title=C.TITLES[o['cls']][lang], bin=C.BIN_SHORT[o['stream']][lang])
+            S.objects = objects
+            sig = signature(objects)
+            all_ready = bool(sig) and all(o['confirmed'] for o in objects)
+            set_frames = set_frames + 1 if sig == previous and all_ready else 0
+            previous = sig
+            stable = all_ready and set_frames >= 2
+            # Preserve the browser's single-card schema; expose all tracks alongside it.
+            primary = next((o for o in objects if o['confirmed']), objects[0] if objects else None)
+            S.pred = (dict(primary, stable=stable, ms=round(ms, 1), fps=round(fps, 1),
+                           objects=objects, top3=[dict(cls=o['cls'], title=o['title'], p=o['conf'])
+                                                  for o in objects]) if primary else None)
+            if sig:
+                self.last_seen = time.time()
+            if stable and S.chosen and S.auto and S.status == "watching" and sig != S.announced_signature:
+                threading.Thread(target=announce_objects, args=(list(objects),), daemon=True).start()
+            elif not sig and time.time() - self.last_seen > 4 and S.status == "watching":
+                S.item = None; S.announced_signature = ()
+            draw_objects(frame, objects, ms, fps)
             ok, buf = cv2.imencode(".jpg", frame, [cv2.IMWRITE_JPEG_QUALITY, 80])
-            with self.jpeg_cond:
-                self.jpeg = buf.tobytes()
-                self.jpeg_cond.notify_all()
+            if ok:
+                with self.jpeg_cond:
+                    self.jpeg = buf.tobytes(); self.jpeg_cond.notify_all()
 
 
 # ------------------------------------------------------------------ speech
@@ -611,6 +612,7 @@ def announce(cls, stream, force=False):
     try:
         S.last_active = time.time()
         lang = S.lang
+        S.announced_signature = (cls,)
         S.item = dict(cls=cls, stream=stream, color=C.BINS[stream]["color"], title=C.TITLES[cls][lang],
                       bin=C.BIN_SHORT[stream][lang], fact=C.FACTS[cls][lang], t=time.time())
         clip = pick_video(cls)
@@ -630,6 +632,29 @@ def announce(cls, stream, force=False):
         S.video = None
         if S.status in ("speaking", "video"):
             S.set(status="watching")
+        busy.release()
+
+
+def announce_objects(objects):
+    objects = [o for o in objects if o['confirmed']]
+    if not objects:
+        return
+    if len(objects) == 1:
+        announce(objects[0]['cls'], objects[0]['stream'])
+        return
+    if not S.chosen or not busy.acquire(blocking=False):
+        return
+    try:
+        S.last_active = time.time()
+        S.announced_signature = tuple(sorted(o['cls'] for o in objects))
+        first = objects[0]
+        text = C.grouped_reply(objects, VIS.meta['stream_map'], S.lang)
+        S.item = dict(first, objects=objects, title=text, bin='', fact='', t=time.time())
+        m = S.add('assistant', 'explain', text, objects=objects, source='rules')
+        SP.say(text, m['id'])
+    finally:
+        if S.status == 'speaking':
+            S.set(status='watching')
         busy.release()
 
 
@@ -727,7 +752,11 @@ def answer_question(audio, typed=None):
                     S.lang = lang = new
                     if S.item:
                         c, st_ = S.item["cls"], S.item["stream"]
-                        S.item = dict(S.item, title=C.TITLES[c][new], bin=C.BIN_SHORT[st_][new], fact=C.FACTS[c][new])
+                        if S.item.get('objects'):
+                            S.item = dict(S.item, title=C.grouped_reply(S.item['objects'], VIS.meta['stream_map'], new),
+                                          bin='', fact='')
+                        else:
+                            S.item = dict(S.item, title=C.TITLES[c][new], bin=C.BIN_SHORT[st_][new], fact=C.FACTS[c][new])
                     S.set(status="thinking")
                     text = SP.transcribe(audio)
             stt_s = time.time() - t0
@@ -738,6 +767,14 @@ def answer_question(audio, typed=None):
             q = S.add("user", "question", text, stt_s=None if typed is not None else round(stt_s, 2),
                       audio_s=None if typed is not None else round(len(audio) / SR, 1), typed=typed is not None)
             r = snap(text, lang)
+            if r["intent"] in ("which_bin", "repeat") and not r["item"]:
+                current = [o for o in S.objects if o['confirmed']]
+                reply = (C.rule_answer('which_bin', current[0]['cls'], current[0]['stream'], lang)
+                         if len(current) == 1 else C.grouped_reply(current, VIS.meta['stream_map'], lang))
+                S.patch(q['id'], intent=r['intent'])
+                m = S.add('assistant', 'answer', reply, source='rules', objects=current)
+                SP.say(reply, m['id'])
+                return
             if r["intent"] == "repeat" and S.item:
                 r["intent"], r["item"] = "which_bin", S.item["cls"]
             cls = r["item"] or (S.item or {}).get("cls")
@@ -884,6 +921,7 @@ def choose(lang):
         S.chosen = True
         S.welcome_phase = None
         S.lang, S.item = lang, None
+        S.announced_signature = ()
         S.status = "loading"
     stop_listening(); SP.stop()
     with busy:
@@ -900,7 +938,7 @@ def go_welcome():
     with busy:
         with S.lock:
             S.chosen = False
-            S.messages.clear(); S.item = None; S.heard = None
+            S.messages.clear(); S.item = None; S.announced_signature = (); S.heard = None
             S.status, S.welcome_phase, S.tries = "loading", "waiting", 0
         for h in HEAVY:
             h.unload()
@@ -966,11 +1004,16 @@ def video():
     return StreamingResponse(gen(), media_type="multipart/x-mixed-replace; boundary=f")
 
 
+@app.get("/pred")
+def predictions():
+    return S.objects
+
+
 @app.get("/api/state")
 def state(since: int = 0):
     with S.lock:
         return dict(lang=S.lang, langs=C.LANGS, status=S.status, chosen=S.chosen,
-                    welcome_phase=S.welcome_phase, heard=S.heard, video=S.video, auto=S.auto, pred=S.pred, item=S.item,
+                    welcome_phase=S.welcome_phase, heard=S.heard, video=S.video, auto=S.auto, pred=S.pred, item=S.item, objects=S.objects,
                     models=S.models, mic_level=round(S.mic_level, 3), speaking_id=S.speaking_id,
                     error=S.error, ram_mb=rss_mb(), ram_avail_mb=mem_avail_mb(), messages=[m for m in S.messages if m["id"] > since],
                     last_id=S.next_id - 1, rec_s=round(time.time() - REC.t0, 1) if REC.proc else 0)
@@ -1035,11 +1078,11 @@ def _wait_free():
 
 @app.post("/api/explain")
 def explain_now():
-    p = S.pred
-    if not p:
+    objects = [o for o in S.objects if o['confirmed']]
+    if not objects:
         return JSONResponse({"error": "no prediction"}, 409)
     SP.stop()
-    threading.Thread(target=lambda: (_wait_free(), announce(p["cls"], p["stream"])), daemon=True).start()
+    threading.Thread(target=lambda: (_wait_free(), announce_objects(objects)), daemon=True).start()
     return {"ok": True}
 
 
@@ -1074,7 +1117,7 @@ def stop_speaking():
 @app.post("/api/clear")
 def clear():
     with S.lock:
-        S.messages.clear(); S.item = None
+        S.messages.clear(); S.item = None; S.announced_signature = ()
     return {"ok": True}
 
 
@@ -1088,7 +1131,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--camera", type=int, default=0)
     ap.add_argument("--pte", default=os.path.join(VISION, "mobilenet_v3_large_int8_xnnpack.pte"))
-    ap.add_argument("--threshold", type=float, default=0.75)
+    ap.add_argument("--threshold", type=float, default=0.70, help="per-frame confirmation confidence (minimum 0.70), for 8 consecutive frames")
+    ap.add_argument("--detector-pte", default=os.path.join(VISION, "det", "yolo11n_320.pte"))
+    ap.add_argument("--detector-exclude", default=None, help="comma-separated IDs; empty for waste detector")
+    ap.add_argument("--model-dir", default=os.path.join(VISION, "v2_best"))
+    ap.add_argument("--video", help="use a video instead of the camera")
     ap.add_argument("--lang", default=None, choices=list(C.LANGS),
                     help="skip the welcome screen and start in this language")
     ap.add_argument("--ta-slow", type=float, default=1.0, help="Tamil pace, >1 is slower")
@@ -1109,7 +1156,8 @@ def main():
         return
     S.lang = a.lang or "en"
     REC.source = pick_mic(a.mic)
-    VIS = Vision(a.camera, a.pte, a.threshold)
+    exclude = None if a.detector_exclude is None else [int(c) for c in a.detector_exclude.split(',') if c]
+    VIS = Vision(a.camera, a.pte, a.threshold, a.detector_pte, os.path.expanduser(a.model_dir), a.video, exclude)
     VIS.start()
 
     def boot():

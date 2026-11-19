@@ -328,7 +328,9 @@
       return;
     }
     var conf = clamp01(p.conf);
-    setText(el.liveLabel, className(p) + " · " + pct(conf));
+    setText(el.liveLabel, p.objects && p.objects.length > 1
+      ? p.objects.map(function (o) { return className(o) + " " + pct(o.conf); }).join(" · ")
+      : className(p) + " · " + pct(conf));
     setVar(el.liveConf, "--p", conf.toFixed(3));
     var gs = conf < 0.4 ? "idle" : (p.stable ? "locked" : "seeing");
     setAttr(el.guide, "data-state", gs);

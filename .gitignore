@@ -27,3 +27,6 @@ __pycache__/
 *.log
 .venv/
 *.pid
+vision/det/_export_deps/
+vision/det/*.pt
+vision/det/_ultralytics_settings/
